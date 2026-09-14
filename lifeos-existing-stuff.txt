@@ -1,0 +1,33 @@
+related projects:
+
+https://ourlifeos.ai/
+
+https://xn--gmqx94g.online/
+
+https://github.com/AdvxPlora2026/inspire-flow
+
+questions:
+
+- what if you have multiple goals?
+- what goals are absolutely unbreakable, periodic?
+- what goals are temporary?
+- how the system know what state you are at? or you have to tell it every time?
+- shall the system do stuff for you or just give you suggestions?
+- how frequent the system shall give you suggestions?
+
+can we:
+
+- postpone a task, instead of marking the task for completion?
+- resurface a task when you are ready for it, or other tasks relate to it, or you just want to do it at current situation or conversation?
+- let ai suggest tasks for you, based on your goals and rules?
+- let ai group tasks together based on different goals?
+- relates situations, environments, events to tasks?
+
+---
+
+why your product does not work:
+
+- without real user, we cannot improve our product?
+- can i be the only user, or the ai agent be the user?
+- without payment, we cannot develop the product?
+- can the system work on its own without user?

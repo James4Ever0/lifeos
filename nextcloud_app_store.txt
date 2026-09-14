@@ -1,0 +1,4112 @@
+
+All apps
+Featured apps
+AI
+Customization
+Dashboard
+Files
+Games
+Integration
+Monitoring
+Multimedia
+Office & text
+Organization
+Search
+Security
+Social & communication
+Tools
+Flow
+
+Memories
+Very positive
+Fast, modern and advanced photo management suite
+
+Screenshot
+Talk
+Very positive
+Chat, video & audio-conferencing using WebRTC
+
+Screenshot
+Contacts
+Positive
+A contacts app for Nextcloud
+
+Screenshot
+Nextcloud Office (Collabora)
+Positive
+Edit office documents directly in your browser.
+
+Screenshot
+Mail
+Neutral
+💌 A mail app for Nextcloud
+
+Screenshot
+Two-Factor WebAuthn
+Positive
+WebAuthn two-factor provider
+
+Screenshot
+Tables
+Positive
+Manage data the way you need it.
+
+Screenshot
+Team Folders
+Positive
+Shared folders managed by admins, accessible to designated teams with configurable permissions and quotas
+
+Screenshot
+SSO & SAML authentication
+Neutral
+Authenticate using single sign-on
+
+Screenshot
+Collectives
+Positive
+Your space to collaboratively write and organize
+
+Screenshot
+Notes
+Positive
+Distraction-free notes and writing
+
+Screenshot
+End-to-End Encryption
+Negative
+Enable client-side end-to-end encryption for your most sensitive files, ensuring complete privacy with zero-knowledge security.
+
+Screenshot
+Deck
+Very positive
+Personal planning and team project organization
+
+Screenshot
+Calendar
+Very positive
+A Calendar app for Nextcloud
+
+Screenshot
+Music
+Very positive
+Music player, library viewer, and server
+
+Screenshot
+Forms
+Very positive
+📝 Simple surveys and questionnaires, self-hosted
+
+Screenshot
+Cookbook
+Very positive
+An integrated cookbook using schema.org JSON files as recipes
+
+Screenshot
+Whiteboard
+Positive
+Whiteboard app
+
+Screenshot
+External sites
+Very positive
+Add external sites to your Nextcloud navigation
+
+Screenshot
+Maps
+Positive
+🌍🌏🌎 The whole world fits inside your cloud!
+
+Screenshot
+Nextcloud Assistant Context Chat
+Neutral
+Chat with your documents
+
+Screenshot
+Retention
+Neutral
+This application allows for automatic deletion of files after a given time.
+
+Screenshot
+News
+Very positive
+An RSS/Atom feed reader
+
+Screenshot
+File access control
+Neutral
+Control access to files based on conditions
+
+Screenshot
+Files automated tagging
+Neutral
+Automatically assign collaborative tags to files based on conditions
+
+Screenshot
+Call summary bot
+Neutral
+The call summary bot posts an overview message after the call listing all participants and outlining tasks
+
+Screenshot
+Announcement center
+Positive
+This app allows admins to post announcements.
+
+Screenshot
+Nextcloud Assistant
+Positive
+Process and transform text
+
+Screenshot
+Giphy integration
+Positive
+Integration of Giphy
+
+Screenshot
+Tasks
+Very positive
+The Tasks app for Nextcloud
+
+Screenshot
+ONLYOFFICE
+Positive
+ONLYOFFICE app
+
+Screenshot
+DICOM Viewer
+Very positive
+Digital Imaging for Medicine
+
+Screenshot
+SharePoint Backend
+Neutral
+SharePoint Backend for External storages
+
+Screenshot
+Two-Factor Authentication via Nextcloud notification
+Neutral
+Allows using any of your logged in devices as second factor
+
+Screenshot
+Two-Factor TOTP Provider
+Very positive
+TOTP two-factor provider
+
+Screenshot
+Immich Integration
+Very positive
+Browse your Immich photo library directly in Nextcloud
+
+Screenshot
+User account deletion
+Very positive
+An app to allow users to delete their accounts.
+
+Screenshot
+CSP Editor
+Neutral
+An app to edit Nextcloud's default CSP policy
+
+Screenshot
+RoomVox
+Neutral
+CalDAV-native room booking via any calendar app
+
+Screenshot
+Login notes
+Neutral
+Display notes on log-in page
+
+Screenshot
+Ownership Transfer
+Neutral
+Transfer data from one user to another
+
+Screenshot
+SavaPage Print
+Neutral
+send document to savapage printer
+
+Screenshot
+OpenCatalogi
+Neutral
+Federated publication catalogues with DCAT-AP and Woo compliance
+
+Screenshot
+AIquila
+Neutral
+Private AI in your Nextcloud — chat, agents and MCP tools, with the AI provider you choose
+
+Screenshot
+Passwords
+Positive
+Store, manage and access all your passwords with ease.
+
+Screenshot
+ArbeitszeitCheck
+Neutral
+Track working time with DACH profiles — ArbZG / AZG / ArG on your Nextcloud
+
+Screenshot
+HomeCheck
+Neutral
+Personal app home — panes, folders, and top-bar order
+
+Screenshot
+Versioniq
+Neutral
+Install any earlier or newer version of already installed Nextcloud apps
+
+Screenshot
+Stackiq
+Neutral
+Manage your software portfolio with applications, modules, and connections
+
+Screenshot
+Thematiq
+Neutral
+Apply Dutch government design tokens (NL Design System) to Nextcloud
+
+Screenshot
+Shillinq
+Neutral
+Complete open-source business administration suite for freelancers, sole proprietors, SMBs, and corporations.
+
+Screenshot
+Portaliq
+Neutral
+One shared external portal for clients and suppliers.
+
+Screenshot
+Pipelinq
+Neutral
+CRM with client management, lead pipelines, and request intake
+
+Screenshot
+LaunchPad
+Neutral
+Drag-and-drop dashboards with templates, tiles, and smart visibility
+
+Screenshot
+Larpinq
+Neutral
+Character, event and rules management for live-action role-play (LARP) groups
+
+Screenshot
+Keepiq
+Neutral
+Encrypted secrets manager for Nextcloud — password manager and key store for users and applications
+
+Screenshot
+Integriq
+Neutral
+API gateway and data-synchronization layer for Nextcloud
+
+Screenshot
+Hermiq
+Neutral
+Schedule autonomous AI agents in Nextcloud
+
+Screenshot
+Decidiq
+Neutral
+Universal decision-making platform for governance bodies, associations, corporate boards, and operational meetings
+
+Screenshot
+Filinq
+Neutral
+Document generation, anonymisation, signing, and GDPR/WOO publication consent for Nextcloud
+
+Screenshot
+Vereinsbuchhaltung
+Neutral
+Accounting for nonprofit clubs: CSV-CAMT import, chart of accounts and double-entry bookkeeping
+
+Screenshot
+Gantt Projects
+Neutral
+Manage projects and subprojects with an interactive Gantt chart
+
+Screenshot
+MovieDB
+Neutral
+Personal movie and TV show database to track what you've watched
+
+Screenshot
+PhoneTrack
+Very positive
+Track and display phone's positions in real time
+
+Screenshot
+Eva
+Neutral
+Private AI assistant — RAG chat over your Nextcloud files with Ollama or Groq
+
+Screenshot
+Astrolabe
+Neutral
+AI-powered semantic search across your Nextcloud
+
+Screenshot
+Loan Ledger
+Neutral
+Mortgage and loan dashboard backed by human-readable YAML files.
+
+Screenshot
+Kanso
+Neutral
+Fast open-source kanban boards with reviews, projects and realtime sync
+
+Screenshot
+DutyCheck
+Neutral
+Publish duty rosters without spreadsheet chaos — conflicts checked on your Nextcloud
+
+Screenshot
+Attendance
+Neutral
+Collect RSVPs, check people in and see attendance by group – for rehearsals, trainings and meetings, all on your own server
+
+Screenshot
+CromCull
+Neutral
+Find and manage byte-identical duplicate files
+
+Screenshot
+SnackCheck
+Neutral
+Trust ledger for office snacks & drinks — one-tap log, monthly payroll export, kitchen tablet
+
+Screenshot
+ProjectCheck
+Neutral
+Track projects, time and budgets on your Nextcloud
+
+Screenshot
+MaintenanceCheck
+Neutral
+Stop missing maintenance visits — due board, work orders and Servicebericht on your Nextcloud
+
+Screenshot
+HealthCheck
+Neutral
+Alert on new Nextcloud log errors — email, Slack, or webhook. Health dashboard for jobs, disk, HTTPS, and updates.
+
+Screenshot
+InventoryCheck
+Neutral
+Stock, locations, and clear bookings on your Nextcloud — ready for QR / barcode scan
+
+Screenshot
+BudgetCheck
+Neutral
+Scoped household and project finance with auditable monthly close, budgets, and savings targets
+
+Screenshot
+AudioCheck
+Neutral
+Play audiobooks and music from your Nextcloud Files — resume, queues, chapters, playlists
+
+Screenshot
+Desktop Workspace
+Neutral
+Open Nextcloud apps in a desktop-style workspace.
+
+Screenshot
+Registration
+Very positive
+This app allows users to self-register a new account using their email address.
+
+Screenshot
+WorkTimePunch
+Neutral
+Top-bar companion controls for the WorkTime app
+
+Screenshot
+Open Register
+Neutral
+Build structured data registers with schemas, RBAC, and full-text search
+
+Screenshot
+Learniq
+Neutral
+Learning system for schools, training providers and companies: courses, progress, certification, compliance.
+
+Screenshot
+Buildiq
+Neutral
+Citizen-developer app builder for Nextcloud — compose apps from registers, connectors, workflows, and documents without code.
+
+Screenshot
+RePod
+Very positive
+🔊 Browse, manage and listen to podcasts
+
+Screenshot
+Dossiq
+Neutral
+Case management with configurable workflows, deadlines, and decisions
+
+Screenshot
+Betrio
+Neutral
+ERP & project management for trades and craft businesses in Nextcloud
+
+Screenshot
+NextSnapMail
+Neutral
+A SnappyMail fork focused on integration with Nextcloud
+
+Screenshot
+Shopping List
+Neutral
+Shared shopping lists for your household
+
+Screenshot
+Snapshots
+Neutral
+Access filesystem snapshots trough Nextcloud
+
+Screenshot
+S3 Versioning
+Neutral
+Use S3 object versioning for file versioning
+
+Screenshot
+Default group quota
+Neutral
+Set default user quotas for group members
+
+Screenshot
+Everyone Group
+Neutral
+Adds a virtual "Everyone" group
+
+Screenshot
+Group quota
+Neutral
+Give filesystem quotas to groups
+
+Screenshot
+SMB connection test
+Neutral
+SMB connection test app
+
+Screenshot
+Full text search - PostgreSQL Platform
+Neutral
+Index and search with the PostgreSQL database Nextcloud already runs on
+
+Screenshot
+Learning
+Neutral
+Self-hosted flashcards with FSRS scheduling, IT simulators, AI tutor & instructor analytics
+
+Screenshot
+Collabora Online - Built-in CODE Server (ARM64)
+Neutral
+Built-in Collabora Online Development Edition (CODE) server for local testing and non-production use
+
+Screenshot
+Collabora Online - Built-in CODE Server
+Neutral
+Built-in Collabora Online Development Edition (CODE) server for local testing and non-production use
+
+Screenshot
+CoBudget
+Neutral
+Personal budgeting and shared expenses for Nextcloud
+
+Screenshot
+YumiSign for Nextcloud
+Neutral
+Nextcloud app to sign your documents with YumiSign
+
+Screenshot
+Budget
+Neutral
+Simple budget tracker and forecaster
+
+Screenshot
+Temporary files lock
+Neutral
+Temporary lock your files
+
+Screenshot
+School Planner
+Neutral
+Lesson planning tool for teachers with publish workflow
+
+Screenshot
+Folder Protection
+Neutral
+Protect folders from being moved, copied, or deleted
+
+Screenshot
+MCP Connector
+Neutral
+MCP server for Nextcloud: connect Claude, ChatGPT, n8n and other AI assistants and agents over the Model Context Protocol.
+
+Screenshot
+FormVox
+Neutral
+File-based forms and polls for Nextcloud
+
+Screenshot
+Findling Backend
+Neutral
+Search backend for Findling: text extraction, OCR and the index
+
+Screenshot
+Findling
+Neutral
+Zero-config full text, OCR and semantic search for your files
+
+Screenshot
+NC Connector for mail integration
+Neutral
+Central policies, templates, signatures, licensing and password delivery for NC Connector mail add-ons.
+
+Screenshot
+Two-factor OATH (advanced)
+Neutral
+Advanced OATH two-factor provider: TOTP, HOTP and OCRA
+
+Screenshot
+Transfer
+Neutral
+Add a file to Nextcloud from a web link.
+
+Screenshot
+Antivirus for files
+Neutral
+An antivirus app for Nextcloud
+
+Screenshot
+NetBase
+Neutral
+Network toolbox — fast LAN device discovery with vendor lookup, plus DNS, whois, TLS, mail and file-transfer tools
+
+Screenshot
+OpenProject Integration
+Neutral
+Link Nextcloud files to OpenProject work packages
+
+Screenshot
+Proofing Gallery
+Neutral
+Branded client galleries, photo proofing, downloads, guest uploads, and private event delivery
+
+Screenshot
+Digital Signage
+Neutral
+Display selectable calendars, weather and media widgets on public screens
+
+Screenshot
+AppDrop
+Neutral
+Securely upload, validate and install custom Nextcloud app packages via the web UI
+
+Screenshot
+Gestion des membres
+Neutral
+Let site owners add or remove members in the groups delegated to them — and nothing else.
+
+Screenshot
+Social Login
+Positive
+Social login via OAuth or OpenID
+
+Screenshot
+TeamHub
+Neutral
+Team collaboration hub — Collaboration, projects, department work all build on top of Nextcloud Teams
+
+Screenshot
+SmartCook
+Neutral
+Intelligent, multilingual recipe management for Nextcloud
+
+Screenshot
+Custom CSS
+Very positive
+Adjust the Nextcloud theme with custom CSS
+
+Screenshot
+Pantry
+Neutral
+Manage your household: shared checklists, photo boards, and notes.
+
+Screenshot
+OIDC Identity Provider
+Neutral
+Nextcloud as OpenID Connect Identity Provider
+
+Screenshot
+Daily Zen Quote
+Neutral
+Daily insipiration and historical events on your dashboard
+
+Screenshot
+NoteBerg
+Neutral
+Handwritten and typed notes with Nextcloud sync
+
+Screenshot
+Tachyon
+Neutral
+Tachyon Webmail
+
+Screenshot
+Log Cleaner
+Neutral
+Administrator Tool for cleaning up the logfile
+
+Screenshot
+LinkBoard
+Neutral
+Personal service dashboard inspired by Gethomepage
+
+Screenshot
+Compact Calendar Widget
+Neutral
+Compact Calendar Dashboard Widget
+
+Screenshot
+FormulaBase
+Neutral
+Save your own formulas — plus 3,122 built-in templates — and calculate instantly by typing in numbers
+
+Screenshot
+RegiBase
+Neutral
+Personal database — templates, sharing, encryption, Tables integration and multiple views
+
+Screenshot
+Terms of service
+Neutral
+Requires users to accept the terms of service before accessing data.
+
+Screenshot
+Share via Device
+Neutral
+Send fresh public links through your device share sheet
+
+Screenshot
+Grafana Sync
+Neutral
+Your Grafana dashboards as native, editable, backed-up Nextcloud files
+
+Screenshot
+Custom menu
+Very positive
+Modify the display of the menu.
+
+Screenshot
+Groupfolder Tags
+Neutral
+Allows admins to attach key-value tags to groupfolders
+
+Screenshot
+Radfahrschule
+Neutral
+Manage cycling school courses
+
+Screenshot
+Zeitwerk
+Neutral
+Arbeitszeiterfassung für Nextcloud
+
+Screenshot
+eID-Login
+Neutral
+Integration of mobile electronic identities at a substantial security level
+
+Screenshot
+LLM Chat
+Neutral
+Chat with LLMs directly from your browser — the server never sees your prompts
+
+Screenshot
+IntraVox
+Neutral
+A SharePoint alternative for Nextcloud — intranet pages you build yourself, on your own servers
+
+Screenshot
+Local OCR: PaddleOCR
+Neutral
+ImageToText provider using PaddleOCR
+
+Screenshot
+S3 API
+Neutral
+Expose Nextcloud folders as S3-compatible buckets
+
+Screenshot
+MediaFetch
+Neutral
+Download manager for aria2 and yt-dlp
+
+Screenshot
+Auto Groups
+Very positive
+Automatically adds all users to one or multiple specified groups.
+
+Screenshot
+Profile fields
+Neutral
+Extend Nextcloud user profiles with customizable fields, access control, and integration-friendly APIs
+
+Screenshot
+Health
+Very positive
+A private, configurable health and wellbeing journal for tracking personal metrics, habits, goals, and trends.
+
+Screenshot
+HEIC/HEIF Image Converter
+Neutral
+Converts your HEIC/ HEIF images to JPEG
+
+Screenshot
+Zaak Afhandel App
+Neutral
+Dutch municipal case handling (zaakgericht werken) — cases, tasks, customer contacts and a ZGW API, built on OpenRegister.
+
+Screenshot
+YooMail
+Neutral
+🚀 A high-performance mail app for Nextcloud with realtime delivery
+
+Screenshot
+The Search Page
+Neutral
+Provides a proper search page
+
+Screenshot
+VertragsWerk
+Neutral
+Vertragsverwaltung mit Kündigungserinnerungen
+
+Screenshot
+Admin Cockpit
+Neutral
+AdminCockpit is an administration tool for Nextcloud
+
+Screenshot
+Countdown
+Very positive
+Your most anticipated releases, in one place.
+
+Screenshot
+Taskbook
+Neutral
+Taskbook is a Nextcloud app for managing tasks, plans, and notes in one simple daily workspace.
+
+Screenshot
+OpenCase
+Neutral
+Case and content management system to Danish municipalities
+
+Screenshot
+Two-Factor email provider
+Positive
+Email two-factor provider
+
+Screenshot
+GeoBlocker
+Neutral
+Blocks user depending on the estimated country of their IP address.
+
+Screenshot
+Tickbuddy
+Neutral
+Daily habit tracker
+
+Screenshot
+X2Mail
+Neutral
+Webmail with native Nextcloud SSO — zero extra passwords, full NC integration
+
+Screenshot
+ScoreView
+Neutral
+Open sheet music from Files: converted once, played back in sync
+
+Screenshot
+Share Audit Dashboard
+Neutral
+Visual audit dashboard for all shares across your instance
+
+Screenshot
+Email Viewer
+Neutral
+View .msg and .eml files
+
+Screenshot
+Hermes Talk Bridge
+Neutral
+Bridge Nextcloud Talk bot messages to Hermes Agent.
+
+Screenshot
+External Storage: HejBit Swarm
+Neutral
+Bring decentralized, sovereign cloud storage to Nextcloud with the HejBit Swarm plugin!
+
+Screenshot
+Paperless Sync
+Neutral
+Synchronize finalized Paperless-ngx documents into a structured Nextcloud archive
+
+Screenshot
+Safe HTML Viewer
+Neutral
+Preview HTML files safely with CSP sandbox and best-effort secret redaction
+
+Screenshot
+Community Document Server
+Neutral
+Document server for OnlyOffice, community edition
+
+Screenshot
+Penpot Sync
+Neutral
+Your Penpot designs as native, organisable, backed-up Nextcloud files
+
+Screenshot
+DiskMap
+Neutral
+See where your storage is going — treemap and top consumers, instance-wide
+
+Screenshot
+Cristal
+Neutral
+A Wiki UI for Nextcloud
+
+Screenshot
+WorkTime
+Neutral
+Arbeitszeiterfassung für Nextcloud
+
+Screenshot
+Crypto Investment Tracker
+Neutral
+Track your crypto investments with live Binance prices
+
+Screenshot
+Crate
+Neutral
+Physical media catalogue
+
+Screenshot
+Souvenirs
+Neutral
+Create, Display and Share "old school" albums for your photos, videos and panoramics, on your Nextcloud server.
+
+Screenshot
+n8n Sync
+Neutral
+Your n8n workflows as native, editable, backed-up Nextcloud files
+
+Screenshot
+External Portal
+Neutral
+Dashboard Portal Widget
+
+Screenshot
+Recognize Backend
+Neutral
+On-premises classification of audio, images, video and faces for Nextcloud TaskProcessing.
+
+Screenshot
+Cospend
+Very positive
+Shared budget manager
+
+Screenshot
+Knowledge Cards
+Neutral
+Knowledge collections with reading progress
+
+Screenshot
+PWA Suite & Customizer
+Neutral
+Personalizador y gestor de PWA para Nextcloud
+
+Screenshot
+Universal File Viewer
+Neutral
+Preview 200+ file formats, including documents, archives, videos, 3D models, design assets, and more
+
+Screenshot
+StarRate
+Neutral
+Lightroom-style photo rating for Nextcloud — stars, color labels, XMP metadata, guest links
+
+Screenshot
+Full text search - SQL Platform
+Neutral
+Index content using Nextcloud database
+
+Screenshot
+Polls
+Positive
+A polls app, similar to Doodle/DuD-Poll with the possibility to restrict access.
+
+Screenshot
+Salat Time
+Neutral
+Show 5 times prayer.
+
+Screenshot
+VereinOnline User Authentication
+Neutral
+User authentication plugin for VereinOnline
+
+Screenshot
+Journeys
+Neutral
+cluster images by time and location
+
+Screenshot
+ChurchTools Chat
+Neutral
+ChurchTools chat inside Nextcloud (experimental)
+
+Screenshot
+Car Fuel & Maintenance
+Neutral
+Track fuel fill-ups and maintenance history for your cars
+
+Screenshot
+Notifications for calendar event updates
+Neutral
+Receive a notification when an event in a shared calendar was added, modified or deleted.
+
+Screenshot
+Upload Monitor
+Neutral
+Monitor directories for upload inactivity
+
+Screenshot
+Talk Matterbridge
+Neutral
+This app brings the Matterbridge binary to your server to connect Nextcloud Talk with other chat services.
+
+Screenshot
+Audio Cover Preview Formats
+Neutral
+Generate previews for more audio formats
+
+Screenshot
+Orchestra Scores Manager
+Neutral
+Manage your orchestra's sheet music database directly within Nextcloud
+
+Screenshot
+MetaVox
+Neutral
+SharePoint-style metadata columns for Nextcloud Team Folders
+
+Screenshot
+Talk AI
+Neutral
+Run many purpose-built AI assistants in Nextcloud Talk, with access governance
+
+Screenshot
+Gestion
+Neutral
+Simplified invoicing and electronic billing for small businesses
+
+Screenshot
+Project Manager
+Neutral
+Track project hours and progress across points, leaves and days
+
+Screenshot
+Spire Search
+Neutral
+Add semantic search provided by Spire SE
+
+Screenshot
+Bee Flow
+Neutral
+AI assistant for your Nextcloud — chat with Files, Mail, Calendar, Deck, Notes, Tasks, Contacts and Talk.
+
+Screenshot
+Assistant Talk Bot
+Neutral
+Nextcloud Assistant Talk Bot
+
+Screenshot
+Birthday Widget
+Neutral
+Dashboard widget showing upcoming and recent birthdays from your contacts
+
+Screenshot
+PhotoCleanup
+Neutral
+Collaborative photo review, voting, and cleanup
+
+Screenshot
+Forum
+Neutral
+A community-driven forum built right into your Nextcloud instance
+
+Screenshot
+Olvid
+Neutral
+Use Nextcloud as an Olvid directory.
+
+Screenshot
+Analytics
+Very positive
+extract / store / visualize
+
+Screenshot
+Paperless Unified Search
+Neutral
+Search Paperless-ngx OCR content from Nextcloud and open matching files directly in its viewer
+
+Screenshot
+Week Planner
+Neutral
+🗓️ A clean weekly planner — drag, drop, and tick off your tasks
+
+Screenshot
+RechnungsWerk
+Neutral
+Rechnungen und E-Rechnungen schreiben mit automatischer DATEV-Übergabe
+
+Screenshot
+IntroVox
+Neutral
+Interactive onboarding tour for new Nextcloud users
+
+Screenshot
+Announcement Banner
+Neutral
+Display, target, and schedule customizable notification bars across Nextcloud apps and settings pages.
+
+Screenshot
+Workflow OCR Backend
+Neutral
+Alternative backend for Workflow OCR App
+
+Screenshot
+OCC Web
+Neutral
+OCC Commands in a web terminal
+
+Screenshot
+Notes CalDAV
+Neutral
+CalDAV VJOURNAL integration for Nextcloud Notes
+
+Screenshot
+Google Drive
+Neutral
+Native Google Drive Backend
+
+Screenshot
+Context Chat Backend
+Neutral
+Python backend for Context Chat
+
+Screenshot
+Recognize
+Neutral
+Smart media tagging and face recognition with on-premises machine learning models
+
+Screenshot
+Passman
+Very positive
+Passman is a full-featured password manager.
+
+Screenshot
+Open Connector
+Neutral
+Gateway and Service bus functionality
+
+Screenshot
+Sentry
+Neutral
+Sentry client
+
+Screenshot
+Zammad integration
+Neutral
+Integration of Zammad user support/ticketing solution
+
+Screenshot
+Two-Factor Admin Support
+Positive
+Nextcloud Two-Factor Authentication Admin Support Provider
+
+Screenshot
+LibreSign
+Very positive
+Control document signing workflows inside Nextcloud
+
+Screenshot
+Nextcloud Office
+Neutral
+Nextcloud Office app
+
+Screenshot
+Journal CalDAV
+Neutral
+CalDAV integration for JournalNotes with JTX Board support
+
+Screenshot
+Workplanner
+Neutral
+Arbeitsorte wie Büro, Homeoffice oder Außendienst gemeinsam im Team planen.
+
+Screenshot
+X-Files
+Neutral
+Trust no one — a photo vault for your most sensitive images.
+
+Screenshot
+Language Switcher
+Neutral
+Adds a language switcher to the Nextcloud header for both authenticated and public pages
+
+Screenshot
+Quick notes
+Very positive
+Quick notes on small cards, with colors, tags, attachments, reminders and sharing
+
+Screenshot
+OCS API Viewer
+Neutral
+View OCS API specifications for installed apps
+
+Screenshot
+Moodle Talk Bridge
+Neutral
+Create and sync Nextcloud Talk rooms from Moodle course activities
+
+Screenshot
+Moodle Collectives Sync
+Neutral
+Provisions Teams and Collectives from Moodle courses
+
+Screenshot
+Calendar Resource Management
+Neutral
+Management for calendar resources and rooms
+
+Screenshot
+Schwarzes Brett
+Neutral
+A shared notice board for your Nextcloud
+
+Screenshot
+OpenID Connect user backend
+Neutral
+Use an OpenID Connect backend to login to your Nextcloud
+
+Screenshot
+OIDC connector
+Neutral
+Generic OIDC connector for Nextcloud
+
+Screenshot
+Paperless
+Neutral
+Integration with the Paperless Document Management System
+
+Screenshot
+Aleph Alpha integration
+Neutral
+Integration of Aleph Alpha services
+
+Screenshot
+DevNull
+Neutral
+/dev/null — Where your data goes to live.
+
+Screenshot
+Moodle Deck Sync
+Neutral
+Seamlessly sync Moodle course groups and assignments with Nextcloud Deck Kanban boards for agile student collaboration.
+
+Screenshot
+Smart Video
+Neutral
+Automatic transcripts, subtitles, summaries and chapters for videos.
+
+Screenshot
+Trackmania integration
+Neutral
+Integration of Trackmania
+
+Screenshot
+SuiteCRM integration
+Neutral
+Nine dashboard widgets, unified search and notifications for SuiteCRM 8.x. Calendar, tasks, cases, pipeline and more.
+
+Screenshot
+Dashboard Launcher
+Neutral
+A fully customizable button-based dashboard for Nextcloud, with icon library and group-based permissions.
+
+Screenshot
+Automated media conversion
+Neutral
+Rule-based automated conversion of video/audio files using FFmpeg
+
+Screenshot
+Cairn
+Neutral
+Read-only view of your Cairn health files
+
+Screenshot
+Inspect360 integration
+Neutral
+Njordium Inspect360 integration for Nextcloud. Vendor pipeline, assessments and KPIs on your dashboard.
+
+Screenshot
+Forgejo / Gitea integration
+Neutral
+Eleven dashboard widgets for Forgejo and Gitea: issues, PRs, reviews, commits, milestones, repo stats, notifications, heatmap.
+
+Screenshot
+Discourse SSO
+Neutral
+Enable Discourse to authenticate via Nextcloud
+
+Screenshot
+Solitaire (Community Edition)
+Neutral
+Solitaire CE: A fork of DerBen's Solitaire app, updated for modern Nextcloud and PHP versions.
+
+Screenshot
+WebAppPassword
+Neutral
+Temporary app password generator and WebDAV/CalDAV CORS header injection
+
+Screenshot
+FIT Tracker
+Neutral
+Activity tracker for running, cycling and gym workouts
+
+Screenshot
+Mastermind
+Neutral
+Can you solve the daily Mastermind puzzle?
+
+Screenshot
+Cassini
+Neutral
+Record, transcribe, and publish Nextcloud Talk meetings.
+
+Screenshot
+NextPod
+Neutral
+Visualization of podcast subscriptions and episode downloads from GPodderSync
+
+Screenshot
+QOwnNotesAPI
+Positive
+API for QOwnNotes, the open source notepad for Linux, macOS and Windows
+
+Screenshot
+SignDocs Brasil
+Neutral
+Sign documents with ICP-Brasil and electronic signatures, directly from your Files app.
+
+Screenshot
+Workflow external scripts
+Neutral
+Rule based processing of files through specified external scripts
+
+Screenshot
+Data Request
+Neutral
+Request your data from the admins
+
+Screenshot
+Automated PDF conversion
+Neutral
+Rule based conversion of Documents into the PDF format
+
+Screenshot
+Workflow OCR
+Neutral
+Server side OCR processing via workflow engine
+
+Screenshot
+Keeweb
+Positive
+Open Keepass stores
+
+Screenshot
+Local Image Generation: Flux
+Neutral
+Local text-to-image and image editing using quantized FLUX.2 [klein] 4B by Black Forest Labs
+
+Screenshot
+Home
+Neutral
+A home screen with every app available to you
+
+Screenshot
+NEXTBookmarks
+Neutral
+Browser- and OS-independent bookmark synchronization
+
+Screenshot
+User usage report
+Neutral
+Provides a command which generates a report about all the users and their usage
+
+Screenshot
+HWP Documents
+Neutral
+Open and edit HWP and HWPX documents in Nextcloud
+
+Screenshot
+Televisorium
+Neutral
+An app to keep track on your watchlist, tv series, movies. Similiar to trakt.tv
+
+Screenshot
+Raw Fileserver
+Neutral
+Serves files "raw" on the World Wide Web
+
+Screenshot
+Mind Map
+Very positive
+A mind map editor
+
+Screenshot
+Live Transcription in Talk
+Neutral
+Provides live transcriptions in Nextcloud Talk calls.
+
+Screenshot
+Local Machine Translation
+Neutral
+Local Machine Translation
+
+Screenshot
+Summary Bot
+Neutral
+Summary Bot - Nextcloud Talk chat summarize bot
+
+Screenshot
+MemeGen
+Neutral
+A meme Smart Picker
+
+Screenshot
+Slack Integration
+Neutral
+Integration of Slack
+
+Screenshot
+YouTube Integration
+Neutral
+YouTube Integration providing inline video player for link previews
+
+Screenshot
+Asyntai AI Chatbot
+Neutral
+An AI assistant that answers questions on every Nextcloud page
+
+Screenshot
+GitHub integration
+Neutral
+Integration of GitHub software development management service
+
+Screenshot
+PeerTube integration
+Neutral
+Integration of PeerTube decentralized and federated video platform
+
+Screenshot
+Diagramming
+Very positive
+Create and edit diagrams and whiteboards in Nextcloud
+
+Screenshot
+Shortcuts
+Neutral
+Create personal shortcuts to files and folders in Files
+
+Screenshot
+Kinship
+Neutral
+A family management and genealogy platform for Nextcloud.
+
+Screenshot
+Agora
+Neutral
+Participatory democracy platform for proposals, debates, petitions, and surveys.
+
+Screenshot
+Camera RAW Previews
+Very positive
+Preview and show camera RAW files in Nextcloud
+
+Screenshot
+Secrets
+Very positive
+Securely share data via link
+
+Screenshot
+Santa Cloud
+Neutral
+SantaCloud is an advent calendar for Nextcloud
+
+Screenshot
+GpxPod
+Very positive
+Display, analyse, compare and share GPS track files
+
+Screenshot
+Bookmarks
+Positive
+Collect and manage bookmarks, synced with all your devices
+
+Screenshot
+Atrium Secureshare
+Neutral
+Identity-aware secure external file sharing via Atrium
+
+Screenshot
+Same Window
+Neutral
+Prevent links on frontend widgets from opening in new windows/tabs
+
+Screenshot
+iFrame Widget
+Neutral
+Display external Websites in a Dashboard Widget
+
+Screenshot
+OpenOTP Auth
+Neutral
+OpenOTP two-factor provider
+
+Screenshot
+Flow Notifications
+Neutral
+Notification action for Nextcloud Flow
+
+Screenshot
+Zimbra integration
+Neutral
+Integration of Zimbra
+
+Screenshot
+Miro integration
+Neutral
+Integration of Miro
+
+Screenshot
+ShareImporter
+Neutral
+Import Shares in Nextcloud app
+
+Screenshot
+Picker
+Neutral
+Pick a file and share it
+
+Screenshot
+BrewMemo
+Neutral
+Fast note app with beautifully crafted mobile Apps
+
+Screenshot
+CPanel Mail Sync
+Neutral
+Manages CPanel mail accounts from Nextcloud user creations, deletions and updates.
+
+Screenshot
+Openhab Viewer
+Neutral
+Renders sitemaps of an Openhab instance.
+
+Screenshot
+NexTree
+Neutral
+Collaborative hierarchical notes for Nextcloud
+
+Screenshot
+Write support for LDAP
+Neutral
+Adds support for creating, manipulating and deleting users and groups on LDAP via Nextcloud
+
+Screenshot
+LDAP Contacts Backend
+Neutral
+LDAP backend for Nextcloud Contacts
+
+Screenshot
+User migration
+Positive
+Migrate user data
+
+Screenshot
+TigerSprite
+Neutral
+Export Markdown files to PDF with TigerSprite
+
+Screenshot
+Client Push
+Neutral
+Push update support for clients
+
+Screenshot
+Carnet
+Very positive
+Powerful note taking app available on android
+
+Screenshot
+Auto Currency for Cospend
+Neutral
+Automatically fills the currency rates for your Cospend projects daily.
+
+Screenshot
+Full text search - Files
+Neutral
+Index the content of your files
+
+Screenshot
+Full text search - Elasticsearch Platform
+Neutral
+Index using ElasticSearch
+
+Screenshot
+Full text search
+Neutral
+Core of the full-text search framework for Nextcloud
+
+Screenshot
+iTop Integration
+Neutral
+🎟️ Transform your ITSM workflow with seamless iTop integration - rich link previews, unified search, and dashboard widgets!
+
+Screenshot
+3D Viewer
+Neutral
+View, analyze & export 3D models across 20+ formats (mesh, CAD, BIM) with thumbnails, annotations & rendering
+
+Screenshot
+Empleados
+Neutral
+Employee ERP for HR, documents, vacations, savings and time reports.
+
+Screenshot
+Electronic Signatures
+Neutral
+Accept electronic signatures on your documents.
+
+Screenshot
+PriNotes
+Neutral
+Rich, private note-taking with offline Android sync
+
+Screenshot
+Vinarium
+Neutral
+Private Weinkeller-Verwaltung
+
+Screenshot
+OpenID Connect Login
+Neutral
+Login with single OpenID Connect provider
+
+Screenshot
+Frontend Insight
+Neutral
+Know what happens in your client's browser
+
+Screenshot
+CromQR
+Neutral
+A personal QR code library and generator
+
+Screenshot
+Share Path
+Neutral
+Files sharing use stored path. Easy share, multi-use.
+
+Screenshot
+Social sharing via Telegram
+Neutral
+Enable direct sharing of files via Telegram, using shared links.
+
+Screenshot
+Social sharing via Diaspora
+Neutral
+Enable direct sharing of files via Diaspora, using shared links.
+
+Screenshot
+Social sharing via email
+Neutral
+Enable direct sharing of files via email, using shared links.
+
+Screenshot
+Social sharing via Bluesky
+Neutral
+Enable direct sharing of files via Bluesky, using shared links.
+
+Screenshot
+Social sharing via WhatsApp
+Neutral
+Enable direct sharing of files via WhatsApp, using shared links.
+
+Screenshot
+Social sharing via Twitter
+Neutral
+Enable direct sharing of files via Twitter, using shared links.
+
+Screenshot
+Social sharing via Facebook
+Neutral
+Enable direct sharing of files via Facebook, using shared links.
+
+Screenshot
+Local Whisper Speech To Text
+Neutral
+A Local Whisper implementation for Speech To Text
+
+Screenshot
+Nextcloud Context Agent
+Neutral
+Let Nextcloud assistant take off tasks from your todo list.
+
+Screenshot
+Time Tracker
+Positive
+Track your time spent with different tasks, aggregate by project or clients!
+
+Screenshot
+Antony Api
+Neutral
+antony Groupware Nextcloud Modul Plugin
+
+Screenshot
+Command bot
+Neutral
+A simple "text in, text out" bot to help with repeating questions and tasks
+
+Screenshot
+Replicate integration
+Neutral
+Integration of Replicate stable-diffusion
+
+Screenshot
+Talk-Bot
+Neutral
+Chat with Claude, Gemini or any OpenAI-compatible model right inside Nextcloud Talk
+
+Screenshot
+Guests
+Neutral
+Create guest accounts for easier collaboration
+
+Screenshot
+Windmill integration
+Neutral
+Windmill integration
+
+Screenshot
+GitLab integration
+Neutral
+Integration of GitLab software development management service
+
+Screenshot
+Orchestration Gateway
+Neutral
+Manage webhooks to orchestrate external workflows
+
+Screenshot
+Dropbox integration
+Neutral
+Import Dropbox data in Nextcloud
+
+Screenshot
+App Store Switcher
+Neutral
+Switch between official and custom app stores
+
+Screenshot
+FinTrack
+Neutral
+Personal Finance Manager
+
+Screenshot
+Excalidraw integration
+Neutral
+Collaborative whiteboard integration
+
+Screenshot
+Jalali Calendar
+Neutral
+View your Nextcloud calendars on a Persian (Jalali/Shamsi) grid
+
+Screenshot
+Element for Nextcloud
+Very positive
+Element Web integrated into Nextcloud
+
+Screenshot
+Curio
+Neutral
+Curate images, links, videos and notes into visual boards, right inside Nextcloud.
+
+Screenshot
+Local Image Generation: Stable Diffusion
+Neutral
+Text2Image provider using Stable Diffusion XL Turbo by Stability AI
+
+Screenshot
+Mastodon integration
+Neutral
+Integration of Mastodon self-hosted social networking service
+
+Screenshot
+fairmeeting video conferencing
+Neutral
+fairmeeting video conferencing integration
+
+Screenshot
+Deepl integration
+Neutral
+Deepl integration providing translations through deepl.com
+
+Screenshot
+Vuisio
+Neutral
+Start and join secure video meetings from Nextcloud, hosted on your own Vuisio server
+
+Screenshot
+Ticky CRM
+Neutral
+Open-source CRM and client management for Nextcloud
+
+Screenshot
+Hitobito Login
+Neutral
+A login app for [hitobito](https://github.com/hitobito/hitobito)
+
+Screenshot
+SIMOSphere AI Copilot Mini
+Neutral
+Ask your Nextcloud documentation in natural language — with sources.
+
+Screenshot
+Notion integration
+Neutral
+Integration of Notion
+
+Screenshot
+Storage Usage API
+Neutral
+Public API for total and configurable folder storage usage
+
+Screenshot
+Open In CryptPad
+Neutral
+Collaborative editing of files using CryptPad
+
+Screenshot
+Mattermost integration
+Neutral
+Integration of Mattermost
+
+Screenshot
+OneDrive integration
+Neutral
+Integration of Microsoft OneDrive
+
+Screenshot
+User Rights Overview
+Neutral
+Security Dashboard for User Rights Overview
+
+Screenshot
+DAV Connector
+Neutral
+Connect Nextcloud to a DAV service
+
+Screenshot
+NCGrisbi
+Neutral
+Nextcloud Grisbi Account Manager.
+
+Screenshot
+Jira integration
+Neutral
+Integration of Jira user support/ticketing solution
+
+Screenshot
+User Lockdown
+Neutral
+Manage granular access permissions for selected users
+
+Screenshot
+Local Text to Speech
+Neutral
+Kokoro Text2Speech
+
+Screenshot
+OpenAI and LocalAI integration
+Neutral
+Integration of OpenAI and LocalAI services
+
+Screenshot
+3D Model Viewer
+Very positive
+Visualize and explore 3D models
+
+Screenshot
+NUITEQ Stage whiteboard integration
+Neutral
+Quickly create and share NUITEQ Stage boards in Nextcloud
+
+Screenshot
+Reddit integration
+Neutral
+Integration of Reddit social news aggregation service
+
+Screenshot
+Agenda bot
+Neutral
+🤖 Transform your Talk meetings with intelligent agenda management, real-time time tracking, and automated progress monitoring!
+
+Screenshot
+DashLink
+Neutral
+Dashboard widget for external website links
+
+Screenshot
+Doom
+Neutral
+Play Doom directly in Nextcloud
+
+Screenshot
+Link editor
+Neutral
+An app to read and edit .URL and .webloc files.
+
+Screenshot
+All In One Accessibility
+Neutral
+Quick Web Accessibility Implementation with All in One Accessibility!
+
+Screenshot
+Operational Dashboard
+Neutral
+Third-party operational dashboard for Nextcloud Calendar
+
+Screenshot
+Approval
+Neutral
+Let users approve or reject files
+
+Screenshot
+Text templates
+Neutral
+Quickly get text templates in Nextcloud
+
+Screenshot
+Vapor
+Neutral
+Vapor – condensing the web into your cloud
+
+Screenshot
+Pexip integration
+Neutral
+Integration of Pexip video call service
+
+Screenshot
+MarkdownSite
+Neutral
+Browse a folder of Markdown as a wiki
+
+Screenshot
+Consultas Legales
+Neutral
+Gestion integral de consultas legales con consola de usuario, soporte y administracion
+
+Screenshot
+Sendent
+Neutral
+Sendent allows you to securely exchange files and emails
+
+Screenshot
+Integration Documenso
+Neutral
+Sign files via Documenso Service.
+
+Screenshot
+Zipper
+Neutral
+Zip files in your Nextcloud
+
+Screenshot
+Overleaf
+Neutral
+Integration of Overleaf
+
+Screenshot
+EMPREINTE Live
+Neutral
+Adds EMPREINTE Live video meetings to the Nextcloud Calendar.
+
+Screenshot
+Church Tools Integration
+Neutral
+Integrate with your ChurchTools instance
+
+Screenshot
+VRM Viewer
+Neutral
+Preview VRM avatars directly from Files
+
+Screenshot
+Journal
+Neutral
+A private Markdown journal and personal knowledge workspace
+
+Screenshot
+Approval links
+Neutral
+Generate approval links
+
+Screenshot
+Sketch picker
+Neutral
+Quickly draw and share sketches
+
+Screenshot
+Element/Matrix integration
+Neutral
+Integration of Element/Matrix
+
+Screenshot
+OpenStreetMap integration
+Neutral
+Integration of OpenStreetMap
+
+Screenshot
+Discourse integration
+Neutral
+Integration of Discourse forum and mailing list management system
+
+Screenshot
+OTP Manager
+Positive
+Nextcloud app that allows you to manage your OTP (TOTP/HOTP) codes easily
+
+Screenshot
+Sendent Sync
+Neutral
+Synchronise your Calendar and Contacts with Nextcloud
+
+Screenshot
+Unix user backend
+Neutral
+Authenticate Users by PAM
+
+Screenshot
+Auditing / HTTP Client Logging
+Neutral
+Logs all outgoing HTTP requests made by Nextcloud's internal HTTP client.
+
+Screenshot
+CapAuth
+Neutral
+Passwordless PGP authentication for Nextcloud
+
+Screenshot
+Inter Fonts
+Neutral
+Replaces every Nextcloud interface font with Inter — self-hosted, zero external requests
+
+Screenshot
+Dupli
+Neutral
+Find and remove duplicate photos and videos
+
+Screenshot
+Money
+Neutral
+Manage your finances.
+
+Screenshot
+H5P
+Neutral
+H5P is a Player for h5p files.
+
+Screenshot
+DocuSign integration
+Neutral
+Let users sign files via DocuSign
+
+Screenshot
+The Movie Database integration
+Neutral
+Integration of The Movie Database
+
+Screenshot
+IBM watsonx.ai integration
+Neutral
+Integration of IBM watsonx AI services
+
+Screenshot
+SCIM Client
+Neutral
+Use Nextcloud as an SCIM identity provider
+
+Screenshot
+Local large language model
+Neutral
+Local large language model
+
+Screenshot
+Restrict login to IP addresses
+Neutral
+Allows administrators to restrict logins to their instance to specific IP ranges.
+
+Screenshot
+UnifiedPush Provider
+Neutral
+Use Nextcloud as a push provider for mobile phones' notifications
+
+Screenshot
+Last Opened Files
+Neutral
+Dashboard widget for recently opened files
+
+Screenshot
+Coremail Sync Bridge
+Neutral
+Bring Coremail contact and calendar data into Nextcloud
+
+Screenshot
+VulnDex Beacon
+Neutral
+Automatic detection of Nextcloud versions for vulnerability monitoring in VulnDex.
+
+Screenshot
+Markdown README Viewer
+Neutral
+Render README.md files directly inside the Nextcloud Files view
+
+Screenshot
+DK Municipal Organisation and Access Control
+Neutral
+Danish Municipal Organisation and Access Control Integration
+
+Screenshot
+NextDiary
+Neutral
+A personal diary and health journal
+
+Screenshot
+Dpa Tracker
+Neutral
+Track data processing agreements and subprocessor CLOUD Act risk (DSGVO Art. 30).
+
+Screenshot
+Synaplan Integration
+Neutral
+AI-powered document summarization, translation, knowledge base, and chat
+
+Screenshot
+Passwords Handbook
+Neutral
+Host the handbook for the passwords app on the nextcloud server
+
+Screenshot
+EPUB Viewer
+Very positive
+Ebook viewer that supports EPUB/CBZ/PDF
+
+Screenshot
+RoundCube Bridge
+Neutral
+Nextcloud integration bridge for RoundCube
+
+Screenshot
+QR Code
+Neutral
+Generate styled QR codes, including for file links
+
+Screenshot
+TV Show Namer
+Neutral
+Organise your TV shows
+
+Screenshot
+Afterlogic
+Neutral
+Integration with Afterlogic WebMail client
+
+Screenshot
+App Versions
+Neutral
+Install any earlier or newer version of already installed Nextcloud apps
+
+Screenshot
+Timesheet
+Neutral
+Timesheet tracking in Nextcloud with HR dashboard, overtime and export
+
+Screenshot
+Groupfolder Filesystem Snapshots
+Neutral
+Allows restoring a groupfolder to a previous snapshot in the filesystem
+
+Screenshot
+Elementary English
+Neutral
+Friendly elementary school reading and grammar practice inside Nextcloud
+
+Screenshot
+Transfer Quota Monitor
+Neutral
+Monitor user transfer quotas for upload and download limits
+
+Screenshot
+DocuDesk
+Neutral
+GDPR publication consent management and document metadata enrichment for Nextcloud
+
+Screenshot
+Exclude directories
+Neutral
+Exclude certain folders and files from being indexed in the Nextcloud database cache.
+
+Screenshot
+2048
+Neutral
+A Nextcloud app that lets you play 2048.
+
+Screenshot
+Impersonate
+Neutral
+Impersonate other users
+
+Screenshot
+BPM Files
+Neutral
+A BPMN 2.0/DMN 1.3 Viewer and Editor
+
+Screenshot
+Duplicate Finder
+Positive
+Save some space by finding and managing your duplicate files efficiently
+
+Screenshot
+Preferred Providers
+Neutral
+Allow Nextcloud to request user accounts
+
+Screenshot
+AutoRename
+Neutral
+Automatically rename and move files based on configurable rules
+
+Screenshot
+Elementary Math
+Neutral
+Friendly elementary school math practice inside Nextcloud
+
+Screenshot
+Inventory
+Neutral
+The inventory app for Nextcloud
+
+Screenshot
+MeeTree
+Neutral
+TreePad-style hierarchical notes for Nextcloud
+
+Screenshot
+Shifts Next
+Neutral
+App for managing shifts
+
+Screenshot
+Maintain Ops Suite
+Neutral
+Integrated operations management — assets, PM, deficiencies, modernizations, supply, and Gantt scheduling
+
+Screenshot
+Preview Generator
+Very positive
+A preview pre-generation app
+
+Screenshot
+DAV Push
+Neutral
+Dav Push is an extension to demonstrate WebDAV-Push support on calendars/address books.
+
+Screenshot
+Photo Sphere Viewer
+Neutral
+Enables viewing of google photosphere images
+
+Screenshot
+Root cache cleaner
+Neutral
+Clean duplicate items from the root filecache.
+
+Screenshot
+Redis Notify
+Neutral
+Handle filesystem changes pushed to redis
+
+Screenshot
+Permissions Overwrite
+Neutral
+Allow overwriting external storage permissions
+
+Screenshot
+Time Archive
+Neutral
+Automatically archive files based on age. Archived files are moved to .archive folder (hidden from mobile apps).
+
+Screenshot
+Grimoire
+Neutral
+A self-hosted virtual tabletop for D&D and other TTRPGs
+
+Screenshot
+Decidesk
+Neutral
+Universal decision-making platform for governance bodies, associations, corporate boards, and operational meetings
+
+Screenshot
+NL Design System Theme
+Neutral
+Apply Dutch government design tokens (NL Design System) to Nextcloud
+
+Screenshot
+Doriath
+Neutral
+Encrypted secrets manager for Nextcloud — password manager and key store for users and applications
+
+Screenshot
+Scholiq
+Neutral
+Open-source LVS + LMS for Nextcloud — student tracking, course creation, certification, and compliance training.
+
+Screenshot
+Procest
+Neutral
+Case management with configurable workflows, deadlines, and decisions
+
+Screenshot
+Confidential files
+Neutral
+Workflows for handling confidential files in Nextcloud
+
+Screenshot
+FamilyBudget
+Neutral
+Ausgaben gemeinsam im Blick
+
+Screenshot
+Code Injector
+Neutral
+Inject custom HTML into every page head or body
+
+Screenshot
+G DATA Antivirus
+Very positive
+This app provides an additional layer of security to your Nextcloud instance.
+
+Screenshot
+GPodder Sync
+Very positive
+replicate basic GPodder.net API
+
+Screenshot
+INotify file watcher
+Neutral
+Adds support detecting changes in local external storages
+
+Screenshot
+Paid sharing
+Neutral
+ShareGate — paid file sharing for Nextcloud — Stripe, PayPal, seller dashboard, payment ledger, save-to-cloud, My purchases
+
+Screenshot
+Grist Integration
+Neutral
+Connect to your Grist instance to search for documents and add links via Smart Picker
+
+Screenshot
+BigBlueButton Integration
+Very positive
+BigBlueButton integration for Nextcloud
+
+Screenshot
+Zulip Integration
+Neutral
+Integration of Zulip
+
+Screenshot
+TimeManager
+Very positive
+An app to track how you spend your time.
+
+Screenshot
+Html Viewer
+Neutral
+View static HTML files in Nextcloud.
+
+Screenshot
+README Extended (Beta)
+Neutral
+Beta — Native header and footer markdown zones for the Nextcloud files app.
+
+Screenshot
+LaunchPad
+Neutral
+Drag-and-drop dashboards with templates, tiles, and smart visibility
+
+Screenshot
+Google Synchronization
+Neutral
+Import Google data into Nextcloud
+
+Screenshot
+Appointments
+Very positive
+Book appointments into your calendar via secure online form.
+
+Screenshot
+Share Review
+Neutral
+Review and audit all shares
+
+Screenshot
+Matomo Tracking
+Neutral
+Track users with Matomo
+
+Screenshot
+Larping
+Neutral
+Manage your live roleplaying setting
+
+Screenshot
+OpenBuild
+Neutral
+Citizen-developer app builder for Nextcloud — compose apps from registers, connectors, workflows, and documents without code.
+
+Screenshot
+ISDOC Viewer
+Neutral
+Preview Czech ISDOC e-invoices (.isdoc/.isdocx) in the Viewer
+
+Screenshot
+Unrounded Corners
+Very positive
+An extension for making the corners of buttons and widgets unrounded
+
+Screenshot
+fairregister
+Neutral
+Register Nextcloud files as Works in fairregister with a registration certificate and proof of ownership at a point in time.
+
+Screenshot
+CAS Server
+Neutral
+CAS protocol server (IdP)
+
+Screenshot
+Calendar Newsletter
+Neutral
+Calendar-based Newsletter
+
+Screenshot
+Majordomo
+Neutral
+Synchronize users and groups with the Majordomo mailing list manager
+
+Screenshot
+Metadata
+Very positive
+A plugin for displaying file metadata
+
+Screenshot
+Photo Frames
+Neutral
+Turn any screen with a browser into a neat photo frame
+
+Screenshot
+Custom Public Share Domain
+Neutral
+Replace the domain in public share links with a custom domain
+
+Screenshot
+Analytics - data source collection
+Neutral
+Collection of additional data sources
+
+Screenshot
+Audio Player
+Very positive
+play / stream / organize
+
+Screenshot
+KursUmstufung
+Neutral
+Verwaltung von Kurs-Umstufungen (G-Kurs/E-Kurs)
+
+Screenshot
+signd.it Integration
+Neutral
+Digital document signing with signd.it
+
+Screenshot
+Automated kitinerary parsing
+Neutral
+Use kitinerary to parse travel documents into the calendar
+
+Screenshot
+File actions
+Neutral
+Scripting tool which allows administrators to expand the file options menu.
+
+Screenshot
+Tuta Mail
+Neutral
+Tuta Mail for Nextcloud
+
+Screenshot
+OIDC Claim Mapping
+Neutral
+Map OIDC token claims to Nextcloud user attributes with a visual rule editor
+
+Screenshot
+Daily verses
+Neutral
+Displays a daily Bible verse on the dashboard
+
+Screenshot
+Office Online integration
+Neutral
+Edit office documents directly in your browser.
+
+Screenshot
+Quota warning
+Neutral
+This app sends notifications to users when they reached 85, 90 and 95% of their quota.
+
+Screenshot
+Message Vault
+Neutral
+Store old SMS/MMS/RCS messages from your phone to Nextcloud
+
+Screenshot
+Welcome
+Neutral
+Dashboard widget to display welcome content
+
+Screenshot
+NextFrame
+Neutral
+Embeddable Nextcloud topbar to bring your services together!
+
+Screenshot
+EPC QR Code Generator
+Neutral
+Generate EPC/SEPA QR codes for bank transfers
+
+Screenshot
+Edusign
+Neutral
+Edusign integration for Nextcloud
+
+Screenshot
+JupyterHub Integration
+Neutral
+Integrate JupyterHub into Nextcloud
+
+Screenshot
+Workspace
+Neutral
+Create team folders with delegated management
+
+Screenshot
+Google integration
+Positive
+Import Google data into Nextcloud
+
+Screenshot
+Snowflakes Theme
+Neutral
+A simple app to show some snowflakes in the nextcloud web interface
+
+Screenshot
+Google Workspace Calendar Sync
+Neutral
+Bidirectional Google Workspace ↔ Nextcloud calendar sync via domain Service Account
+
+Screenshot
+TuneCloud
+Neutral
+Self-hosted music player for your private cloud
+
+Screenshot
+External Folder Refresh
+Neutral
+Refresh the currently opened external folder without recursive scanning.
+
+Screenshot
+Social
+Neutral
+Nextcloud becomes part of the federated social networks
+
+Screenshot
+JSLoader
+Neutral
+Load custom JavaScript on all Nextcloud pages
+
+Screenshot
+Account retention (formerly User retention)
+Neutral
+Deletes accounts that did not login in the last days.
+
+Screenshot
+OIDC Groups Mapping
+Neutral
+Map OIDC token claims to Nextcloud groups with a visual rule editor
+
+Screenshot
+UniteOS Notifier
+Neutral
+A relay app to send notifications from Nextcloud to UniteOS developed by wechange
+
+Screenshot
+Home Assistant integration
+Neutral
+A jinja2 template and a YAML widget for a home-assistant instance
+
+Screenshot
+Chamade AI Bridge for Talk
+Neutral
+Bridge your Talk rooms into the Chamade AI gateway — voice and chat for AI agents, across every meeting platform
+
+Screenshot
+Checksum
+Very positive
+Creating a hash checksum of a file.
+
+Screenshot
+Pandoc
+Neutral
+Convert text files using pandoc
+
+Screenshot
+cage - Client-side age Encryption Viewer/Editor
+Neutral
+Client-side viewer and editor for age files
+
+Screenshot
+MusicSheet Viewer
+Neutral
+Visualize and play music sheets
+
+Screenshot
+Two-Factor Gateway
+Neutral
+Two-factor gateway providers (Signal, SMS, Telegram, WhatsApp, XMPP)
+
+Screenshot
+Domus
+Neutral
+Alles rund um Ihre Vermietung im Blick
+
+Screenshot
+NextLedger
+Neutral
+Accounting, CRM, invoices, offers, and annual profit/loss reports.
+
+Screenshot
+Demande de congés
+Neutral
+Gestion simple des demandes de congés
+
+Screenshot
+Deckloud
+Neutral
+Local-first iPhone and Mac client for Nextcloud Deck.
+
+Screenshot
+signotec signoSign
+Neutral
+Sign documents with signotec signoSign
+
+Screenshot
+Rotating Wallpapers
+Neutral
+An easy-to-use Nextcloud customization app that adds rotating background wallpapers.
+
+Screenshot
+XWiki
+Neutral
+XWiki Integration for Nextcloud
+
+Screenshot
+Full text search - Files - Metadata
+Neutral
+Index image, audio and video metadata for full text search
+
+Screenshot
+Eml Viewer
+Neutral
+Preview eml files
+
+Screenshot
+External user authentication
+Neutral
+Use external user authentication methods like IMAP, SMB, FTP, WebDAV, HTTP BasicAuth, SSH and XMPP
+
+Screenshot
+Listman
+Neutral
+App for managing email-lists. Sign-up forms, unsubscribe links in the email, all that jazz
+
+Screenshot
+E-IMZO Sign
+Neutral
+Electronic document signing via E-IMZO (Uzbekistan PKI)
+
+Screenshot
+ISPConfig API Backend
+Neutral
+Allows users to log in with their email or custom username using the ISPConfig control panel API.
+
+Screenshot
+Domain Theming
+Neutral
+Customizes the appearance of Nextcloud according to the trusted domain from which it is being accessed.
+
+Screenshot
+Hide User Emails
+Neutral
+An extension for hiding user emails in the UI.
+
+Screenshot
+Done
+Neutral
+Time & project management for teams.
+
+Screenshot
+DocuSeal Integration
+Neutral
+Request and manage electronic signatures on your documents using DocuSeal, directly from Nextcloud Files
+
+Screenshot
+Claude Bot
+Neutral
+Chat with Claude AI in Nextcloud Talk — requires Claude Code CLI on your server
+
+Screenshot
+PTO Tracker
+Neutral
+Comprehensive PTO and vacation tracking for teams
+
+Screenshot
+nVSCode
+Neutral
+Open Nextcloud files in isolated VS Code workspaces inside Nextcloud
+
+Screenshot
+Chores
+Neutral
+Track chores and receive points for doing them!
+
+Screenshot
+Basecamp integration
+Neutral
+Link previews and card creation for Basecamp
+
+Screenshot
+SimpleDMS integration
+Neutral
+SimpleDMS integration to upload files from Nextcloud to SimpleDMS
+
+Screenshot
+Software Catalogus
+Neutral
+Easily manage and publish software catalogs in an open data ecosystem
+
+Screenshot
+SimpleDMS
+Neutral
+This app adds a file context-menu action in Nextcloud Files to export a file to SimpleDMS.
+
+Screenshot
+Gefex Provisioning
+Neutral
+Secure Webhook receiver for automated storage quota provisioning
+
+Screenshot
+Email Bridge
+Neutral
+Capture d'email pour transmission de contenu de haute valeur
+
+Screenshot
+LetterMaker
+Neutral
+An easy-to-use app for creating letters and envelopes using custom templates.
+
+Screenshot
+Roll a dice
+Neutral
+A simple `/roll` command for talk to roll dices
+
+Screenshot
+SendRec integration
+Neutral
+Integration with the SendRec self-hosted video platform
+
+Screenshot
+Certificate24
+Neutral
+Certificate24 - Digital Document Signature
+
+Screenshot
+Organization Folders
+Neutral
+Group folders for your organization, that are easy and intuitive to manage.
+
+Screenshot
+Flow
+Neutral
+Automate and Streamline Your Workflows in Nextcloud
+
+Screenshot
+Local Thumbnailer Integration
+Neutral
+API and Preview Provider for externally generated thumbnails
+
+Screenshot
+SIP Trip Phone
+Neutral
+Browser softphone
+
+Screenshot
+Pax Fax
+Neutral
+A fax sending application
+
+Screenshot
+SMS Relentless
+Neutral
+Send and receive SMS in Nextcloud
+
+Screenshot
+NC Connector for Thunderbird
+Neutral
+Nextcloud Talk meetings and secure Nextcloud sharing links directly from Thunderbird
+
+Screenshot
+Bookshelfs
+Neutral
+Your virtual bookshelf
+
+Screenshot
+Full text search - Files - Tesseract OCR
+Neutral
+OCR Some format
+
+Screenshot
+Driver Manager
+Neutral
+Manage driver information and license expiry notifications
+
+Screenshot
+CIDgravity - IPFS/Filecoin external storage
+Neutral
+CIDgravity adds IPFS and Filecoin as an External Storage backend in Nextcloud, enabling decentralized file storage.
+
+Screenshot
+External Storage backend for Dropbox
+Very negative
+Integrate Dropbox as an external storage
+
+Screenshot
+Scores
+Neutral
+View and play MusicXML scores
+
+Screenshot
+Salesforce Bridge
+Neutral
+Sync Paypal or Bank payments to Salesforce
+
+Screenshot
+Profile picker
+Neutral
+Profile smart picker and link preview
+
+Screenshot
+Intros
+Neutral
+Tutorials of Nextcloud apps
+
+Screenshot
+Automated XOPP 2 PDF conversion
+Neutral
+Rule based conversion of Xournal / Xournal++ files into the PDF format
+
+Screenshot
+KOReader Companion
+Neutral
+OPDS library and KOReader sync for Nextcloud
+
+Screenshot
+Generate Bluemind external account
+Neutral
+Generate Bluemind externe account API key automatically to deport big mail attachments in Nextcloud
+
+Screenshot
+Roundcube Mail
+Neutral
+Embed an installation of Roundcube into Nextcloud
+
+Screenshot
+DokuWiki Integration
+Neutral
+Embed an existing DokuWiki instance into Nextcloud, potentially with SSO.
+
+Screenshot
+Archive Manager
+Neutral
+On-the-fly archive inspector for Nextcloud
+
+Screenshot
+PDF Downloader
+Neutral
+Recursive PDF Downloader
+
+Screenshot
+privacyIDEA
+Neutral
+Authentication app to perform MFA against privacyIDEA
+
+Screenshot
+Step Up Auth
+Neutral
+Trigger Two Factor Auth
+
+Screenshot
+Ownpad
+Neutral
+Create and open Etherpad and Ethercalc documents.
+
+Screenshot
+Audiowaveform Preview Provider
+Neutral
+Creates waveform previews of audio files
+
+Screenshot
+Share Listing
+Neutral
+List shares on the command line
+
+Screenshot
+Family Tree
+Neutral
+Family Tree
+
+Screenshot
+Office Switcher
+Neutral
+Provide an office selector for compatible files
+
+Screenshot
+Noxtr
+Neutral
+Nextcloud app nostrifying your cloud
+
+Screenshot
+Dashy
+Neutral
+dashy
+
+Screenshot
+Thinkfree Office
+Neutral
+Thinkfree Office App
+
+Screenshot
+Shiftplan
+Neutral
+App for organising Shifts
+
+Screenshot
+Diary
+Neutral
+A simple diary for Nextcloud - Alpha release
+
+Screenshot
+WFS Downloader
+Neutral
+Downloading data from Web Feature Service (WFS).
+
+Screenshot
+Visionatrix
+Neutral
+Visionatrix - scalable AI Media processing
+
+Screenshot
+Solid
+Neutral
+Makes your Nextcloud server into a Solid pod server, to allow interoperability with SolidProject.org
+
+Screenshot
+Splash
+Very positive
+📸🔀☁️ Random background from Unsplash
+
+Screenshot
+Face Recognition
+Positive
+A face recognition app
+
+Screenshot
+Activities for shared file downloads
+Very positive
+Creates activities for downloads of files that were shared with other users or a group
+
+Screenshot
+OpenOTP Sign
+Neutral
+Nextcloud app to sign your documents with OpenOTP
+
+Screenshot
+CiviCRM Nextcloud Integration
+Neutral
+Attach documents and media assets to each contact in CiviCRM using Nextcloud's file storage
+
+Screenshot
+OCC Web
+Very positive
+OCC Commands in a web terminal
+
+Screenshot
+SkyPrint
+Neutral
+Print documents directly from your cloud-storage
+
+Screenshot
+MagicMirror Deck Client
+Neutral
+Nextcloud Deck viewer app for MagicMirror
+
+Screenshot
+Pride Flags
+Neutral
+Allow users to theme different parts of their nextcloud with pride flags
+
+Screenshot
+Configurable Share Links
+Very positive
+App adding the ability to specify share tokens
+
+Screenshot
+MFA Zones
+Neutral
+https://github.com/pondersource/mfazones
+
+Screenshot
+NCDownloader
+Very positive
+Aria2 and youtube-dl web gui for nextcloud
+
+Screenshot
+Files Staticmimecontrol
+Neutral
+app to enable controlling of allowed mimetype per folder via a static text file
+
+Screenshot
+ShareRenamer
+Very positive
+A simple app that lets you customize file/folder share links
+
+Screenshot
+Hide sidebars
+Neutral
+Hide left sidebar and top header bar for use in iframe or some other scenarios.
+
+Screenshot
+Aao Chat
+Neutral
+Aao Chat
+
+Screenshot
+External Password
+Neutral
+An app for Nextcloud to allow an administrator to direct a user to an external site for changing their password.
+
+Screenshot
+AppAPI
+Neutral
+Nextcloud AppAPI
+
+Screenshot
+Google Docs Redirect
+Neutral
+Open Google Docs files in a new tab
+
+Screenshot
+SCIM Service Provider
+Neutral
+Implements SCIM protocol as a Service Provider
+
+Screenshot
+Where am I ?
+Neutral
+Is a simple application to locate everybody in your company.
+
+Screenshot
+Jitsi Integration
+Neutral
+Jitsi Integration (unofficial)
+
+Screenshot
+Dead Man Switch
+Neutral
+Transfer ownership of your data in the event of your death.
+
+Screenshot
+MediaDC
+Very positive
+Nextcloud Media Duplicate Collector application
+
+Screenshot
+Cloud Python API
+Neutral
+Nextcloud Python API (Framework)
+
+Screenshot
+SnappyMail
+Positive
+SnappyMail Webmail
+
+Screenshot
+DroneCI Fast Lane
+Neutral
+Queue manager for Drone CI
+
+Screenshot
+README.md
+Very positive
+Show README.md and HEADER.md gitlab style on your NextCloud !
+
+Screenshot
+Neon
+Neutral
+A port of https://github.com/nextcloud/neon to a classic Nextcloud server app.
+
+Screenshot
+Local Image Generation with Stable Diffusion
+Neutral
+(Deprecated) Image generation using Stable Diffusion by Stability AI running locally
+
+Screenshot
+CADViewer
+Very negative
+CAD viewing of AutoCAD, MicroStation and advanced raster graphics files.
+
+Screenshot
+Piwik/Matomo Tracking
+Neutral
+Track users with Piwik/Matomo
+
+Screenshot
+Sign Live!
+Neutral
+legally binding and confidential signatures with devices at your choice
+
+Screenshot
+Edit files with LibreOffice
+Neutral
+Open files with LibreOffice for editing (via WebDAV)
+
+Screenshot
+Collaboard integration
+Neutral
+Integration of Collaboard
+
+Screenshot
+Rolls
+Neutral
+Share quick videos with your collegues
+
+Screenshot
+MultiBoards
+Neutral
+Create versatile Digital Boards
+
+Screenshot
+Breeze Dark
+Very positive
+Breeze Dark theme for Nextcloud, based on the theme by KDE
+
+Screenshot
+Translate
+Neutral
+(Deprecated) A Machine translation provider using Opus models by University of Helsinki running locally on CPU
+
+Screenshot
+vdirsyncer UI
+Neutral
+UI for vdirsyncer configuration
+
+Screenshot
+Forgejo integration
+Neutral
+Integration of Forgejo software development management service
+
+Screenshot
+HedgeNext
+Neutral
+Integration of HedgeNext - a customized HedgeDoc markdown editor fork
+
+Screenshot
+TalkBotAI Example
+Neutral
+Nextcloud TalkBotAI Example
+
+Screenshot
+User Backend Using Raw SQL
+Neutral
+User management and authentication through arbitrary SQL queries
+
+Screenshot
+Optical Recognition Example
+Neutral
+Image To Text Example
+
+Screenshot
+To Gif Example
+Neutral
+Nextcloud Video To Gif Example
+
+Screenshot
+AIImageGeneratorBot
+Neutral
+Stable Diffusion Talk Bot
+
+Screenshot
+Nepenthes Integration
+Neutral
+Link Nextcloud files to Nepenthes work packages
+
+Screenshot
+Related Resources
+Neutral
+Displays resources related to current item in right panel
+
+Screenshot
+Files download limit
+Neutral
+File link share download limit
+
+Screenshot
+Speech to Text Helper App
+Neutral
+A smart picker provider that utilises the Speech to Text OCP API
+
+Screenshot
+Register To Contact
+Neutral
+Adds Users to Contacts after Register
+
+Screenshot
+Journal
+Neutral
+Journal App for CalDav
+
+Screenshot
+Pride
+Neutral
+Show your pride to the world
+
+Screenshot
+Exchange EWS Connector (Exchange Web Services)
+Neutral
+Exchange Server data sync with Nextcloud
+
+Screenshot
+Wordfind
+Neutral
+wordfind
+
+Screenshot
+Solitaire
+Neutral
+Solitaire
+
+Screenshot
+Whisper Speech-To-Text
+Neutral
+(Deprecated) Speech-To-Text provider running OpenAI Whisper locally
+
+Screenshot
+Rides
+Neutral
+Test
+
+Screenshot
+Circles
+Neutral
+Circles game
+
+Screenshot
+Sensorlogger
+Neutral
+Log data from any type of sensor and visualize it
+
+Screenshot
+Backup
+Neutral
+Backup now. Restore later.
+
+Screenshot
+Text2Image helper
+Neutral
+A Smart Picker for interfacing with text-to-image providers
+
+Screenshot
+ShareMover
+Neutral
+App that automatically moves shared folders to another directory according to mime types
+
+Screenshot
+Image Upscaler Example
+Neutral
+Nextcloud Image Upscaler Example
+
+Screenshot
+GptFreePrompt
+Neutral
+A SmartPicker for interfacing with the GPT integrations that provide free prompt cabability
+
+Screenshot
+LibreTranslate Integration
+Neutral
+LibreTranslate integration providing translations using your own server/api key
+
+Screenshot
+Local Large language model
+Neutral
+(Deprecated) TextProcessing provider using a Large Language Model that runs locally on CPU
+
+Screenshot
+Nextcloud All-in-One
+Neutral
+Nextcloud AIO stands for Nextcloud All-in-One and provides easy deployment and maintenance with most features included in this one Nextcloud instance.
+
+Screenshot
+Twitter integration
+Neutral
+Integration of Twitter microblogging and social networking service
+
+Screenshot
+GPTZero integration
+Neutral
+Integration of GPTZero
+
+Screenshot
+MCC CO2 Clock
+Neutral
+Displays a CO2 budget clock on the Nextcloud login page
+
+Screenshot
+Nextcloud Amarillo
+Neutral
+Simple CRUD application
+
+Screenshot
+HIBP Login check
+Neutral
+Check peoples passwords on login against HIBP
+
+Screenshot
+Two factor reminder
+Neutral
+Remind people to turn on 2FA
+
+Screenshot
+Tuya Cloud
+Neutral
+Integrate the basic management of Tuya devices to Nextcloud
+
+Screenshot
+User support for ISPConfig mail accounts
+Neutral
+Allow users logging in using their mailbox credentials as managed via ISPConfig
+
+Screenshot
+ScienceMesh
+Neutral
+Connect your Nextcloud instance to your Reva instance and the Science Mesh
+
+Screenshot
+Override Translation
+Neutral
+Override app translation
+
+Screenshot
+Webex picker
+Neutral
+Pick a file in Nextcloud and make it accessible to everyone in the conversation. Supports collaborative editing.
+
+Screenshot
+Storj
+Neutral
+Decentralized storage backend
+
+Screenshot
+Keep or Sweep
+Positive
+☁️🔀🗑️ Randomly clean your Nextcloud data
+
+Screenshot
+Plain text editor
+Neutral
+Open, save and edit text files
+
+Screenshot
+Video converter
+Neutral
+Convert videos within the web interface
+
+Screenshot
+Extract
+Neutral
+Extract archive from the web interface
+
+Screenshot
+Markdown Editor
+Very positive
+A Markdown Editor with live preview
+
+Screenshot
+Nextcloud Tables Android App
+Neutral
+Android client for Tables app
+
+Screenshot
+Les Pas, photo app for Android phone
+Neutral
+Manage your photo on Android with 2-way sync with Nextcloud server
+
+Screenshot
+Favorites Quickaccess Sorting
+Neutral
+Different Sorting for favorites-quickaccess!
+
+Screenshot
+Les Pas
+Neutral
+Photo management app for Android
+
+Screenshot
+Mail Notifier
+Neutral
+Send Mail Notification
+
+Screenshot
+Transmission
+Neutral
+Integrate the torrent manager Transmission within Nextcloud
+
+Screenshot
+Holiday Calendars
+Neutral
+Allows to subscribe to holidays public calendars
+
+Screenshot
+Nextcloud Talk Desktop client
+Neutral
+A desktop client for Nextcloud Talk
+
+Screenshot
+Nextcloud Notes iOS App
+Neutral
+iOS client for Nextcloud notes
+
+Screenshot
+Webhooks
+Neutral
+Integrate your Nextcloud instance with external systems using Webhooks
+
+Screenshot
+Talked
+Neutral
+Call recording for Nextcloud Talk
+
+Screenshot
+BlueMind
+Neutral
+Connect your BlueMind installation to a Nextcloud document storage system
+
+Screenshot
+EHR (Electronic Health Records)
+Neutral
+Kailona: Personal Health Records
+
+Screenshot
+Web-eID smart-card 2FA
+Neutral
+Web-eID two-factor authentication
+
+Screenshot
+Scanner
+Neutral
+Scanner app for Nextcloud using the SANE framework
+
+Screenshot
+ocDownloader
+Positive
+Easy to use download manager for Nextcloud
+
+Screenshot
+Discrete PDF Signer
+Neutral
+App to sign PDFs via Privasphere
+
+Screenshot
+HSTS Header
+Neutral
+Add HSTS header to HTTPS response
+
+Screenshot
+Have I Been Pwned
+Neutral
+Check user accounts against haveibeenpwned
+
+Screenshot
+Grauphel: Tomboy note server
+Neutral
+Tomboy REST API server to sync notes between devices
+
+Screenshot
+Ransomware protection
+Neutral
+This app prevents uploading files with known ransomware file endings
+
+Screenshot
+Report uri
+Neutral
+Report CSP violations
+
+Screenshot
+Pico CMS
+Positive
+Create and publish your own websites - with Pico CMS for Nextcloud!
+
+Screenshot
+RainLoop (deprecated, consider Snappymail)
+Very positive
+RainLoop Webmail (deprecated, consider Snappymail)
+
+Screenshot
+sync.blue®
+Neutral
+Syncs Nextcloud contacts with countless other apps (Outlook, CRM, telephone,...)
+
+Screenshot
+Suspicious Login
+Neutral
+Detect and warn about suspicious IPs logging into Nextcloud
+
+Screenshot
+Wopi
+Neutral
+Edit office documents directly in your browser.
+
+Screenshot
+Reader (ebook reader)
+Neutral
+A multi-format browser-based ebook reader which supports EPUB, PDF and CBR/CBZ
+
+Screenshot
+Nextcloud VIBE E2E Encryption
+Neutral
+VIBE E2E Encryption Nextcloud Extension
+
+Screenshot
+Whiteboard integration
+Neutral
+Collaborative whiteboard integration
+
+Screenshot
+Sorts
+Neutral
+Visualise your files and search through them with conditional filters
+
+Screenshot
+W2G2
+Neutral
+Visual locking of files and folders to contribute to a better collaboration
+
+Screenshot
+⚠️ Deprecated ⚠️ Two-Factor U2F
+Very positive
+U2F two-factor provider (deprecated)
+
+Screenshot
+Dilingual Dashboard Connector
+Neutral
+Track your website translation with Dilingual
+
+Screenshot
+Deck Import From Trello
+Neutral
+nextcloud app that allows Deck import from Trello export to JSON file
+
+Screenshot
+SPG Verein
+Neutral
+Access data of SPG-Verein in your Nextcloud instance
+
+Screenshot
+Brute-force settings
+Neutral
+Whitelist IPs
+
+Screenshot
+AppOrder
+Very positive
+Sort apps in the menu with drag and drop
+
+Screenshot
+Rocket.Chat
+Neutral
+🚀 Rocket.Chat App for Nextcloud
+
+Screenshot
+GPG Mailer
+Neutral
+Send encrypted emails to registered users
+
+Screenshot
+File sharing invalid notifier
+Neutral
+File sharing invalid notifier
+
+Screenshot
+WrikeSync
+Neutral
+Wrike Projectmanagement Folder Sync
+
+Screenshot
+Sharing Path
+Neutral
+Files sharing use stored path. Easy share, multi-use.
+
+Screenshot
+JavaScript XMPP Chat
+Very positive
+Facebook-like chat
+
+Screenshot
+Files 3d
+Neutral
+3D viewer for nextcloud
+
+Screenshot
+Flow Upload
+Positive
+Provides functions to upload large files with your HTML5-Browser.
+
+Screenshot
+EPUB/CBZ/PDF ebook reader
+Neutral
+A multi-format browser-based ebook reader, supports EPUB and CBR/CBZ
+
+Screenshot
+Teams (formerly known as Circles)
+Neutral
+Bring cloud-users closer together.
+
+Screenshot
+Moodle integration
+Neutral
+Integration of Moodle learning management system
+
+Screenshot
+SecSign ID
+Neutral
+Plugin to enable use of SecSign 2FA
+
+Screenshot
+RenameWithMetadata
+Neutral
+Rename with Metadata
+
+Screenshot
+File Upload Notification
+Neutral
+Notify a server of file uploads
+
+Screenshot
+Checksum API
+Neutral
+Provide hash values of a file by REST API
+
+Screenshot
+Audio Player - SONOS (add-on)
+Neutral
+SONOS Playback
+
+Screenshot
+Restyaboard integration
+Neutral
+Integration of Restyaboard software development management service
+
+Screenshot
+Activities for shared file downloads, visible to all admins
+Neutral
+Creates activities (visible to any administrator) for downloads of files that were shared with other users or a group.
+
+Screenshot
+Roundcubemail
+Neutral
+Plugin for integration Roundcube in Nextcloud
+
+Screenshot
+Custom Properties
+Neutral
+Files app plugin to add custom properties to files and folders
+
+Screenshot
+StromQuittung
+Neutral
+StromQuittung erstellen und nutzen in Nextcloud
+
+Screenshot
+GpxEdit
+Neutral
+Simple GPX file editor
+
+Screenshot
+Simple poll for Nextcloud Talk
+Neutral
+A simple chat based poll for Nextcloud Talk
+
+Screenshot
+Nextcloud-Roundcube
+Neutral
+NextCloud app to integrate RoundCube Webmail. The app embeds the RoundCube webmail interface in NextCloud.
+
+Screenshot
+LDAP Contacts
+Neutral
+Display your LDAP contacts
+
+Screenshot
+OC Jobs
+Neutral
+OC Jobs
+
+Screenshot
+eM Client with Nextcloud
+Neutral
+Email your files as links to Nextcloud
+
+Screenshot
+Podcast
+Neutral
+🔊 Browse, manage and listen to podcasts
+
+Screenshot
+Radio
+Very positive
+Listen to your favorite radio stations
+
+Screenshot
+LimeSurvey Nextcloud
+Neutral
+Save Survey Responses in Nextcloud
+
+Screenshot
+Private Data API
+Neutral
+Private data OCS API
+
+Screenshot
+Passwords for Nextcloud (iOS Client)
+Neutral
+An iOS client for the Nextcloud Passwords app
+
+Screenshot
+NextBackup
+Neutral
+Simple database backup solutions for your Nextcloud or ownCloud installation.
+
+Screenshot
+Sqreen SDK
+Neutral
+Integrate Sqreen SDk
+
+Screenshot
+External Storage: OneDrive
+Neutral
+Integrate OneDrive as an external storage
+
+Screenshot
+Share permissions
+Neutral
+Allow/disallow sharing based on group membership
+
+Screenshot
+Phone Sync
+Positive
+An app to sync SMS with your cloud
+
+Screenshot
+Printer
+Neutral
+Allows to print files directly inside Nextcloud to a printer.
+
+Screenshot
+Ransomware recovery
+Neutral
+!!WARNING!!: DEACTIVATE OR REMOVE THIS APP FROM YOUR NEXTCLOUD INSTALLATION.
+
+Screenshot
+PDF annotations
+Neutral
+Annotate PDF documents
+
+Screenshot
+Optical character recognition
+Neutral
+Text recognition for your images
+
+Screenshot
+Auto Mail Accounts
+Neutral
+Automatically create and delete mail accounts for the mail app for new Nextcloud users.
+
+Screenshot
+GpxMotion
+Neutral
+GPX file animation on an interactive map
+
+Screenshot
+Single Sign-on (SSO) for Nextcloud with miniOrange
+Neutral
+miniOrange Single Sign-On (SSO) and MFA, quickly increase your security of information and resources for Nextcloud without worrying about initial set up time or future upgrades. Access flexibly and connect all apps with one set of credentials.
+
+Screenshot
+Issue Template
+Neutral
+Easily report Nextcloud bugs with a prefilled issue template for reporting on GitHub
+
+Screenshot
+Tencentcloud COS Config
+Neutral
+configure tencentcloud object store
+
+Screenshot
+Quest
+Neutral
+Connector to the Quest's tool
+
+Screenshot
+ORCID
+Neutral
+Authenticate with ORCID
+
+Screenshot
+Zenodo
+Neutral
+Publish your work to Zenodo.org
+
+Screenshot
+Nextcloud Talk for Android
+Neutral
+Video & audio calls through Nextcloud on Android
+
+Screenshot
+Nextcloud Talk for iOS
+Neutral
+Video & audio calls and chat through Nextcloud on iOS
+
+Screenshot
+DAVx5 – CalDAV / CardDAV Sync Suite on Android
+Neutral
+Synchronize Contacts, Calendars and Tasks from your Nextcloud with your Android
+
+Screenshot
+iOS Nextcloud app
+Neutral
+Official Nextcloud iOS client
+
+Screenshot
+Nextcloud Passwords for Android
+Neutral
+An Android companion to the Nextcloud passwords app
+
+Screenshot
+Browser warning
+Neutral
+Display a specific warning on log-in page
+
+Screenshot
+Android Nextcloud App
+Neutral
+Official Nextcloud Android client
+
+Screenshot
+MoneyBuster
+Neutral
+Multi-project shared budget manager able to sync with Cospend
+
+Screenshot
+Windows 10
+Neutral
+Synchronize Nextcloud calendars and contacts with Windows 10.
+
+Screenshot
+Thunderbird
+Neutral
+Synchronizing Nextcloud calendars and contacts with Thunderbird.
+
+Screenshot
+iOS and MacOSX
+Neutral
+Synchronize your contacts and calendars with your iOS and MacOSX devices.
+
+Screenshot
+GNOME
+Neutral
+Integration of Nextcloud in the Gnome desktop
+
+Screenshot
+Moodle
+Neutral
+Nextcloud integration in Moodle learning management system.
+
+Screenshot
+Nextcloud Bookmarks Android App
+Neutral
+Android front end for Nextcloud Bookmarks
+
+Screenshot
+ocDownloader Webextension for Brave/Chrome/Chromium/Edge/Opera/Vivaldi
+Neutral
+This extension allows you to directly download a file by right clicking a link on a web page and select "Download With ocDownloader"
+
+Screenshot
+Nextcloud News Android App
+Neutral
+Android client for News app
+
+Screenshot
+IPFS for Nextcloud
+Neutral
+IPFS Backend for file storage
+
+Screenshot
+ocDownloader extension for Pale Moon
+Neutral
+This extension is PMKit-compatible and allows to add downloads to ocDownloader directly from a browser on any website.
+
+Screenshot
+ocDownloader Webextension for Firefox
+Neutral
+https://addons.mozilla.org/de/firefox/addon/ocdownloader-extension/
+
+Screenshot
+floccus
+Neutral
+Sync your bookmarks privately across browsers
+
+Screenshot
+QOwnNotes
+Neutral
+Plain-text file markdown note taking with Nextcloud integration
+
+Screenshot
+Nextcloud SMS Android App
+Neutral
+The Nextcloud SMS app pushes your Android devices conversation into your Nextcloud instance, using the ocSMS Nextcloud app.
+
+Screenshot
+Nextcloud Deck Android App
+Neutral
+Android client for Deck app
+
+Screenshot
+Nextcloud Notes Android App
+Neutral
+Android client for Notes app
+
+Screenshot
+MMM NcDeck
+Neutral
+Nextcloud Deck viewer app for MagicMirror
+
+Screenshot
+Global Site Selector
+Neutral
+Nextcloud Portal to redirect users to the right instance
+
+Screenshot
+Zimbra Drive
+Neutral
+Integration with Zimbra
+
+Screenshot
+DropIt
+Neutral
+Quickly share text or files by dropping them to your Nextcloud!
+
+Screenshot
+Files From Mail
+Very negative
+Recover your email attachments from your cloud
+
+Screenshot
+Telephone Provider for ContactsMenu
+Neutral
+Provides tel: links in the ContactsMenu
+
+Screenshot
+DashboardCharts
+Neutral
+Flexible Dashboard Charts
+
+Screenshot
+OwnBackup
+Neutral
+Simple database backup solutions for your ownCloud 8.1+ or Nextcloud installation.
+
+Screenshot
+Right click
+Positive
+Right click menu for Nextcloud
+
+Screenshot
+mood
+Neutral
+Your mood over the clouds
+
+Screenshot
+Ebook reader
+Positive
+An ebook reader for Nextcloud
+
+Screenshot
+External storage support for Google Drive
+Neutral
+External storage support for Google Drive
+
+Screenshot
+Full text search - Bookmarks
+Neutral
+Index bookmarks
+
+Screenshot
+Twain Web Scan
+Neutral
+Twain Web Scan for scan and upload to nextcloud directory
+
+Screenshot
+Folder Player
+Neutral
+This App collects media files from selected folder and put them in media player's play list.
+
+Screenshot
+Old dashboard (archived)
+Negative
+The new Dashboard is integrated in Nextcloud server
+
+Screenshot
+Default Link Open
+Neutral
+Restores browser default behaviour in opening links in comments
+
+Screenshot
+Can I update?
+Neutral
+Checks whether there is an update for all of your apps available, so you can run the next major version of Nextcloud.
+
+Screenshot
+RecommendationAssistant
+Neutral
+Design and Implementation of a Recommendation System Using Hybrid Collaborative Filtering Techniques for Nextcloud
+
+Screenshot
+Nextant
+Very positive
+Navigate through your cloud using Solr
+
+Screenshot
+Admin notifications
+Positive
+Allows admins to generate notifications for users via the console or an HTTP endpoint
+
+Screenshot
+Theming
+Neutral
+Adjust the Nextcloud theme
+
+Screenshot
+PDF viewer
+Neutral
+A pdf viewer for Nextcloud
+
+Screenshot
+My Scan
+Neutral
+Scan QR with any camera on your device
+
+Screenshot
+Files clipboard
+Positive
+Clipboard operations for the files application
+
+Screenshot
+OPDS catalog
+Neutral
+An OPDS catalog generator; publishes a sub-tree of the filesystem as an OPDS feed
+
+Screenshot
+Documents
+Neutral
+A 💀 deprecated 💀 Nextcloud app to work with office documents.
+
+Screenshot
+Spreed.ME
+Very positive
+Audio-, video- and text chat for your Nextcloud
+
+Screenshot
+Workin2gether
+Neutral
+Visual locking of files and folders to contribute to a better collaboration
+
+Screenshot
+Sia storage support
+Neutral
+Sia support for files_external. This app adds a dropdown for Sia, a decentralized storage network, to the files_external app.
+
+Screenshot
+OpenID Connect SSO by Gluu
+Neutral
+Use OpenID Connect to login by leveraging the oxd client service demon.

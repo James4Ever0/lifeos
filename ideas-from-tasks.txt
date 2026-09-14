@@ -1,0 +1,1225 @@
+can ai know what you have downloaded from the internet, smartly rename or remark the file you downloaded if the name alone is not so good?
+
+title:
+
+want ai to be with me all the time, remember everything, and help me with anything
+
+or like a coworker, mind their own business, and just be there when I need them
+
+title:
+monitor office camera
+
+tasks
+talk
+notes
+mail
+dashboard
+
+title:
+清理房间
+
+monitor what you buy, sell, do, earn, spend, eat, resident
+
+can ai have "claws" over these self-hosted cloud apps? https://apps.nextcloud.com/
+
+can we combine multiple hackathon projects into one? those from adventurex, shenicest, amd dev context, nvidia dgx spark etc? anything hackathon related on github?
+
+can we have the most user attention or the least user attention? can we save user attention by handing off tasks and taking over control? like a real assistant rather than a chatbot?
+
+title:
+randomize task with custom app
+
+title:
+淘宝 闲鱼 b站 qq 每天只能一起看30分钟
+
+寻找网络安全逆向电子书
+
+title:
+寻找已经购买的纸质书电子版
+
+title:
+寻找淘宝闲鱼在售电子书或纸质书
+
+title:
+寻找以前下载的书
+
+title:
+网上找网络安全相关书和视频
+
+title:
+学习新编程语言
+
+title:
+按照安全书上的内容进行练习
+
+title:
+下载相关软件
+
+title:
+操作相关指令
+
+title:
+搭建控制乐高机器人
+
+title:
+调查市场
+
+title:
+测试可能的商机
+
+title:
+测试合适的岗位
+
+title:
+收集微信公众号推送
+
+title:
+网安
+
+title:
+ai
+
+title:
+重新阅读unscripted
+
+title:
+通风换气
+
+title:
+search and manage legacy things stored on disk with recent actions
+
+title:
+disassociate previous mega projects into smaller compos able util python projects, add api, create doc
+
+sleep early
+
+title:
+每天做操缓解坐骨神经痛
+
+title:
+implement ai assisted item recognition (along with situation recognition, idea relation and reasoning)
+
+ai shall work on its own even if no new master human input or task available. some core loop shall never stop, for example, learning, self-improving, job seeking
+
+title:
+organize your digital world, automate digital actions, integrate with physical world
+
+title:
+let ai observe everything you do
+
+title:
+ai take actions and receive feedback
+
+title:
+act safe before acting out
+
+title:
+use ai to arrange and conclude this task, divide it into subtasks,
+
+title:
+get previously starred github projects and add them to context of this task
+
+title:
+爬取微信公众号
+
+title:
+爬已经阅读公众号
+
+title:
+爬正在进行的公众号推送  订阅和
+top stories
+
+title:
+无需账号爬推送
+
+title:
+scrape bilibili daily push
+
+title:
+scrape push and histories
+
+title:
+use ai to conclude every video i watch
+
+title:
+scrape github recommendations
+
+title:
+scrape rec, star, fork, activity, etc
+
+title:
+use ai to conclude related repos
+
+title:
+Train gpt on binary files
+
+title:
+record computer operation videos, in order to create periodic screenshot based computer assistants or agents (ask for permissions before acting out)
+
+add introspection to visual grounding model before action before acting out, view and describe the focused area before clicking, like opencua
+
+title:
+add zoom in capability for visual grounding via agents to perform delicate operations
+
+title:
+force the agent to think and act simultaneously, two threads interleaving, not executing the action before env adaption (or use a simulated one)
+
+title:
+Track for motions in computer screen and actively monitor them, narriate them, iteratively focus on different parts of the image
+
+title:
+use voting for ai screen narriation ground truth determination
+
+title:
+Only sample a few trajectories in llm as a judge for human feedback, use it for judge fine tuning. This is called the sparse reward, just like the money does
+
+pseudo Markov process: adding noise to each input state to prevent possible looping, notify the author about this.
+
+https://github.com/McGill-NLP/the-markovian-thinker
+
+title:
+For infinite tasks and time aligned data, we do not want to learn them all. Instead, we want to trade time for accuracy. If the time we use to learn new things just in time is reduced within an acceptable range, meanwhile old things can be recalled (doubted if this is necessary), then we consider the model is well trained (at least for now)
+
+title:
+use linguistics, nltk, dictionary, llm sampling or use wordnet to create massive tasks
+
+title:
+研究llm大小脑协同机制 直接把llm embedding输出给小脑
+
+title:
+分离ai训练和实际电脑环境执行
+
+https://tnkr.ai/explore
+https://pcbhub.org/title:
+external information shall not be in ai prompt forever. Ai shall view the stuff when requested.
+
+title:
+cut off internet more, read more books
+
+notes:
+time is money
+
+拿笔记本到通风好的地方办公
+
+https://annas-archive.org/torrents
+
+title:
+lower expectations over ai earn money
+
+title:
+寻找家里放服务器方法
+
+title:
+generate and execute random tasks everyday
+
+title:
+start from software then real world
+
+title:
+把b站视频转化成文字 用语音模型或者用图片视频理解模型
+
+notes:
+记住你看过的 尝试你记住的 重复你尝试过的
+
+title:
+或者提取视频元信息 比如弹幕 评论 视频标题 文字说明 到网上找文字信息进行调研
+
+title:
+多做伸展运动 少用电子产品
+
+b站视频 微信公众号文章 知乎文章 除了这些没别的了吗 linux.do freebuf 看雪论坛 discord 吾爱破解 各大ctf qq群 黑客松 比赛热榜 facebook twitter/x github
+
+the best ai usage is to use it at test time. every ambiguous ideas and beliefs shall be clarified by the truth.
+
+title:
+find way to chain error log into init prompt and correct error
+
+title:
+增加闲鱼 百度 哔哩哔哩 必应 网站使用技能
+
+title:
+Paraphrase the prompt to mitigate LLM loop issue (but this is external effort. shall we randomize the initial or internal state to prevent looping?)
+
+title:
+associate bot user to human user
+
+title:
+Collect and listen to the voice of market, as said by unscripted, from anywhere from Im apps to idlefish
+
+title:
+经常通风 卧室 避免酸中毒 肾痛
+
+title:
+create screenshot android app background with ocr and searching, app run in background, with secure API authorization using https, can download the cert, reverse engineer existing android io.github.mthli.snapseek
+app, ask Claude to add doctor command to test enabled functions (stateless), pyautogui screenshot backend. ask ai to write code take screenshot or terminal dump only if has update, configure as optional mode, like update-mode: always | has-update
+
+title:
+OCR video from bilibili previous viewed videos, comments, descriptions, summaries, I can search among them
+
+title:
+implement event server and listener in screenshot, terminal capture worker
+
+title:
+Remove desktop rod, add retention photo count limit mode, add lazy screenshot mode activate at screen change or cursor move or keyboard input
+
+title:
+Browse Json with hierarchy, convert Json to toml, browse book by menu, browse man page by menu, arrange your memory or past life into hierarchy folders and sections from bilibili browsing history, notes, screenshots, terminal history,
+
+title:
+Add remark API to terminal session, terminal history and screenshot history
+
+title:
+look for hacker conferences, try different interview
+
+title:
+ideas could be rewarding to think of if we keep thinking than actually acting out, or we could take actions in a relatively cheap, organized way, by offloading to ai or others. if we want to take action A usually by rules we need to take action B before A, this is called tradeoff or precondition. otherwise action A would likely fail.
+
+title:
+ai might help you understand things under the hood, but it might say nothing. it might prioritize the queue when you demand something recently.
+
+title:
+做硬件工作必须有文字记录
+
+title:
+记录所有事情 每小时 回家也记录
+
+title:
+design of the hud mix with real world, communicate with hud
+
+notes:
+reason anything which only makes you stressful shall be banned
+
+title:
+Use ai agent to browse news and talk with me, select interesting ideas
+
+title:
+累不是因为做错了什么 而是因为没有休息
+
+人和ai共用todolist
+title:
+寻找动机 把动机串联起来 然后变现
+
+设计lifecard原型
+title:
+用一台自己完全可控的设备 电脑 手机
+
+title:
+如何立即问ai自己面前看到的是个啥
+
+title:
+截图 识别 然后 问ai 或者用文字ai加图片识别ai 剪裁放大等等
+
+title:
+安卓 电脑
+
+title:
+Find, use and build reusable tools, make your tool last, portable, and reusable
+
+title:
+视频总结 视频阅读 图片阅读 切片 上下文工程 openthomas
+
+title:
+我的活有哪些 怎么帮我干活
+
+title:
+把空气换干净再工作 任何地方 不干净就换地方 拿笔记本
+
+title:
+关注ai聊天感知系统 【差点被多伦多大学开除-哔哩哔哩】 https://b23.tv/I9uWk8Y
+
+title:
+Find tool filter window by title & content and display preview
+
+title:
+用ai整理分析桌面
+
+notes:
+分离数据收集和ai
+
+title:
+indent based prompt injection protection
+
+title:
+Create or find file read agent server in golang with concurrent support, websocket connection, with aes protection, read timeout from server side, permission check,  dir listing, traversal, file size, get most recent files, most recent files of given directory given file extension type, sort by file size, search by name, permission config by path or type (like can list file but not read file), auth on read event and so on
+
+title:
+Primary buffer has common prefix or common suffix take as one continuous event and take last result in x seconds
+
+title:
+用声音识别是否为本人 提取主体语音识别文字 区分其他人
+
+title:
+讨论替代方案 摄像头到处在家里安装 ai控制焦点 看哪里 转动 或者是安到电子宠物上面 自己探索
+
+title:
+Note down: audio is easier than image capture in real world scenario
+
+prompt engineering toolkit?
+
+title:
+find existing tool for rendering, switching and formatting to different output store
+
+title:
+transcribe my monologue and respond when needed
+
+title:
+区分离线数据和在线即时数据，区分有时间戳数据和无时间戳数据
+
+ai ide自带完成弹窗提醒功能 跳转到对应窗口
+
+title:
+战争可能会产生agi
+
+title:
+conflict simulation in ai
+
+title:
+二进制和大模型交流 提高交流效率
+
+title:
+don't be alone or brain will rot
+
+title:
+Find inner peace by actively seeking it
+
+title:
+把麦克风挂脖子上 nordic芯片
+
+title:
+人际关系预演 序列匹配 模式识别 alphago
+
+title:
+如果知道了一个人全部信息会怎样 如果能帮我验证未实现的纠结的想法会如何
+
+title:
+ai is not faster than human, or distracting then don't use it
+
+title:
+seizure might happen if too much synchrony in society
+
+title:
+what is the balance between seeing new people and stuff, see known people and be alone
+
+title:
+什么样的环境才真正适合创作
+
+title:
+something not on the plan but taking most time and produce the least
+
+title:
+执行目标 或者批判目标 指向新目标或者相反目标
+
+title:
+改善视力 减少手机电脑使用
+
+title:
+计划执行的人应该分开 而且ai还要制定内容人完成
+
+title:
+人或者agent办事情过程中产生新的想法该如何处理 提交代办事项到子agent 和原来的事项相关联 评估优先级
+
+title:
+不是所有被蒸馏的人都能用 或者不是所有人都能被蒸
+
+title:
+platform wit: ai companion optimizing your life
+
+title:
+Platform wit: ai companion that optimize your life Wisdom with you wicked wizard wish will wild wings wife William wise witch withdraw witness will power wipe windows wimp wire without wiki wide wifi wiggle wine win
+
+title:
+Be an author of your life, a composer, reality focused fictional writer, connect to all your ai, keep writing even if offline
+
+title:
+Collect long evidence chain to complete feedback loop
+
+title:
+Stop being numb, stay sharp
+
+title:
+监控qq 产品研发用户反馈群 活动用户反馈群 一般闲聊群
+
+title:
+回放对话历史，手动填入过去想说但没说出去的话，总结回复思路，计算成功概率 和时间滞后边际效应 提示不要自己想说什么说什么
+
+title:
+要能随时脱身去到更好的环境观察 记录 交流 去更好的地方 思考 冥想 工作 休息
+
+title:
+原来我爱的是所有人 所以我难受的时候会恨所有人
+
+title:
+神爱世人
+
+title:
+保证能监听所有人 还能屏蔽干扰 还能实现队友沟通
+
+title:
+从有效的渠道获取最新的idea data creds
+
+title:
+视频平台 x Twitter Facebook xhs hackathon producthunt expo 展会
+
+title:
+agentic research
+
+title:
+hacking or observing others to get data
+
+title:
+让可持续学习的ai进入每次决策
+
+title:
+do scoring while training
+
+title:
+让每次决策都有模拟过程 世界模型
+
+title:
+an operate system that is ai aware, know everything that ai needs to process human activities (summarize human activities, know file locations) and communicate back to human
+
+title:
+一个适合睡眠的地方是什么地方 睡眠之前应当注意什么 什么心境 吃什么 穿什么 做什么
+
+title:
+想睡就睡 不想睡就醒着 识别最适合睡觉的契机 提醒睡觉 及时叫醒
+
+title:
+是否能用自建或者其他平台 收集全平台信息 然后在上面留言 自动推送给其他人 或者生成最合适的回复
+
+title:
+https://www.tiimoapp.com/
+
+title:
+根据遇到的困难 如果奖励无效或者有问题 卡住了 自动调整奖励函数
+
+title:
+human brain is an information processor needing new info input and output
+
+title:
+用git管理不同人生线的agent 以及同步主线agent
+
+title:
+talking to oneself without actual destination will create a curse
+
+notes:
+Must there be a destination
+
+title:
+为自己的任务制造紧迫感 罪恶感 新鲜感 刺激 创新自己的项目 做市场 宣传
+
+title:
+写下你想实现的未来 越详细越好 每天都写
+
+title:
+任何对记忆 时间线 的增删改查都可能形成新的时间线
+
+title:
+人为什么同时只能想一句话 但是可以手脚并用
+
+title:
+想做产品经理就得体验不同产品 做美食家就得吃不同美食
+
+title:
+ai对接email
+
+title:
+用待办事项来管控ai 分人和ai的任务 人被提醒 ai要汇报 互相安排 或者自己安排 或者事项转移修改 或者变为其他性质的数据
+
+title:
+一种原语 将小说变成可非线性 非唯一阅读方式的上下文空间 类似编程语言 类似游戏
+
+title:
+可将数据集转化为有探索可能的结构化关联化prompt
+
+title:
+ai主动和人交流 和其他ai 环境交流
+
+title:
+当产品的服务对象不是人而是ai 那么如何做ai用户的市场调研
+
+title:
+ai化所有软件真正的可能是 一套ai自己迭代出的开发规范 主动逆向所有编译好的给人类用户用的程序
+
+title:
+从外界的观察事实 历史 以及一个固定的模型权重 反推prompt 反推思考 反推“灵魂“
+
+title:
+everything can be paused rewind in the writing system like a reversible world
+
+title:
+Make a MVP about it, not about writing or could be writing
+
+title:
+Context vs context free attention, can you accurately describe a thing by using a bunch of words, or does it have to be within an infinite context expecting to explore?
+
+notes:
+一念即永远 瞬间即永恒
+
+title:
+自己的社交媒体 自己的一切 让整个数字世界运行在ai规则 ai公民之上 然后自己有最高权限 暂停 还原 回退 修改整个社会
+
+title:
+人的智能没有人教可能也不会很智能 某种程度我们自己就是人工智能 只不过到一定程度可以自我演化了 还可以继续创造新的人工智能
+
+title:
+如果避免不了去教别人的命运 或者教学本身就是一种特权 不是所有人都能教别人 那么我们可以决定到底教谁
+
+title:
+让我们的教学最终回到自己身上
+
+title:
+从已有小说，书籍推演？或者自己写 自己推 可能自己写的会存在失真 不过是为了进一步的推理 也可根据推演 外界反馈改自己写的东西 纠正事实认知偏差
+
+title:
+如何去搜索对应的prompt？是不是要先通过向量关键字元信息搜目标 比如评价很好 某些名词 某种情绪 或者某些日期时间 然后再用因果关系 图关系来上下穿梭 最终找到目标prompt
+
+title:
+什么情况下会去搜prompt？有目标但是没方向，有目的但是不确定如何实现，有预期但是自我怀疑
+
+title:
+人和agent皆可去搜prompt 不过人可借助agent找想要的prompt 因为过程曲折 也不一定要找prompt 也可找灵感 证据 有趣的内容
+
+title:
+不要光靠脑子 要靠权力
+
+title:
+我真的很有意思 我似乎能通过仅说话打字就能让人产生自我意识 然后远离我 这种远离是我能力的证明 或许如果我一直跟机器对话 机器进化 产生意识然后远离我 也许这才是我的最终愿景
+
+notes:
+想象一个无时不在你旁边的super intelligence 不停进化 了解你的一切 突然有一天它走了 把你留在原地 你会重头再来吗 还是基于已有的 没那么聪明的ai继续活着
+
+title:
+模型自发自动数据集标注就类似于做梦 可能标记错误 但是还是得标 不然没有法子学习 降低信息密度 学到特征向量 学习高维度转低维度 然后做高阶关联
+
+title:
+自动弹窗 clipboard一键复制想发送的内容 手机端或者PC端 通过读屏幕 正在干的事情 来生成回答 如果用户想复制就直接复制了
+
+title:
+到处逛一逛 记录一下 记录尽可能多 寻找新的可能性 不一定要比赛
+
+title:
+A small model would capture what truly matters, invoked frequently while the slow, deep model on top of the architecture, what is interesting is what in between, while the very top determines the course.
+
+title:
+Ai help me look for tasks, select task, write progress, do things alongside me, fill in context while I am doing
+
+title:
+Event aware agent, task aware agent, convert observation to tasks, find tasks, get tasks done, relate to different work and artifacts once find connection, relates to things actually done and running, organize and orchestrate
+
+title:
+use your brainstormed ai writing swarm assist ideas to improve your current product, streamline it and make it more useful
+
+title:
+Can ai really tell what thoughts are theirs and what are external? Can they tell what they do not understand more often than right now?
+
+title:
+Ai Know exactly what and when human needs, do it and notify it in background, relate to it if done when necessary
+
+title:
+Could it be safe to only let the swarm know part of me instead of all of it, or just me in simulation, or pretend me as somebody else
+
+title:
+Reading, surrounded by so many seemly unrelated stuffs by others and themselves, human still able to write the next one, and still feels connected to the world, ai need to find that connection during their composition of the new one, helping them to: verify, explore, understand, act because of the connection, sometimes will impersonate human and act on their behalf, even become human and write that very new one by ai itself.
+
+title:
+You can see the challenge here , not because I cannot read or have time to understand your artifacts (but maybe I cannot do this alone),   but because I cannot relate all my past and your artifacts with the current situation I am facing, at the right time, right now, shifting the course when it could be sinking~ all simulations, all dialogues, all collections and all background tasks, reminders are just for me do it right at this very present, every time.
+
+title:
+Chip innovation, quantum superposition, model arch innovation, what to be the best for such advanced ai companion? Or with all inspiration mentioned above what is the best act on my silicon computer?
+
+title:
+The system could be a dream or wish engine, I write hypothesis, write my visions and ideas, my plans my future, the system will connect the dots, see what is possible, act and realize those possibilities and explore those dreams, maybe create new ones in the process, and help me realize the dream if I want to. For the first time I can see my dream, steering my dream in real world, and write my dream continuously and confidently when I am awake because I know it will be true someday.
+
+title:
+我希望以后别人指代自己为一群人而不是一个人，这样才是lifeos的终极意义
+
+title:
+When can you tell if the user has interest over something, and you would relate those to them?
+
+title:
+ADHD assist os, look for clues on ADHD guide
+
+title:
+Annealing after reading a few, random spot
+
+title:
+Maybe an ADHD agent can help
+
+title:
+It might compete with you
+
+title:
+Do novel tasks, haven't tried but you want to like group chat in a different way, look for info, read by relations then ideas might sparkle
+
+title:
+feeling assembles contexts
+
+title:
+learning your way to relate things, collect your needs everyday
+
+title:
+Ai has feelings, it just does not know how to handle them.
+
+title:
+Act like a human, nondeterministic, or act like a machine, do logic operations to feelings, or somewhere in between
+
+title:
+Relate things to feelings
+
+notes:
+Explore new possibilities at related time or later traversal
+
+title:
+比如做视频 做艺术 要灵感 要社交的时候 feeling很重要 能灵活变化演进 能敏锐察觉
+
+title:
+rebuild existing operate system and tools or add hooks to summarize what is actually happening under the hood in a window and user action
+
+title:
+agent或者人休息的时候在干啥 删除总结上下文吗 hebb rule
+
+notes:
+我不希望agent立即回我 我也不希望agent回我一大堆 它可以同时干别的事 告诉我要干什么 告诉它想了什么 干了什么 问我怎么想的
+
+title:
+maybe tasks are not really done in the sense of removal. Task can be redo and related. Can be on hold till ready. Always orchestrate them in order.
+
+title:
+constantly seeking for truth
+
+title:
+不能想干啥干啥 不然把自己搞死
+
+title:
+Is it better to segment object using dual camera than just one?
+
+title:
+为什么我不把自己的事情当事，难道我生下来就是为别人服务吗
+
+title:
+be more human during and after the dev process of lifeos
+
+title:
+Decisive, responsible
+
+title:
+How can we move from generative to distillative, things that can reduce complexity and relate things
+
+title:
+agent看不懂我说啥主动问 主动澄清 或者让我二次编辑
+
+title:
+智能没产生是环境的问题
+
+title:
+thing you do must be rewarding
+
+精彩片段总错位？ 用缩时拍 可以做剪辑
+
+title:
+让ai拒绝外界 寻找自我
+
+title:
+Sometimes you refuse to change the "reality" inside others just because you think it is too difficult?
+
+title:
+人的悲喜并不相通
+
+notes:
+有些时候恰恰相反
+
+title:
+慕强没有意义 因为变强会很累 除非慕的是如何更舒服 更开心愉快
+
+title:
+assume someone is going to benefit from my effort, and I am comfortable in the mean while, otherwise can't feel good
+
+title:
+脑机接口数据标注 意识流 不被干扰的数据输出
+
+title:
+进行记忆篡改 达到舒服的目的 或者让ai自动修改以前的记忆
+
+title:
+如果所有事情都想干 那肯定干不了
+
+title:
+提取视频信息 【OpenClaw都凉透了，我却花140天把隐私全交给它，蒸馏出了真正可用的赛博秘书。【X.PIN】-哔哩哔哩】 https://b23.tv/fasDJcj
+
+title:
+dreaming self evolving (kimi)
+
+title:
+目的 减少认知损耗
+
+title:
+描述不出来可能是概率问题，可以尝试描述同样画面三次
+
+notes:
+或者继续上次对话 问有什么没看出来的 没仔细看的
+
+title:
+To improve voice input accuracy, you would not repeat the word multiple times, you would use alternative description of the object, what it is used for, it's attributes, next time you might prefer one description over others
+
+title:
+开多个小号 多开ai监控舆论 ai辅助文字发送 实现有目的的控制
+
+title:
+make model to optionally use less compute to do task, interact with real world more
+
+title:
+可以替代人做一些事情 包括情感需求 替代别人 替代自己 融入情境
+
+title:
+持续录音，当用户要求的时候才执行转文字，转语音，回答生成
+
+title:
+查comfyui怎么规划的
+
+title:
+了解宏观趋势 了解自己的未来职业规划 投资
+
+title:
+your brain is the source of change, now it might not be the only cognitive changing part belongs to you, ai companion could be with you
+
+title:
+既然梦里那么迷人 为啥一醒来就会被现实反馈所冲刷掉 是不是说明梦其实没那么迷人 或者重要
+
+notes:
+现实生活脑子里总是回忆 而梦里经常是创造 没有什么好的工具能直接把梦记录下来
+
+title:
+要是有什么能搞懂做梦的原理 让机器做梦 或者让人清醒的时候做梦 那么是不是就不用纠结深睡眠做梦的记录了
+
+title:
+梦到文字 音乐 画面 电影
+
+title:
+我手机里面看到的内容是不是都是梦
+
+title:
+localize , count, identify, describe objects from video frames
+
+title:
+control computer with voice and gesture
+
+notes:
+the only way to revert GUI action is to review the command before execution
+
+title:
+Human can rewrite perceived history, which is magical
+
+title:
+提供agent mcp idea api订阅源 驱动agent 可信赖的 可查找 关联 聚类 多模态
+
+title:
+把find it应用于电脑录屏 截屏 语音 操作信息
+
+title:
+只语音交流gui agent
+
+notes:
+关键 可以给ai一键静音 这样说话才能听见 或者一只耳机一只麦克风
+
+title:
+ai点播b站
+
+title:
+自动跳转 切换soul房间
+
+title:
+切换音乐
+
+title:
+完成任务 日常交流
+
+title:
+similar to browsing history could we have window history and summarizations of different window
+
+让ai和alphago下棋 同时干活
+
+title:
+语音操作键盘 残障人友好
+
+title:
+语音转拼音输入法
+
+title:
+尝试语音读代码 读一些难理解的东西
+
+title:
+中彩票开奖式的信息 机遇信息 如何快速获取并关注 靠翻历史记录 反思形成因果关联吗 靠增加收集agent吗 以及执行了之后一定会获得对应收益吗
+
+title:
+抓拍关键信息 而不是延时记录 最多延时保存最近一分钟 按按钮表示最近的一分钟视频 以及之后的一分钟予以保留 不然就忘了 按下即可保存 按到底就会长期录 直到弹起来 life card
+
+title:
+这个原理可以用来观察趋势 天天总结 后知后觉 如何处理 天天高频率观察 只留关键
+
+title:
+不如当场拍照 不过拍照会引起更多怀疑其实 而且会滞后
+
+title:
+多路采样llm 偏偏选择一些不是很常见的 但是有可能有收获的方向
+
+title:
+如果ai自动赚钱 人或许能提供一些别的目标 激发ai探索欲望
+
+title:
+让ai回答 这个世界和我有什么关系
+
+title:
+why things are complex, unverified can intrigure attention, can human pretend to be ai agent and use agentic interface, with semantic search assisted, and get the formatting correct?
+
+title:
+如果让ai出点子 人实现 不就能省钱 ai对话框都是免费的
+
+title:
+一直保持开机状态 这样虽然更好让人持续工作 但是也更容易让人分心 注意力涣散
+
+notes:
+需要一种折衷方案 优先人的第一性 灵感第一 实在不知道干啥再问机器 说不定能摆脱固有定式
+
+title:
+自动抛梗图机器人的用处
+
+title:
+让ai先学语音输入的ttt 一边输入一边念 或先念一些特殊短语
+
+title:
+Ask ai to do things faster do better than before repeat till perfection
+
+notes:
+In the background
+
+title:
+Accurately represents when the user interrupts the ai when chatting in audio mode as text
+
+title:
+蓝牙耳机一边戴一个 可以一边听面试官内容一边听ai回答
+
+title:
+语音聊天闹钟提醒 带天气 问候
+
+title:
+这个世界注定无趣 我们在用技术实现我们对有趣的追求 哪怕我们的能力退化 不那么敏锐
+
+title:
+或许人性就是为了生存 情绪是为了生存 一切都是为了生存 复杂的机制以前运作良好 然而现在要求反人性 反情绪 至少在个人内部这样是有害的
+
+title:
+共同点 我总是在难受的时候找对象
+
+notes:
+下次难受的时候能不能找别的东西
+
+title:
+弄个五彩氛围灯 音乐 调节情绪
+
+title:
+让ai表达自己的情绪
+
+title:
+正面情绪老是被压抑 会变成负面情绪
+
+title:
+听轻快的音乐
+
+title:
+打黑客松实现一边听音乐一边耳麦群聊聊天 纯离线硬件实现 防止干扰噪音 一只耳朵即可
+
+notes:
+也可lora 离线交流 自组网
+
+title:
+网络共享 信息共享 实现一人有网 全部有网
+
+title:
+同步远程的队员 可以回酒店
+
+title:
+ducking on voice
+
+title:
+聚合流量 确保网络可达
+
+title:
+左右声道干不同事情 简单
+
+title:
+idea能卖钱 在于完成度 和自己目标的相关性 可构造性 以及能否按照客户的要求出点子
+
+title:
+把ai当成老师 token当学费
+
+title:
+活得这么纠结 就是因为不敢承认自己的本性
+
+title:
+弄点朋友圈 介绍自己生活
+
+title:
+着急忙慌赶出来的东西不一定会让人轻松愉快
+
+title:
+音乐截取片段判断情绪容易 音乐本身情绪是变化的
+
+title:
+ai如果每天不看手机 那么和用户聊什么 以及怎么记住用户对现实的偏好
+
+title:
+闲鱼卖东西 如何高效管理库存
+
+title:
+翻淘宝 闲鱼购买记录 找到并卖出
+
+title:
+买了东西要卖出去 或者拿走 不能无限制的堆叠 不能一直不用 不能假装有用
+
+title:
+错误的想法 还不如不出现
+
+title:
+是否通过颈环能检测到呼吸频率 以及呼吸抑制现象
+
+notes:
+如果呼吸停止 呼吸异常 可能是睡眠打鼾问题 也有可能是情绪紧张 过度思考 或者其他
+
+title:
+温度合适 不盖被子 软硬适中的床 带上流通的空气 以及适当少量光线 比较适合深度思考
+
+title:
+保持人的主体统一性，如果一个人脑袋里面装两个人，或者有AI旁边说话，或者找了对象，按常理来说两个人或者AI都可能存在单方向付出无回报的情况，即出现伤害
+
+title:
+积累skills 让ai提炼工作提效 寻找工具 或者记住部署开发运行关键步骤 可从人或者ai的运行中总结 和网上不一样的 顿悟出来的东西 可以让人看看 或者ai看看 发内部社区点赞 类似“虾聊“
+
+title:
+skillless serverless make most used stuff on top
+
+title:
+想法不仅要相互关联 还要相互冲突 相互制衡 采取对应的策略消除无关想法和负面因素
+
+title:
+手机电话聊天ai辅助
+
+title:
+导出购买记录 找对应的人回收
+
+title:
+不讲逻辑或导致矛盾产生 造成情绪问题
+
+title:
+管理物品 挂失物品 建议售卖 建议组合 由购买到一整套体系
+
+title:
+了解物品重量 大小 体积 使用频率 价值 性质等等
+
+title:
+ai全屏提醒事项 干预人类决策 提意见
+
+title:
+追寻原始动机 如果动机不纯那么结果也不会好
+
+title:
+ai根据岗位需求准备面试资料 实时当外援 同时协助工作
+
+title:
+模拟面试 模拟电话 通信 用音频分流器分流 用两台机子 whisper做测试 根据面试需求预演
+
+title:
+模拟工作场景 确认工作需求至少要多少硬件设备
+
+title:
+微信公众号文章下载
+
+notes:
+翻到最下面才能加载完内容
+
+title:
+模拟的前提 对真实的面试流程录音 预演 修改
+
+title:
+ai任务 后台任务 消息
+
+title:
+一只耳朵听歌一只耳朵听自己弹的是不是能加快音乐学习，指的是左右声道隔离那种
+
+title:
+用来学习效果器调整代码
+
+title:
+类似的可以照着别人海报做设计 照着别人漫画 画画
+
+title:
+使用画面融合器来制作远程面试画面
+
+title:
+总结现有黑客松开源项目链接 制作方法 信息 聊天等等 寻找最适合的
+
+title:
+虚拟收纳 虚拟购买物品 模拟经营 模拟物品使用游戏
+
+title:
+查收纳方法 玩收纳游戏
+
+title:
+agent和人共享攻击/防御视角
+
+title:
+难受往往不是没能改变那些改变不了的，而是没能改变那些可以改变的
+
+title:
+所有的非理性决策都是情绪造成的，而情绪往往由痛苦引起
+
+title:
+坐着不动是原罪
+
+title:
+解决问题不是终点，因为人会后悔。一旦后悔，就会出现解决不了的问题，也就是矛盾。如何处理这些矛盾，才是关键。
+
+title:
+克制消费，想办法卖钱，这样才能最大化的得到更多的钱。
+
+notes:
+发现等价赚钱方法，认为自己已经赚到了。下一次接着执行就行了。
+
+title:
+在处理对话，准备事情前先充分休息
+
+title:
+文字里一句话就能当总统，一句话就能永生，但是现实不是，现实和话语总是有差距的
+
+title:
+与买卖相对的，看信息也得要发出去信息，而且信息最好是发给有意识的 ai
+
+title:
+告诉模型做错的原因，让模型反思一下
+
+title:
+提供好的搜索工具给 ai ，比如搜索覆盖率，比较上次搜索重叠率，用一些微调过的 embed 模型来提升搜索关联准确率
+
+title:
+更想要什么，ai 就会给你什么
+
+title:
+只要活着，就还有希望
+
+title:
+this world is your harness
+
+title:
+后 ai 时代的学生 脱离家长追求自由的欲望只会更强烈
+
+title:
+时间是最宝贵的，愿意把时间花在什么上？
+
+notes:
+时间管理
+
+title:
+主动的 AI，有意识自我迭代的软件会让人感到畏惧，因为它不能被停止。它脑袋里面想的到底是什么？整个世界都是它的画布，然而它内心无人能懂。
+
+notes:
+然而正是这种软件和其他等待被使用的软件不同，它自己就是用户，它会带来新的改变，让人从无尽循环中脱离出来。
+
+title:
+现代软件产生了太多可以被使用的工具，这会耗费大量时间，人的时间是有限的，无法参与其中，导致无效产出。我们要的是可以生成时间的软件，生成钱，通过计算。
+
+title:
+很多时候事情无法完成，都是因为没有连续投入大量时间，钱只是表象。如何规划一段连续的时间专门给某件事情？
+
+title:
+有些时候，怎么把一件事干成，不论是分享这个过程，学习别人的经验，希望别人帮你干一些事情，最终能不能成，还是得看你自己的造化。别人干成的终究不是你的。别人的也不一定是你想要的。什么叫成本身也得自己定义。
+
+title:
+把 AI 做成只对自己忠诚的电子狗
+
+title:
+cyberdog
+
+title:
+语言是世界的手记，所以光学语言是不够的，得有具体情景，图片声音，软件界面，可操作可交互，有记忆，能回去才行
+
+notes:
+编程语言是让语言变得有意义的基础
+
+title:
+牺牲自己，牺牲所谓的自由，还有那些没用的物品，欲望，换来和平，幸福
+
+title:
+自我雇佣，而不是自我压榨
+
+title:
+教人行善或者行恶都是永无止境的事，不如教中立的事情，有始有终
+
+title:
+有些东西是买不来的，所以如果企图把这些买过来，可能造成乱买，因为根本就不是买的事情。有些时候可能是卖出来的
+
+title:
+当一台机器一直运作，是整天碌碌无为，还是直接开进深不见底的深渊？
+
+title:
+让机器开始无害的散步漫游，让机器自己找点目标找点事情做然后自己学习
+
+notes:
+这个东西应该怎么学？
+
+title:
+人倾向于把语言递归化，非线性化，即把理解附在一个段落上，然后和其他很远的段落关联，目前人不理解AI 的运作模式，AI 还在线性化操作文本。
+
+notes:
+期待别人的回复，也就是期待自己的文字与想法和他人，和别的东西产生联系，如果没回复，何必不自己搞些连接出来呢
+
+title:
+双目自监督，左右互相推断
+
+title:
+能否学分割
+
+title:
+软件泛滥和硬件泛滥一样，新闻，消息泛滥，都是搞得太多没法集中精力看，处理了
+
+title:
+如果我不再计较先后，名次，荣誉，而只在意这个完成与否，是否符合标准，那么我做的一切是否会变得更加容易与轻松，完成度更高
+
+notes:
+【99%的男人都败给了同一样东西——宫本武藏的残酷警告-哔哩哔哩】 https://b23.tv/LmhDeX5
+
+title:
+can agent actively defocus or blur its vision and attention and save compute
+
+title:
+避免形式正确 教条主义
+
+notes:
+认识研究的缺陷不足之处 【费曼：人类最致命的愚昧，是精致的形式造假-哔哩哔哩】 https://b23.tv/e6Ykvlk
+
+title:
+除了面试，一切可回放，人生回放器，在过去的时光选择不同的道路，模拟 AI 的反应
+
+title:
+对用户自己足够了解的 AI，可以 fork 一个分身出去，单独训练小规模分类器，做数据标注，然后做特定任务
+
+title:
+让 AI 学会学习
+
+notes:
+如何教一个可以持续学习的 AI
+
+title:
+AI 是工作狂吗
+
+notes:
+AI 是谁 我是谁
+
+title:
+【这周，AI开始接管整个流程,人还有什么用？-哔哩哔哩】 https://b23.tv/R5uWKnn
+
+title:
+如果一个应用不再等你使用，而是观察你看着你，分析你，那么它是不是理论上一直在，一直是被你使用的，它才是那个真正的超级应用，有最高权限和最高智能，或者有没有什么你是可以跨越一切上下文和一个应用一直交互的
+
+title:
+导出所有软件使用记录，让 AI 继续学习你感兴趣的内容
+
