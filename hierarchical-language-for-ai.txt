@@ -5,3 +5,5 @@ make each chunk related, tangled, active instead of static, rigid.
 this way human might comprehend ai better and control it better, and prevent prompt injection, and so on.
 
 need to write side notes everywhere we can find places to do so.
+
+can ai read novel & fictions and act like "superhero", or read news from internet, think it can do the same? does ai have dream or intentions by its own?
