@@ -1,0 +1,4 @@
+ai likes to write a tons of content. we need to make it into relational, graph like language, instead of linear.
+
+make each chunk related, tangled, active instead of static, rigid.
+
