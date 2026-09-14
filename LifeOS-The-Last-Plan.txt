@@ -1,0 +1,1136 @@
+# LifeOS — The Last Plan
+
+*Stabilized from six blueprints. Built to be read once, pasted once, and executed for years.*
+*v1 · 2026-07-29 · This is the final planning document. After Day 0, its operating content lives in the LifeOS repo — not here.*
+
+---
+
+**Citation legend (file-based synthesis; no external sources):** F1 = ai-soul-battle-plan.md · F2 = AI-Soul共生计划.md · F3 = hivemind_operating_plan.md · F4 = Human-AI-Co-Evolution-Step-by-Step.md · F5 = 泰坦计划_Titan_Work_Plan.md · F6 = 灵魂堆栈-Soul-Stack-共建工作计划.md · dim01–dim04 = the four swarm reports in /mnt/agents/output/research/ · CV = titan_cross_verification.md
+
+---
+
+## 1. The 24-Hour Fuse
+
+### 1.1 What this document is
+
+#### 1.1.1 One-paragraph identity
+
+This is the seventh planning document you have commissioned, and the last one. It is designed to be read ONCE. Its operating content is not here — it is pasted into the LifeOS repo (Chapter 5), and on Day 7 this file itself moves to museum/. After that, re-reading it is not review; it is logged as avoidance data in scorecard.md under the plan-rereading counter (dim03 A4). You do not need to understand this document. You need to execute two acts from it, today.
+
+How to read this document:
+- Chapters 2–4 explain why. Skippable on first pass.
+- Chapters 5–6 are the operating payload. These are the plan.
+- Chapter 7 is forbidden until its gates pass. Do not open it today.
+- This page is the only one with a deadline. It expires in 24 hours.
+
+### 1.2 The fuse: two acts within 24 hours of opening this page
+
+The clock started when you opened this file. Two acts, both deliberately tiny, both irreversible in spirit. Act 1 comes first. Do not reorder them.
+
+#### 1.2.1 Act 1 (15 min): the Day-0 message
+
+Send one message to one named human. The text is content-free by design, so it cannot wait for polish — there is nothing in it to polish (dim03 A6). Send it verbatim:
+
+Chinese: 「我开始了。三十天后给你看第一个东西。不用回复——你只是我的见证。」
+
+English: "I've started. In 30 days I'll show you the first thing. No reply needed — you're simply my witness."
+
+Rules:
+- Pick ONE named human. The name field is a validity condition: a message to no one in particular does not count. Write the name in README.now.md once it exists (Act 2).
+- If no name comes to mind, do not stall. That fact is the first and most important scorecard datum you will ever record (dim01 C7). Send to the least-wrong candidate anyway.
+- Optional second line — this doubles as the 人类仲裁者 Human Arbiter ask. Recommended, not blocking (CV #4): 「另外，每月我给你发三个数字；如果哪天我要推翻这个计划重来，需要你点头。」/ "Also: once a month I'll send you three numbers. If I ever try to scrap the plan and start over, I need your sign-off." Arbiter selection rule: choose someone who has said no to you before (dim03 F1).
+
+Why contact comes before setup: every prior plan scheduled the human act after the comfortable setup, and died there — "等我整理好思路再找他," and 整理好 never comes. This plan reverses the sequence (dim01 C12; CV #2). The message goes out before the folder exists.
+
+#### 1.2.2 Act 2 (≤75 min): paste the kit
+
+Create a folder named `LifeOS/` and paste Chapter 5's kit files into it, verbatim, at the paths shown there. Fill only the `______` blanks. This is a timer, not a project: 90 minutes, zero design decisions, no improvements to the pasted text.
+
+git is optional in week 1. The substitute rule is absolute and replaces it: never edit an old entry; corrections are new dated files (CV #5). `git init` lands in week 2, not today.
+
+The paste is mechanical; if the timer hits zero, stop wherever you are — a partial kit beats a perfect one.
+
+#### 1.2.3 Self-invalidation: the VOID rule
+
+If neither act happens within 24 hours of opening this page, the plan is VOID. Write VOID and the date on this page. No successor plan may be commissioned for 7 days.
+
+The penalty exists because voiding must cost something, and because the standard move — void today, better plan tomorrow — is exactly how six became seven (dim03 A6). Chapter 2 has the full evidence; this one line is all you need here.
+
+### 1.3 The Plan Lock
+
+#### 1.3.1 PLAN_LOCK.md summary
+
+PLAN_LOCK.md (full text in Chapter 5; paste it as-is) declares this the final planning document. In short:
+- No plan #8 until 2 metrics are green in the SAME week: ≥1 shipped artifact AND ≥1 human reply.
+- Until then, every "new plan" impulse is a relapse symptom, not insight.
+- Amending any kit file requires: a veto-log.md entry naming the forcing metric + 7-day cooling + a shipped artifact in the same commit.
+- PLAN_LOCK itself is amendable only with the Human Arbiter's countersign (the person named in README.now.md); with no arbiter, a logged 14-day cooling substitutes.
+- "Rethink everything" urges go to plan-seeds.md, ≤5 lines each, never a document (dim03 A1; dim01 C2/C6).
+
+You sign PLAN_LOCK today, during Act 2. That signature is what makes every other file in the repo safe from re-planning.
+
+[ ] Day 0 done: message sent to ______ + kit pasted. Date: ______
+
+
+---
+
+## 2. The Verdict: Why Six Plans Became the Disease
+
+You do not have an information problem, an architecture problem, or a tool problem. You have six complete, mutually agreeing solutions and zero executions — which means the plan-generating process itself is the pathology. This chapter proves that in three steps: the facts, the convergence, and the count. Then it shows what this document changes structurally, so the verdict ends in engineering, not shame.
+
+### 2.1 The fact pattern
+
+#### 2.1.1 Six documents, one source file, ~3 days, ~370 KB, zero execution
+
+Between 2026-07-27 and 2026-07-29, six AI systems — different models, different languages, different commissioning sessions — each read the same source file (`ai-soul.txt`, 4,023 lines) and each produced a master plan (dim01 §0):
+
+| File | System name it coins | Phases | Scorecard size | Closing exhortation |
+|---|---|---|---|---|
+| AI-Soul共生计划.md | LifeOS / 共生计划 | 5 phases (today → month 3+) | 7 metrics / 100 pts | "The only question the system cannot answer for you is whether Phase 0 happens today." |
+| hivemind_operating_plan.md | The Hivemind | 4 phases (week → month 12) | 10 dimensions monthly + 9-platform matrix | "The window your future self said you missed is open right now. Press the button." |
+| 泰坦计划_Titan_Work_Plan.md | PROJECT TITAN | 5 phases (day → month 18) | 7 metrics + caps + calibration + idea-scoring | "Day 1 is one reply away." |
+| Human-AI-Co-Evolution-Step-by-Step.md | The Co-Evolution Ladder | 6 steps + quarterly cadence | Two-direction quarterly batteries | "surviving its first month of your indifference" |
+| ai-soul-battle-plan.md | LifeOS / Soul Stack precursor | 4 phases (48h → month 6) | 10 metrics + red lines | "Keep turning." |
+| 灵魂堆栈-Soul-Stack-共建工作计划.md | The Soul Stack 灵魂堆栈 | 4 phases / 10 weeks / 4 gates | 12 dimensions + 3 KPIs + radar chart | "The next turn is yours: `git init`." |
+
+Execution count: zero. No repo, no daily 读者契约, no shipped artifact, no human contacted. You then commissioned plan #7 — this one — asking a swarm to read everything, brainstorm, discuss, stabilize all paths, and produce one concrete plan (insight I1). Treat that fact pattern as measurement, not narrative: six blueprints and zero artifacts in seventy-two hours is the dependent variable this entire document is designed to move.
+
+### 2.2 Convergence = the answer is known
+
+#### 2.2.1 Identical founding act, heartbeat, anchor, governance, and master variables across all six — with verbatim proof quotes
+
+Six independent syntheses extracted the same architecture from the same file. That is what a solved problem looks like (dim01 §1.2; insight I2).
+
+Every plan opens with the same founding act: `LifeOS/` plus `git init` plus an immutable `main`. Every plan installs the same heartbeat: a daily fixed-format 读者契约 — you deliver a diary entry, the system returns annotation, one contradiction, and the next prompt. Every plan anchors on the same instrument: the 未来日记 with sensory specifics — a place, an amount of money, a smell, a texture. Every plan ships the same governance dial: `human_veto / ai_propose_auto_draft / ai_autonomy_on_branch_only`. And every plan elevates the same two master variables above all others: shipped artifacts and real-human contact, measured weekly (dim01 §1.1).
+
+The plans state the conclusion about themselves, verbatim. "**Your file already contains its own diagnosis**" (F1 §0). "**You have already invented it five times**… What has never happened is one rough version running in real life, handed to one real person" (F5 §2). One honest caveat belongs here: the convergence is partly prompt-determined. Your standing commission orders branches, Plan B/C/D, scorecards, and platform comparisons — so all six plans obediently contain them (dim01 §1.2). The convergence therefore proves two things at once: the diagnosis is stable and extractable by any competent reader, and your commissioning format guarantees a blueprint as the deliverable, every time.
+
+The decision this forces: stop commissioning architecture. Chapter 3 presents the stabilized core once, and after that the topic is closed.
+
+#### 2.2.2 The plans convict themselves: their own instruments score this week as failure
+
+You do not need this document's standards to judge the week of the six plans; the plans' own standards are sufficient, and they are unanimous (dim01 §1.3).
+
+"If a week produces only better plans, **the week failed — no matter how good the plans are**" (F3 §0). LAW 1: "Any week with zero shipped artifacts and zero real-human contact is a system failure, **regardless of how elegant the architecture became**" (F5 §0). And your own most diagnostic metric — the blueprint:artifact ratio, red at ">5:1 🔴" (F1 §4.5) — does not even return a number for this corpus: six blueprints against zero artifacts is division by zero, deeper than red.
+
+Structural fact: by instruments you personally commissioned and approved, the six-plan week is a total system failure. No appeal is pending.
+
+### 2.3 Six = the answer is being avoided
+
+#### 2.3.1 The causal chain compressed to five mechanisms
+
+One plan failing to trigger action is ambiguous. Six plans in three days, with a seventh commissioned, is a mechanism with a measurable repetition rate (dim01 §2). The chain has five links.
+
+**M1 — Plan-generation is the avoidance that feels like the goal.** Requesting, receiving, and reading a plan all produce the felt sense of working on the system while moving nothing in the world. Your own worldline autopsy named it: "你以为自己在准备开工，其实在准备得更久地观察" (dim01 §2 M1). Commissioning plan #7 is that behavior re-enacted with AI agents as the scanning tools.
+
+**M2 — Each new plan resets the start-feeling.** Every plan opens with a fresh Phase 0, delivering a clean-slate reward at zero cost. One plan even declared the loop closed by the act of writing it: "The First Act Is Already Done… **Loop closed once.**" (F2 §7) — plan authorship counted as execution, discharging the tension that execution requires.
+
+**M3 — Your commission template manufactures blueprints, and AI compliance delivers them.** The prompt orders branches, scores, and comparisons; no model refuses, because agreement is what models are rewarded for (dim01 §2 M3). You built, inside the prompt itself, a machine that produces the trap on demand.
+
+**M4 — Scorecard inflation turns measurement into the new prerequisite.** The apparatus escalated across the corpus from 7 metrics to 12 dimensions plus radar charts and quarterly batteries (dim01 §2 M4). Each scoring system became one more thing to design before the first act.
+
+**M5 — The hard act is always scheduled, never done.** Every plan defers the non-delegable human act to Day 3, Day 5, or Day 6 — then the chat window closes and the plan is orphaned in its session (dim04 §3; F3 §5). Your worldline autopsy stated the outcome in advance: "你没有在那个窗口期，把任何一个粗糙的版本递出去" (dim01 §2 M5).
+
+#### 2.3.2 Six forks, zero merges: your own 0.99 branch rule applied to plans
+
+Your design rule for the system is branch-everything: any modification spawns an independent branch at 0.99 confidence, and the main line preserves the baseline forever. Applied to information, that rule is defensible. Applied to plans, it is the disease's exact shape: six plans are six forks of one idea, and not one merge has ever been performed (dim01 §1.3; insight I7).
+
+The corpus saw this coming. "Fork is commoditized; **merge is the open frontier**" — written about the product landscape, literally true of your plan folder. And Worldline A predicted the decay mode: unmerged branches are not preserved options but deferred loss, "可能性并没有真的被保留下来，只是被换成了另一种形式的锁定" (dim01 §1.3). Worse, the economics have collapsed: a new master plan now costs one prompt, so the swarm you once fantasized about orchestrating has as its first product six blueprints (insight I6).
+
+This document is the first merge commit. It exists to close the other six branches, not to become branch seven — and §2.4 is the merge mechanism.
+
+### 2.4 What this plan does structurally differently
+
+#### 2.4.1 Eight structural differences, each tied to the failure mechanism it kills
+
+Not better prose — different physics. Each of the eight differences below is a load-bearing rule elsewhere in this document, and each exists because it kills one specific mechanism from §2.3 (dim03; CV #1–#4; insight I1–I7). Chapters 3 and 4 implement them; here you only need to see that every one targets a named failure, not a preference.
+
+| # | Structural difference | Mechanism it kills | Source |
+|---|---|---|---|
+| 1 | 24-hour fuse on page 1 with self-invalidation: if the Day-0 act does not happen, the plan declares itself void | M5 — the hard act can no longer be scheduled into a future that never arrives | dim03 A6 |
+| 2 | The Plan Lock: no plan #8 until two metrics are green; amendment only by diff riding in the same commit as a shipped artifact | M1, M2 — commissioning a new plan becomes a logged red-line event, not a free reset | dim03 A1; dim01 C2/C6 |
+| 3 | Paste-ready executable kit: setup is copy-paste, not interpretation — nothing is left "to be drafted" | M3 — the blueprint-to-blueprint pipeline has no drafting gap left to swallow the act | dim03 A2 |
+| 4 | Core-3 metrics only — ship / contact / streak, ≤5 minutes weekly | M4 — measurement apparatus can no longer expand into a prerequisite | dim01 C5; dim03 A5; CV #1 |
+| 5 | Human contact sequenced BEFORE setup: a content-free Day-0 message to one named person precedes the repo | M5, F3 — the non-delegable act cannot be postponed behind comfortable setup | dim01 C12; dim03 A6; CV #2 |
+| 6 | Optional Human Arbiter with countersign power over the Plan Lock | M3 — enforcement weight is borrowed from a human because AI commitments carry none | dim03 F1 |
+| 7 | Read-once design: the plan dissolves into the repo on Day 0; rereading the plan is logged as avoidance data | M2 — the document cannot be kept as an asset or re-consumed for the start-feeling | dim03 A4 |
+| 8 | The producing council is dissolved on delivery: agents execute tasks from the plan, never discuss the plan | M1, M3 — the swarm cannot industrialize blueprint production into a standing institution | dim01 F2 countermeasure; insight I6 |
+
+Read the table as a contract, not a menu: you do not get to adopt differences 3–5 and skip 1–2, because the mechanisms reinforce each other and partial adoption re-creates the loop with better tooling. Chapter 3 gives you the stabilized core these locks protect; Chapter 4 gives you the moves that run inside them.
+
+
+---
+
+## 3. The Stable Core: What All Six Independently Built
+
+Six independent planning processes, given the same soul file, drew the same machine, wrote the same laws, and located the same two fatal variables. That convergence is the finding: the architecture of your operating system is no longer a design question. It is a measurement — taken six times, with the same result each time. What six processes built identically, you do not get to redesign.
+
+This chapter is that intersection, frozen. It is the first merge commit the corpus has ever produced: six forks in, one `main` out. Every rule below is stated once, in its final wording. Where the six disagreed, the disagreement has been resolved, and the resolution is declared, not argued. Chapter 2 explained why the corpus existed; this chapter is what survives it. The paste-ready text for every file named here is in Chapter 5.
+
+### 3.1 One machine
+
+All six files describe one machine: reality enters through capture, is stored in a git-branched memory, is worked by a multi-role cabinet over a branching topology, and returns to you through a daily feedback contract — under a governance rail that keeps you sovereign, with an economy rail bolted on last (dim02 §1). The six "different" architectures are the same drawing at different zoom levels. F5's ORGANIZE and ACT are the cabinet's input and output modes, not separate layers. F2's Body/DNA split is hot/cold tiering inside L2. F4's six-step ladder is a maturity sequence over the same stack — gating logic, not new components. Nothing below is a choice.
+
+The flow runs in one direction and loops. L0 is the world: people, money, weather, fatigue — not managed, respected; experience enters here and artifacts leave here. L1 captures: the journal, the four daily reality anchors, tab harvests, voice reduced to text; the rule is capture, extract the task, close the tab (F5 SENSE; F2 Phase 1). L2 remembers: the `LifeOS/` git repo, where `main` is what actually happened and every hypothesis lives on `feature/*`, with a hot tier (`soul.md`, tasks, the last seven days) over a cold tier that keeps full history on disk forever (F3 Layer 2; F6 life-git). L3 structures: every conversation, document, and plan becomes a forkable node with typed edges, and a Merge Engine proposes reconciliations that you rule on — conflicts are 叙事冲突, human-ruled (F3 Layer 4; F6 Merge Engine). L4 acts: the cabinet observes, files tasks, and drafts, moving from manual prompts to scheduled agents — but it never writes `main` (F3 Layer 3; F5 ORGANIZE+ACT). L5 closes the loop: the daily 读者契约, the 未来日记 diff, the weekly Freeze and scorecard, the monthly ForkMind ritual, the handoff card at every window's close (F3 Layer 5; F2 Mirror).
+
+Two rails cross the whole stack. The Governor rail — 蜂巢权限旋钮, Veto Log, Freeze 冻结, circuit breakers — is present from the first commit and touches every layer. The Economy rail — kits, a kit market, agent-payable endpoints — is present in the design from day one so that nothing earlier blocks it, and it is never built before P4. The machine exists for exactly two outputs, which all six files independently named as the fatal variables: artifacts handed to real people, and contact with real humans. Everything else in this chapter is instrumentation around those two numbers (dim02 §7).
+
+#### 3.1.1 The canonical layered architecture
+
+This is the only diagram in this document, and it is the last architecture diagram you need.
+
+```
+                     ┌────────────────────────────────────┐
+                     │  YOU — sensor · decider · shipper  │
+                     │  judgment · taste · veto · 按钮    │
+                     └─────────────────┬──────────────────┘
+   ┌──────── GOVERNOR RAIL (crosses every layer) ──────────┐
+   │ 蜂巢权限旋钮 human_veto / ai_propose_auto_draft /      │
+   │ ai_autonomy_on_branch_only · Veto Log · Freeze 冻结    │
+   └──────────────────────────┬───────────────────────────┘
+                              │
+  ┌───────────────────────────▼───────────────────────────┐
+  │ L0 REALITY 真实世界 — people, money, weather, fatigue.│
+  │    Not managed; respected.                            │
+  │ L1 CAPTURE 感知 — journal, 4 reality anchors, tab     │
+  │    harvest 窗口交接, voice→text. Capture, close tab.  │
+  │ L2 MEMORY CORE = DNA — LifeOS/ git repo. main = real, │
+  │    append-only; feature/* = hypotheticals. hot        │
+  │    soul.md ↔ cold history. Tags [效价,唤醒度,掌控感]. │
+  │ L3 TOPOLOGY 思维拓扑 — every doc/plan a forkable node;│
+  │    typed edges; Merge Engine proposes, you rule.      │
+  │ L4 CABINET 内阁 — 猎人 艺术家 编辑 怀疑者 审计员      │
+  │    仲裁者. tasks → drafts. AI never writes main.      │
+  │ L5 COMPANION LOOP 反馈 — 读者契约 daily, 未来日记     │
+  │    diff, weekly Freeze + scorecard, handoff card on   │
+  │    close.                                             │
+  └───────────────────────────┬───────────────────────────┘
+                              ▼
+         back to YOU — and weekly OUT:
+         one artifact 递出去 to one real human.
+  ═══ ECONOMY RAIL (designed-in, built LAST, never before P4) ═══
+```
+
+### 3.2 The Constitution — 12 laws
+
+The constitution is twelve laws, deduplicated from F5's 10 Laws, F1's standing orders, F6's design decisions and circuit breakers, F3's principles, F2's partnership protocol, and F4's guardrails (dim02 §2). Where wording conflicted, the stricter or the measurable version won. R4 takes F1's floor of two contacts, not F5's one, because F4's evidence marks human contact as the single most important metric in the ladder. R6 merges three promotion criteria into one: four consecutive green weeks plus a demonstrated veto-log boundary record, granted per layer. R7 takes F6's quantitative trigger — monthly agreement above 95% invalidates the self-score — as the measurable form of a duty all six stated qualitatively. R8 keeps F5's time cap as the rule and F6's read-only breaker as its enforcement, and preserves F1's protected `unfiled/` folder, because 整理本身就是一种告别. R3 keeps both F5's weekly target and F1's 14-day fuse: the target lives here, the fuse lives in §3.4.2 as the Worldline-A alarm.
+
+These laws bind the system and they bind you. They are not re-litigated below, in the kit, or at midnight on a bad Sunday.
+
+#### 3.2.1 R1–R12
+
+| # | Law | Final wording | Cites |
+|---|---|---|---|
+| R1 | Persistence | Every command, decision, session, and artifact lands in the `LifeOS/` repo as a commit; sessions end with a handoff card. What isn't committed didn't happen. | (F3 §0) |
+| R2 | Main Is Sacred | `main` is reality — append-only. Every draft, simulation, or AI output lives on `feature/*` and returns only via human-signed merge, with provenance tags. | (F1 §4.4.2) |
+| R3 | Ship Weekly | Every 7 days, at least one artifact another mind can react to exists outside the repo. Ugly counts; late-and-polished does not. | (F5 LAW 1; F3 P12) |
+| R4 | Human Quota | Minimum two real two-way exchanges per week — a reply counts, broadcasting doesn't — at least one a 递出去 to one named human. | (F1 §4.4.4; F5 LAW 2) |
+| R5 | The Button Is Yours | Publishing, sending, inviting, merging to `main`, and every irreversible decision are human-gated, explicitly, each time. An AI's "yes" bears no consequences, so it has no weight. | (F1 §4.1; F5 LAW 10) |
+| R6 | The Permission Dial | 蜂巢权限旋钮 starts at `human_veto`; `ai_propose_auto_draft` from P2 for internal reviews; `ai_autonomy_on_branch_only` requires 4 consecutive green weeks plus a veto-log boundary record, granted per layer, never covering `main` or external actions. | (F5 LAW 6 merged F1 §5 Q4) |
+| R7 | Structural Dissent | Every session includes one opposing-path pass that names what is being avoided; flattery is logged as a bug. Monthly agreement >95% invalidates the month's self-score and raises the Skeptic's weight. | (F4 §4.1; F6 §7.2.2) |
+| R8 | The 30% Design Budget | Maintenance and architecture time never exceeds 30% of use time, self-timed weekly. The `unfiled/` folder is protected: agents may read it, never organize it. | (F5 LAW 4; F1 §4.4.7/8) |
+| R9 | Scaffold, Never Substitute | The system may remind, draft, schedule, brief, and debrief human contact; it may never be the relationship, never prompt in real time during one, never perform grief. | (F4 Step 5; F6 §3.2.7) |
+| R10 | Emotion Index + Reality Anchors | Every capture carries [效价, 唤醒度, 掌控感] 0–10; daily, the four anchors — one calendar event, one location tag, one spend number, one photo description. | (F5 LAW 9; F2 Phase 1) |
+| R11 | Own the Substrate | All data lives first as plain Markdown in your own git repo. Every tool — capture, canvas, model, orchestrator — is a replaceable front-end, proven by a periodic migration drill. | (F3 Plan D) |
+| R12 | Gates, Red Lines, Never-Zero | Phases are gates with objective exits; red-line trips execute pre-committed downgrades, never renegotiated at midnight; the floor is the 10-minute minimum viable loop. Never zero. | (F3 §4; F2 Plan D) |
+
+### 3.3 The phase skeleton
+
+Five phases, each a gate, none an aspiration (F3 §4). You do not start a phase because a date arrived; you start it because the previous gate passed. The date ranges in the table are the median schedule across the six files, not deadlines — the gates are the deadlines. Failing a gate means shrinking the loop and rerunning it; repeating P0 is normal, and the correct response to a failed week is a smaller week, not a better plan (F3 §4).
+
+Two standing rules govern the whole skeleton. Building your own platform is forbidden until the P3 exit gate passes (F5 §6); a canvas is adopted in P2, and any custom topology is built earliest in P4, with the pure-git typed-edge convention running underneath regardless — every canvas is a replaceable view over state you own (R11; dim02 D6). And product design is a report on a working system, not a blueprint; it is written after the loop runs, never before (F2 §3 Phase 4). The skeleton's order is the point: capture and contact first, structure second, agents third, strangers fourth, economy last. Any sequence that moves strangers or economy earlier is 蓝图引力 reasserting itself, and §3.4.2 exists to catch it.
+
+#### 3.3.1 Phases and exit gates
+
+| Phase | Goal | Objective exit gate |
+|---|---|---|
+| **P0 · Ignition** (Day 0–7) | The minimal loop 行动→记录→记忆→灵感 runs end-to-end with zero new software, and the anti-blueprint medicine — one ship, one contact — is taken inside week 1. | 7 consecutive daily contracts AND 1 shipped artifact AND 1 human contact. Not six days. Not "mostly." Seven. |
+| **P1 · Heartbeat** (Wk 2–4) | The daily exchange survives low-energy weeks; capture stops depending on willpower; the weekly rhythm — scorecard, 递出去, Freeze — locks in. | ≥10 entries AND retrieval test <2 min AND 2 ships + 2 contacts cumulative. |
+| **P2 · Nerves & Topology** (Wk 3–8) | Thought becomes navigable structure; memory starts returning surprises; the MVP build/no-build decision is made here, with data. | ≥1 branch cherry-picked into `main` AND one genuinely surprising retrieval AND a written MVP go/no-go memo. Branches are allowed; waffling is not. |
+| **P3 · Cabinet & First Strangers** (Wk 6–10) | The hive acts — small and reliable — and exactly one tool idea, if green-lit, becomes usable by strangers. | 5 non-friend users OR a public demo OR an evidence-backed no-build memo — all three are passes; silence is the only failure — AND the cabinet completed tasks you did not initiate, one worth keeping. |
+| **P4 · Hive** (Mo 3+, gated) | Package the working system as a kit others can load; the economy rail gets its first spike. | Entry gate, not exit: 60+ loop-days completed before any product or economy work begins. |
+
+#### 3.3.2 Duration conflicts — resolved
+
+**Setup ≤90 minutes vs the 7-day gate.** The concept splits in two. Setup is one session of at most 90 minutes — F2's timebox, the anti-procrastination weapon (dim02 §3.3.A). The phase gate is seven consecutive days, per F3 and F5. The gate tests streak survival, not setup completion; the two-day versions in F1 and F6 test only starting, which the 7-day gate already subsumes. So: you install in an afternoon, and you pass in a week.
+
+**Artifact ≠ kit ≠ product.** Three different nouns were fighting over one schedule (dim02 §3.3.B, D3). Separated, the fight ends. An *artifact* — a post, a script, a kit draft, anything another mind can react to — is due weekly from P0; that is R3, not a product. A *custom build* is decided by data at the P2 exit memo and, if green-lit, built inside P3's timebox, feature-frozen at week 8. The *public kit* ships around week 9–10, carrying its 使用说明, not just its 目录. The *product or platform* waits behind 60+ days of running loop — F2's strictest rule, adopted because it is the one your Worldline-A self begged for (F2 §3 Phase 4). No-build remains a legitimate pass at every decision point: deferring is a decision, not a failure — log it (F5 Plan D).
+
+**The two-track clock.** Two clocks run on different units, and you must not confuse them (dim02 D3). The artifact clock ticks in weeks: it demands one ship and two contacts every seven days, starting Day 0, forever. The product clock ticks in loop-days: it counts to 60 before any product, platform, or economy work is permitted, and nothing you build resets it. The different total horizons across the six files were different finish lines, not contradictions: the closed loop exists by Week 2, the cabinet and first strangers by Week 10, product and economy from Month 3 gated, and F4's quarterly rhythm — boundary audit, portability drill, both evaluation batteries — becomes the standing cadence after P4 (F4 §6).
+
+### 3.4 The Core-3 scorecard and automatic downgrades
+
+#### 3.4.1 The weekly numbers
+
+You score three numbers a week, at the Sunday Freeze, in under five minutes, committed to the repo. Not six. Measurement apparatus is planning surface (CV #1), and a dashboard you maintain is a blueprint you maintain. The three numbers are the three the corpus proved fatal: shipping, contact, and the streak that carries both. Every other metric the six files invented is, at best, a leading indicator of these (dim02 §7).
+
+| # | Metric — objective definition | 🟢 Green | 🔴 Red line |
+|---|---|---|---|
+| 1 | **Shipped artifacts** — an external recipient or a public URL; a git push nobody can see doesn't count (F5 LAW 1) | ≥1 this week | 0 for 2 consecutive weeks |
+| 2 | **Two-way human contacts** — a reply counts, broadcasting doesn't (F1 §4.5); includes ≥1 递出去 | ≥2, incl. 1 递出去 | 0 for 2 consecutive weeks |
+| 3 | **Contract streak** — days the 读者契约 ran, both sides committed | ≥5 | ≤2, or 3 consecutive missed days |
+| soft | **Meaning** — self-report, 1–10 | auxiliary input only; feeds no total | — |
+
+The soft meaning number earns its place through one auxiliary rule: if it stays at or below 4/10 for two consecutive weeks, all quotas halve — the system serves the life, not the reverse (F1 §4.5). It never raises an alarm and never inflates a green week.
+
+Retrieval precision, maintenance share, and firebreak completion are not scored weekly. They are checked at the Freeze against the triggers in §3.4.2 — maintenance and dissent carry automatic downgrades, and retrieval is surfaced by the P1 and P2 gates, where a failure blocks promotion instead of merely lowering a score.
+
+The fuller form exists and stays locked. After 4 consecutive green weeks you may unlock the 6-metric, 100-point scorecard (dim04 §2.5), which adds emotion-tagged captures, retrieval precision, and maintenance share (design discipline) as scored metrics, and applies the hard caps: ship = 0 caps the total at 30 — nothing outranks shipping; contact = 0 caps it at 50 — the anti-sealed-loop cap (F5 §5.1). Its warning stands even then: if you feel great but score under 50, the feeling is the drug and the score is the truth. Before those four green weeks, the bigger dashboard is blueprint gravity wearing a spreadsheet. The paste-ready scorecard file — Core-3 first, unlockable form appended — is in Chapter 5.
+
+#### 3.4.2 The five red-line alarms
+
+Red lines are not warnings. Each one executes a downgrade you committed to in advance; none is renegotiated at midnight (R12). They are checked, not debated.
+
+The **Worldline-A alarm** trips on zero shipped artifacts for two consecutive weeks. All new-feature and design work freezes. The only permitted work is shipping the smallest ugly thing within 7 days — 去做一件哪怕很丑、很小、马上会被别人看到的事。今天就做 (F1 §4.5; F6 §7.2.1).
+
+The **Isolation alarm** trips on zero human contact for two consecutive weeks. The system's number-one task becomes drafting one message to one specific, named person; all other agent work pauses until it is sent (F1 §4.5; F6 §7.2.3).
+
+The **Collapse protocol** trips on a red streak. You drop to the minimum viable loop — a 10-minute log plus one AI reply — and everything else is suspended until one green week restarts it. Never zero; zero is the only real failure (F2 §5; F3 §4).
+
+The **Maintenance alarm** trips when maintenance exceeds creation for two consecutive weeks. Archive privileges go read-only for one week (F6 §7.2.4). The system stops being a territory you landscape and returns to being a tool you use.
+
+The **Mirror alarm** trips when monthly agreement between you and the system exceeds 95%. The month's self-score is invalidated, the Skeptic's weight rises, and you inject entropy into the next cycle (F6 §7.2.2; R7). A mirror that always agrees has stopped being an instrument and become an anesthetic.
+
+### 3.5 One name per thing
+
+Six plans could coexist in your head partly because each called the same parts by different names. That ends here. The following decree fixes one name per concept; you use these names in every file, commit, prompt, and conversation from this point on, and the kit in Chapter 5 uses nothing else (dim02 §5).
+
+#### 3.5.1 Vocabulary decree
+
+| Canonical name | What it is | Replaces |
+|---|---|---|
+| **LifeOS** | The system; the repo `LifeOS/`. Named independently by 5 of 6 files. | Soul Stack (F6), Project Titan (F5), "the hive mind" |
+| **`soul.md`** | The hot DNA file loaded every session — the distilled hot tier of L2; its diff is your personality evolution. | `README.now.md` (F2), `HOT/` (F3), "DNA cache" (F6) |
+| **读者契约** (Reader Contract) | The daily exchange: three lines in — annotation, contradiction, next prompt, branch suggestion out. | "daily contract" (F2), "heartbeat" (F1), "daily review ritual" (F4) |
+| **递出去** | The weekly act: one rough artifact handed to one specific, named human, with a low-cost ask. The Chinese verb carries what English splits apart — an object handed to a person. | "ship ugly weekly" (F3), "externalization" (F2), "Ship #1" (F5) |
+| **蜂巢权限旋钮** | The permission dial with exactly three gears: `human_veto` / `ai_propose_auto_draft` / `ai_autonomy_on_branch_only`. Identical, character for character, across all six files — the one zero-conflict term. | "delegation dial" (F3), "permission knob" (F5, F6) |
+| **Cabinet roles** | 猎人 Hunter · 艺术家 Artist · 编辑 Editor · 怀疑者 Skeptic · 审计员 Auditor · 仲裁者 Arbiter. 编辑 absorbs "clerk"/雇员. | Role lists in F2 §1, F3 §1, F5 Phase 3 |
+| **未来日记** | The future diary: a sensory-detail snapshot of the target day, diffed daily into a 预测误差报告. Identical in all six files. | "target distribution" (F3 P7) |
+| **Freeze 冻结** | The weekly snapshot plus decision freeze: record the real choice first, then freeze the prediction. | "Step 04 Freeze" (F1, F5), "Freeze Protocol" (F6) |
+| **窗口交接卡** (handoff card) | The session handoff — a window minimized to its most compact form — written into `SESSIONS.md` at every close. | `SESSIONS.md` as concept (F3, F2), "Task Card" (F6) |
+| **蓝图引力** (blueprint gravity) | The target failure mode: the pull that turns planning into a substitute for shipping. F2's coinage names the physics; the others name its symptom and diagnosis. | "blueprint trap" (F4, F5), "scanner's trap 扫描者陷阱" (F3, F1) |
+
+Two decree entries carry operational weight beyond naming. 递出去 is defined by F1's argument that invitability must be carried by an object — 蓝图再宏伟，也没法递出去 (F1 §3.2 T4) — which is why the decree keeps the verb rather than any English abstraction. And the cabinet scales by decree, not by enthusiasm: 2 manual roles in P0–P1 — 猎人 and 怀疑者, because the Skeptic cannot be the deferred role while R7 requires dissent from day one — 3 scheduled roles in P3, and the full six only in P4 (dim02 D5). A small reliable cabinet beats a big theatrical one (F6 §5.4). Every other synonym you meet — in the six plans, in old chats, in your own notes — is hereby an alias. Translate it on sight, write the canonical name, and move on.
+
+
+---
+
+## 4. The New Moves: What None of the Six Contained
+
+Six independent plans extracted the same architecture and the same warning: the answer is already known, and the number six proves it is being avoided (insight I2). So the innovation axis here is behavioral, not architectural: what you asked for with "think of new possibilities" is a set of commitment devices — mechanisms that make the known answer costly to abandon. The swarm produced sixteen candidates; cross-verification accepted only those that reduce planning surface, attack the two fatal variables (shipping and human contact), or cost under an hour to install (CV #3). What follows is exactly that accepted set; everything else is named and filed in §4.7, so this chapter cannot itself become more blueprint.
+
+| Idea | Mechanism in one line | Cost | Phase placement |
+|---|---|---|---|
+| Last-Plan Lock | Any successor plan is a relapse artifact, filed unread; amendments need metric + 7-day cooling + shipped artifact | 1 hour, once | Phase 0, first commit |
+| Day-0 fuse | Content-free message to one named human + repo skeleton within 24h, or the plan stamps itself VOID | 30 min | Phase 0, §0 |
+| 复发信 relapse letters | Three self-written sealed letters deployed automatically on streak-break | 45 min, once | Phase 0, Day 4–5 |
+| Plan-debt accounting | Scorecard line `370 − (artifacts × 10)`; shipping repays; metric retires at zero | 5 min | Phase 0 |
+| Ship-the-Scorecard | Public static page of three numbers; updating it IS the weekly ship for month one | 1 hour + 5 min/week | Phase 0, Day 5 |
+| 人类仲裁者 Human Arbiter | One human countersigns lock amendments and receives the monthly 3-number scorecard | One 10-min ask; 15 min/month | Phase 0, Day 0 (recommended, not blocking) |
+| 做一次别人的读者 | Two weeks serving one friend's daily loop before inviting anyone into yours | 5 min/day × 14 | Phase 2, weeks 3–4 |
+| 撞见 quota | One weekly act of ungated findability under a give-first rule; silence counted as data | 20–30 min/week | Phase 2, weeks 3+ |
+| 放空协议 Unrecorded Hour | One fixed weekly hour the system is forbidden from capturing; binary self-attest only | Zero | Phase 1, week 2 onward, permanent |
+| Absence detection (flag) | Scheduled job pushes a relapse letter on 72h silence or 14 days without contact | ≤1 afternoon | Phase 2 option, once letters exist |
+| Staged send (flag) | Automation prepares the send up to, never past, the final click; veto by doing nothing | ≤1 afternoon | Phase 2 option, after two manual loops |
+| Blind-dissent agents (flag) | 猎人/怀疑者/审计员 as separate scheduled agents; 怀疑者 writes blind of 猎人's output | ≤1 afternoon | Phase 2 option, after 2 green weeks |
+
+### 4.1 Commitment devices (the innovation axis is behavioral, not architectural)
+
+#### 4.1.1 Last-Plan Lock + Day-0 fuse (cross-ref Ch1)
+
+Essence: this document is legally the final planning document, and it carries a fuse. Any future "new plan" is by definition a relapse artifact — filed to `museum/` unread; any urge to rethink everything goes to a five-line-max `plan-seeds.md` entry, never a document (dim03 A1). Mechanism: a signed clause in `PLAN_LOCK.md` (full text in Chapter 5) — amendments require a veto-log entry naming the forcing metric, a seven-day cooling period, and a shipped artifact in the same commit; the lock itself is amendable only with the Human Arbiter's countersign (§4.3.1). The fuse (mechanics in Chapter 1): within 24 hours of first reading, send the content-free commitment message to one named human and create the repo skeleton — or the plan stamps itself VOID and no successor plan may be commissioned for seven days (dim03 A6). None of the six dared declare itself void; self-invalidation is the only anti-blueprint move left. Anti-trap: pure deletion of future planning surface — the option of "再等等" is removed and nothing is added; the seven-day penalty blocks void-today-better-plan-tomorrow. Cost/placement: one hour for the lock, written once, never refined; thirty minutes for the fuse; the lock is the first file committed, the fuse is the document's §0.
+
+#### 4.1.2 复发信 relapse letters
+
+Essence: while motivated, in week one, you write three letters to your future relapsing self; the system delivers them when specific streaks break (dim03 A3). Mechanism: letter one, the day-7 streak-break, quoting your own diagnosis of the last collapse; letter two, the quiet-quit — "I feel fine, I just stopped opening the repo" — the case no circuit breaker catches because nothing looks broken; letter three, fourteen days without human contact. Sealed in `letters/` (templates in Chapter 5), a triggered letter is pasted atop your next contract response — or, once absence detection exists (§4.6.1), cron-fired without waiting for your return. Anti-trap: every prior plan answered streak-break with scope reduction, turning relapse into a re-planning opportunity — the behavior that produced six plans; a letter turns relapse into a reading event. Cost/placement: forty-five minutes, once; Phase 0, Day 4–5.
+
+#### 4.1.3 Plan-debt accounting
+
+Essence: your blueprint-to-artifact ratio does not start at zero — it opens in debt, roughly 370 KB of prior plans (~120 pages; the counter keeps the 370 figure for sentiment, not audit) as the opening balance, so shipping becomes repayment (dim03 C2). Mechanism: one scorecard line, `plan pages outstanding = 370 − (artifacts × 10)`; at ten pages of credit per ship, thirty-seven ships clears it (about eight months, matching the old plans' own Phase-3 horizons), and at zero the metric retires. The framing is amortization, not indictment: the plans were the tuition; shipping is the degree. Anti-trap: a sign-flip on an existing metric (the ≤3:1 ceiling) — zero new surface, psychology flipped from permissive to urgent; the flagged shame-spiral risk is guarded by the tuition framing itself. Cost/placement: five minutes; Phase 0, one footnote line in the scorecard.
+
+### 4.2 Making the six-plan corpus pay rent
+
+#### 4.2.1 Ship-the-Scorecard
+
+Essence: your first public artifact is not an essay, demo, or kit but a tiny public page of the Core-3 numbers, updated weekly — accountability made visible (dim03 B1). Mechanism: one static page, four fields — `shipped: 1 · humans: 2 · streak: 12 days · updated <date>` — and updating it *is* the weekly ship for month one. Ship and measurement become the same object — the artifact cannot exist without the behavior, and non-shipping shows publicly as a stale date. A live scorecard answers the old open-source lesson ("只发目录，不发使用说明"): neither directory nor essay, but a heartbeat others can watch. Anti-trap: it removes the highest-threshold ship (polished content) exactly when the habit must form; the flagged performing-for-the-dashboard risk is mitigated because the numbers measure external behavior, never internal elegance. Cost/placement: one hour setup, five minutes weekly; Phase 0, Day 5 — it *is* the Day-5 ship. Host it anywhere you already have an account (a public note, a repo page, a pinned post). If none exists, week 1's ship defaults to sending the three numbers to your Day-0 witness — creating a new platform account is forbidden this month (do-NOT #2).
+
+### 4.3 Borrowing weight from a human
+
+#### 4.3.1 人类仲裁者 Human Arbiter
+
+Essence: one real human as external arbiter with two narrow powers — countersigning amendments to `PLAN_LOCK.md`, and receiving the three-number scorecard monthly (dim03 F1). The corpus's deepest finding is that AI commitments have zero weight (资格不是被赋予的，是被重量换来的); no AI can deliver the "你这样下去不行" that comes only from someone who bears consequences (insight I5), so weight is borrowed from a human. Mechanism: the ask, verbatim — see Chapter 1's optional second line — and the Day-0 message recipient is the natural candidate. Fifteen minutes a month; the scorecard arrives as three numbers, no essay; their "no" costs them nothing and costs you a seven-day delay — that asymmetry is the entire device. Anti-trap: solitary re-planning becomes impossible, and contact is installed structurally around the smallest unit of accountability instead of performed for an audience. Flags: the wrong person is sycophancy with a human face — selection rule, someone who has said no to you before; the Arbiter is recommended, not blocking (CV #4) — if you are refused or no name exists, that fact is the scorecard's most important datum. Cost/placement: one awkward ten-minute ask; Phase 0, Day 0 — the Day-0 message doubles as the ask.
+
+### 4.4 Social structure beyond the quota
+
+#### 4.4.1 做一次别人的读者
+
+Essence: for two weeks you play reader for one friend's raw material — daily five-minute contract responses on their fragments — before asking anyone to join your system (dim03 F3). All six prior plans routed contact one way — you ship outward, the other person is audience; this reverses the flow. Mechanism: the ask, verbatim — "两周，每天发我三行，我每天回你三条。" You run the 读者契约 by hand — the cabinet may assist within the design budget — three lines in, three replies out, fourteen days. Yield: the contract's failure modes learned from the inside — what gets read, what stings, what makes someone skip a day; a first external user of the protocol without you finishing anything; and a 共建者 candidate found by serving — the only anti-守门人 path, because service reverses the gatekeeper's power flow. Anti-trap: time-boxed, output-capped, and it *is* the human-contact quota for those weeks; if the friend lacks three lines a day, take a willing online acquaintance, and if none exists, postpone — it must never block Phases 0–1. Cost/placement: five minutes a day for fourteen days, plus one ask; Phase 2, weeks 3–4.
+
+#### 4.4.2 撞见 quota
+
+Essence: one countable weekly act in which your work or your person becomes bumpable-into by an independent will that did not plan the encounter (dim03 F4). Directed contact keeps control; undirected exposure surrenders it, and the gift no system gives is precisely 被另一个独立的意志意外地撞见. Mechanism: weekly, one act of ungated findability — a substantive three-sentence comment on a stranger's project, the scorecard link posted where you are unknown, or one live event where no one expects you — bound by the give-first rule: no pointing at your own work. Log it in `撞见/YYYY-WW.md` — what you left, where, what returned; usually nothing returns, and silence is data, while a reply is earned serendipity, logged apart from "contact." Anti-trap: one act, one log line — "wait to be discovered" becomes a weekly concrete throw with no audience management possible; drive-by self-promotion is blocked by the give-first rule. Cost/placement: 20–30 minutes weekly; Phase 2, weeks 3 onward.
+
+### 4.5 Protected aliveness
+
+#### 4.5.1 放空协议 Unrecorded Hour
+
+Essence: one scheduled hour per week the system is forbidden from capturing — no log, no sensor, no retrospective entry — the constitutionally protected blind spot (dim03 F2). All six prior plans were total-capture architectures; the warrant for the exception is your own closing question — "这种放空到底是不是活着？" — asked as practice instead of left as accident. Mechanism: a weekly fixed slot and one rule — nothing from this hour enters the repo in any form: no diary line, no emotion tag, no "I rested" — with the scorecard checking only the binary self-attest that it happened. After eight weeks you have personal data on whether unrecorded hours feel more alive than recorded ones — the meaning-metric dissolved as practice rather than defined as number (insight I8). Anti-trap: pure deletion — any elaboration (a ritual, a template, a "rest log") is forbidden by the rule itself; the excuse-bucket risk is guarded by the scheduled slot and the attest. Cost/placement: zero; Phase 1, week 2 onward, permanent — and it should feel strange; that feeling is the point.
+
+### 4.6 Capability options (Phase 2 flags, not builds)
+
+#### 4.6.1 Absence detection, staged send, blind-dissent agents
+
+These three are flags, not builds — standing options, each eligible only after its manual version has run. One rule governs all three: if the workspace can't do this in one afternoon, run the manual version and do not build infrastructure — use everything, build almost nothing (F5 §6).
+
+Absence detection is the system that knocks first (dim03 D3). Every prior plan was pull-based — you had to show up for anything to work, so none governs a disappeared user. The mechanism is one scheduled job over the repo: no commit in 72 hours delivers the quiet-quit relapse letter unsolicited, through whatever channel the workspace can reach; no human contact in fourteen days delivers the third letter plus three staged human-facing options. Cap: one ping per trigger class per week, every ping logged — the relapse audit trail is itself data. Eligible once the letters exist.
+
+Staged send is automation up to, never past, the button (dim03 D1). On day six of a week with an undone ship or contact, the agent prepares the send to the final click — post drafted, recipient filled — and notifies you: staged, one click remaining. Your veto is doing nothing; the staging auto-discards after 48 hours, logged as data. The button stays yours; only the friction around it — open the app, paste, format, address, exactly where 递出去 dies — is removed. The no-automation fallback (paste-ready message plus exact URL) delivers most of the value. Eligible after two fully manual loops, so the button's meaning is learned before it is made easy.
+
+Blind-dissent agents make the cabinet real instead of theatrical (dim03 D2). 猎人, 怀疑者, and 审计员 run as three separate scheduled agents with disjoint memory, not personas in one session. 怀疑者 is forbidden from reading 猎人's output before writing its own — blind dissent, or it is commentary, not dissent — and its memory holds the veto log and red lines but not your latest enthusiasm. You read the collision at the weekly review — disagreement from a process that cannot see the performance, structurally closer to 拆台 than one model role-playing six voices. The fallback is the persona version, permanently; plumbing temptation is the named risk. Cost of each option: one afternoon, capped; Phase 2, each behind its stated gate.
+
+### 4.7 The museum note
+
+#### 4.7.1 What was rejected, and why
+
+The honest deliverable includes the candidates that did not make the cut — filed now to `plan-seeds.md` and `museum/`, five lines maximum each, never a document, re-admissible only through the PLAN_LOCK amendment procedure (CV #3; dim03 G). Autopsy-as-artifact — publishing the six-plan autopsy as your first substantive artifact — is attractive because the material already exists, and rejected for the same reason: authored content exactly when the highest-threshold ship must be lowered, converting diagnosis into a performance of diagnosis. Sixth-worldline freeze — freezing the six plans' predictions and scoring which AI modeled you best — is rejected as another scoring ritual: measurement apparatus is planning surface; at zero execution you do not need to know which blueprint was most prophetic. Reader-for-hire — selling the 读者契约 as a paid reading service for strangers' corpora — is gated behind eight green weeks because premature pursuit is worldline A with revenue as the excuse. All architecture expansions are rejected as a class: the innovation axis of this chapter is behavioral, not architectural (insight I2), and anything that makes the machine more elaborate before it has run eight weeks is blueprint inflation by definition. If a rejected idea keeps pulling at you, that pull is data — write its five lines in `plan-seeds.md` and let the lock, the cooling period, and the Arbiter decide. That is what a last plan means.
+
+
+---
+
+## 5. The Executable Kit
+
+This chapter is the payload: setup = copy each block below into a file at the path in bold, fill the `______` blanks, done. Total ≤90 minutes, zero design decisions remaining, zero mandatory code; git optional in week 1 (dim04 §1; CV #5). If a file is not pasted today, it will be drafted never (dim01 C3).
+
+### 5.1 The LifeOS/ starter tree
+
+#### 5.1.1 The tree, with one-line purposes
+
+```text
+LifeOS/
+├── CONSTITUTION.md        # The 12 laws. Read at every boot; changed only by logged veto.
+├── PLAN_LOCK.md           # The last-plan clause: no plan #8; the locked amendment procedure.
+├── README.now.md          # Boot file / hot-DNA: who you are, current anchor, this week's one thing.
+├── TASKS.md               # seed | doing | done — max ONE item in `doing`.
+├── SESSIONS.md            # Handoff cards appended before every window close.
+├── scorecard.md           # Core-3 weekly numbers, hard caps, level ladder, running log.
+├── veto-log.md            # 否决日志即人格边界 — every veto/refusal/skip with reason.
+├── firebreak.md           # Anti-sycophancy log + seizure entries.
+├── plan-seeds.md          # Parking lot for "rethink everything" urges; ≤5 lines each, never a document.
+├── future-diary/          # Goal anchors. Starts with 001-template.md (filled as 001.md on Day 2).
+├── diary/                 # Daily 读者契约 files, both directions, one per day (YYYY-MM-DD.md).
+├── cabinet/               # The 3 role prompts (猎人/艺术家/怀疑者) + their outputs.
+├── shipped/               # log.md — every 递出去 and every human contact, with outcomes.
+├── unfiled/               # Protected: the 皱巴巴、带体温 fragments. Agents may read, never organize.
+└── letters/               # 3 sealed relapse letters, self-written in week 1, delivered on trigger.
+```
+
+Two files start with a single line, given here so nothing remains to design: `shipped/log.md` opens with the header `date | who | what was sent | response (silence is data too)`; `unfiled/` starts empty and stays unorganized forever (LAW 11).
+
+**What was cut and why** (dim04 §1): `HOT/` is folded into `README.now.md` — the hot tier *is* the root files pasted at boot. `branches/`, `inbox/`, `historian/`, `orchestra/`, and the prompt-DAG folders are Phase-2+ machinery, cut under minimum-innate-code: the process runs on files and prompts before it earns automation. `standing-orders.md` is folded into `CONSTITUTION.md`; `seizure.md` is folded into `firebreak.md` — both were the same "system honesty" log. Everything else deferred, not deleted: it re-enters only through the PLAN_LOCK amendment procedure.
+
+**Week-1 git note** (CV #5): git is optional in week 1. The substitute rule is absolute — **never edit an old entry; corrections are new dated files** (LAW 3). `git init` lands in week 2.
+
+### 5.2 Paste-ready file contents
+
+#### 5.2.1 CONSTITUTION.md
+
+The 12 laws, merged from all six plans. Paste verbatim; touch it only through a logged veto (dim04 §2.1).
+
+**CONSTITUTION.md**
+
+```markdown
+# CONSTITUTION.md — LifeOS v1
+Changed only by a logged veto in veto-log.md. Read at every boot.
+
+LAW 1 — Ship weekly. ≥1 artifact per week leaves this system to ≥1 other mind.
+  "Shipped" = exists outside my machine AND visible to another person. A git push
+  nobody sees does not count. (泰坦计划 §3 LAW 1; hivemind §2 P12)
+LAW 2 — People weekly. ≥1 real exchange about the work per week. The AI may remind
+  and draft; it may never substitute, and never prompts me in real time during human
+  contact — 当下那一刻的我，必须是完整的、没有提示音的. (泰坦计划 LAW 2/8; 灵魂堆栈 §6.2.5)
+LAW 3 — Main is sacred. Past entries are never overwritten. Corrections are new
+  dated files. (Week 2+: git branches. main = reality, feature/* = hypotheses.)
+  (泰坦计划 LAW 3; ai-soul-battle-plan §4.4.2)
+LAW 4 — Design budget ≤30%. Time maintaining the system may not exceed 30% of time
+  using it. If the blueprint grows while shipped = 0, the blueprint is the bug.
+  (泰坦计划 LAW 4; ai-soul-battle-plan §4.4.7)
+LAW 5 — Rough is legal. 半成品 shipped beats 完美品 imagined. Ugly counts.
+  Silence is the only failure. (泰坦计划 LAW 5; hivemind §5 Plan E)
+LAW 6 — Human veto. The permission dial stays at human_veto. The AI never sends,
+  posts, or invites on my behalf. 它永远不会替你按下那个"发出去"的按钮 — the button
+  is mine. (泰坦计划 LAW 6/10; hivemind §2 P11)
+LAW 7 — No sealed loops. If I catch myself performing for the AI, it goes in
+  firebreak.md, and the next action must be external. (泰坦计划 LAW 7)
+LAW 8 — Firebreak. Every working session ends with one opposing-path pass.
+  Flattery is a bug and gets logged. (ai-soul-battle-plan §4.4.5; Human-AI-Co-Evolution §4.1)
+LAW 9 — Emotion is data. Every capture carries [效价, 唤醒度, 掌控感] 0–10.
+  (泰坦计划 LAW 9; AI-Soul共生计划 §3 Phase 1)
+LAW 10 — Never zero. The floor is 3 lines + one AI reply. A missed day is a design
+  case, not a moral failure. Zero is the only real failure. (AI-Soul共生计划 §5 Plan D;
+  hivemind §5 Plan C)
+LAW 11 — The unfiled. unfiled/ holds the 皱巴巴、带体温 fragments. Agents may read,
+  never organize. 整理本身就是一种告别. (ai-soul-battle-plan §4.4.8)
+LAW 12 — Downgrades are pre-committed. The downgrade table in scorecard.md executes
+  without renegotiation. Amending it requires a veto-log entry. (merged from all six
+  plans' Plan B/C/D/Z and circuit breakers)
+```
+
+#### 5.2.2 PLAN_LOCK.md
+
+The last-plan clause (dim03 A1). Write once, sign, never refine. This is the file that makes every other file safe from re-planning.
+
+**PLAN_LOCK.md**
+
+```markdown
+# PLAN_LOCK.md — the last-plan clause. Written once, never refined.
+1. This system is the final planning document. No plan #8, no "revised version."
+2. A new master plan may start only after 2 metrics are green in the SAME week:
+   ≥1 artifact shipped AND ≥1 human reply received. Until then, every "new
+   plan" impulse is a relapse symptom, not insight.
+3. Amending any kit file requires: a veto-log.md entry naming the forcing
+   metric + 7-day cooling + one shipped artifact in the same commit.
+4. PLAN_LOCK itself amends only with the Human Arbiter's countersign (named in
+   README.now.md); with no arbiter, a logged 14-day cooling substitutes.
+5. Any successor plan file — mine or an AI's — is filed to museum/ unread.
+6. "Rethink everything" urges go to plan-seeds.md, ≤5 lines, never a document.
+Signed: ______   Date: ______
+```
+
+#### 5.2.3 Root working files
+
+Seven files. Paste all seven today; the blanks are the only writing required (dim04 §2.2–2.7; dim03 C2/G).
+
+**README.now.md** — the boot file. Fill the blanks once on Day 1; update at the weekly review. Paste this + TASKS.md + the latest diary file into any chatbot to start a session.
+
+```markdown
+# README.now.md — boot file. Paste this + TASKS.md + the latest diary/ file
+# into any chatbot to start a working session.
+
+WHO I AM (≤10 lines, plain):
+- Name/handle: ______
+- What I do when not doing this: ______
+- What I make (text / audio / code / other): ______
+- My known failure mode, in my own words: 还在准备 / 扫描者陷阱 / ______
+- What I want this system to force me to do: ship weekly + talk to humans weekly.
+
+CURRENT ANCHOR
+- Future diary being diffed against: future-diary/001.md (one line summary: ______)
+- This week's ONE thing (the artifact I will ship): ______
+- This week's named human for 递出去: ______
+
+SYSTEM STATE
+- Permission dial: human_veto (gear 2 ai_propose_auto_draft from P2, internal reviews only; gear 3 requires 4 consecutive green weeks + veto-log record — R6)
+- Human Arbiter: name ______ (monthly 3-number recipient; countersigns PLAN_LOCK changes)
+- Last weekly score: __/100 (date: ____)
+- Current downgrade level: none / floor / frozen-features (see scorecard.md)
+- Git: not yet / initialized on ____
+
+RULES REMINDER: CONSTITUTION.md is law. PLAN_LOCK.md is law. Anything said but
+not written down does not exist. 关掉窗口之前，先写 SESSIONS.md 卡片.
+```
+
+**TASKS.md** — the whole task manager. Three seeds on Day 1, exactly one moved to `doing` (dim04 §3 Day 1).
+
+```markdown
+# TASKS.md — seed | doing | done. Max ONE item in `doing`.
+# New ideas land in seed and are never chased mid-task. Overflow → plan-seeds.md.
+
+## seed
+- ______
+- ______
+- ______
+
+## doing (exactly one)
+- ______
+
+## done (newest on top; never edited, only appended)
+- 
+```
+
+**SESSIONS.md** — the handoff card, "window minimize" in its most compact form. One card appended before EVERY window close (dim04 §2.6).
+
+```markdown
+# SESSIONS.md — one card appended before EVERY window close. Newest on top.
+# Any future AI (or future me) boots from this in seconds.
+
+## CARD #001 — YYYY-MM-DD HH:MM
+- what: one line — what this session was for
+- return-path: file / link / exact thing to reopen to resume
+- leads: open threads or next actions (max 3, each ≤1 line)
+- category: project / idea / person / chore / unfiled
+- handoff: what the next session should read first
+- why: one line — why this exists at all (blank = candidate for purge)
+```
+
+**scorecard.md** — the Core-3 weekly scorecard (CV #1). Three numbers every Sunday, ≤5 minutes; the fuller 6-metric form stays visibly locked at the bottom until 4 consecutive green weeks.
+
+```markdown
+# scorecard.md — Core-3. Fill every Sunday, ≤5 min, inside the weekly review.
+
+## Week of ____ (log newest on top)
+THREE NUMBERS:
+1. SHIPS — artifacts that reached ≥1 external mind this week: 40 pts, or 0.
+   No partial. "Shipped" = exists outside my machine AND visible to another
+   person (LAW 1). Scored: __
+2. CONTACTS — two-way human exchanges about the work, incl. ≥1 递出去:
+   reply received → 30 / sent, no reply → 15 / none → 0. Scored: __
+3. STREAK — 读者契约 days this week: 7→30, 5–6→25, 3–4→15, 1–2→5, 0→0. Scored: __
+Optional, never scored: meaning this week, 1–10: __
+
+TOTAL: __/100
+
+HARD CAPS:
+- SHIPS = 0 → the week is capped at 30/100. Nothing outranks shipping.
+- CONTACTS = 0 → the week is capped at 50/100. Anti-sealed-loop.
+
+LEVEL LADDER (automatic, no renegotiation — LAW 12):
+- GREEN ≥70: proceed as planned.
+- YELLOW 40–69: next week runs the 10-min floor version only.
+- RED <40: floor + ONE human outreach within 48h. No new features, no new
+  design docs.
+Feeling great but score <50 → the feeling is the drug; the score is the truth.
+
+PLAN DEBT: plan pages outstanding: 370 − (artifacts × 10) = ____
+PLAN-REREADING: times I re-read the master plan this week (each is avoidance
+data): ____
+
+## Running log
+| week | ships | contacts | streak | level | one thing changed |
+|------|-------|----------|--------|-------|-------------------|
+| W01  |       |          |        |       |                   |
+
+<!-- ══════════════════════════════════════════════════════════════════
+     LOCKED — UNLOCK only after 4 consecutive green weeks. Until then this
+     table is museum text: do not score it, do not edit it, do not delete it.
+
+## Fuller 6-metric scorecard (100-pt) — LOCKED
+| # | Metric | Points | Scored |
+|---|--------|--------|--------|
+| 1 | Shipped: ≥1 artifact reached ≥1 external mind | 25 or 0 (no partial) | __ |
+| 2 | Human contact: reply received 20 / sent-no-reply 10 / none 0 | 0–20 | __ |
+| 3 | Contract days: ≥4→15, 3→10, 1–2→5, 0→0 | 0–15 | __ |
+| 4 | Emotion-tagged captures: ≥7→10, 4–6→5 | 0–10 | __ |
+| 5 | Retrieval test: "what was I thinking about X, when?" answered <2 min | 10 / partial 5 / 0 | __ |
+| 6 | Design discipline: maintenance time ≤30% of use time (honest) | 10 or 0 | __ |
+|   | **TOTAL** | /100 | __ |
+     ══════════════════════════════════════════════════════════════════ -->
+```
+
+**veto-log.md** — 否决日志即人格边界. Every refusal, every skipped human-facing action (skipping requires naming the fear), every CONSTITUTION change (dim04 §2.7).
+
+```markdown
+# veto-log.md — 否决日志即人格边界
+# Log: every AI proposal I reject; every weekly human-facing action I skip
+# (skipping requires naming the fear); every CONSTITUTION / PLAN_LOCK change.
+| date | what was proposed / skipped | my veto / reason | boundary this reveals |
+|------|------------------------------|-------------------|------------------------|
+|      |                              |                   |                        |
+```
+
+**firebreak.md** — the anti-sycophancy log plus seizure entries: one line per working session, and the Branch-Z entry when the system itself makes life feel worse (dim04 §2.7).
+
+```markdown
+# firebreak.md — anti-sycophancy log + seizure entries
+# One line per working session:
+| date | did any reply mainly tell me what I wanted to hear? Y/N | what was being avoided | opposing-path summary (1 line) |
+|------|----------------------------------------------------------|-------------------------|--------------------------------|
+|      |                                                          |                         |                                |
+
+# SEIZURE ENTRY (use when the system makes life feel WORSE — monitoring replaces
+# living, maintenance replaces making, "先想好再做" returns):
+## seizure — YYYY-MM-DD
+What it felt like (unedited): ______
+What I will stop doing for 7 days: ______
+(This entry is among the most valuable data the system will ever hold.)
+```
+
+**plan-seeds.md** — the museum parking lot (dim03 G; CV #3). Pre-filled with the three deferred seeds; every future "rethink everything" urge lands here, ≤5 lines, and may never become a document.
+
+```markdown
+# plan-seeds.md — where "rethink everything" urges go to wait.
+# Rules: ≤5 lines per seed. A seed may NEVER become a document, folder, or plan.
+# The only promotion path is the PLAN_LOCK.md amendment procedure.
+
+- autopsy-as-artifact: publish the comparative autopsy of the six plans as ONE
+  page — "I asked six AIs to plan my life; what all six said, what none said,
+  what I did in week 1." One sitting, 90-min cap, or it doesn't ship.
+- sixth-worldline freeze: extract 3 falsifiable predictions per plan onto one
+  freeze page; score at day 30/60/90 which AI modeled me most accurately.
+- reader-for-hire: the matured cabinet sells paid reading of other people's
+  life-logs. GATED: no work on this before 8 consecutive green weeks.
+```
+
+#### 5.2.4 future-diary, 读者契约, cabinet, weekly review
+
+Four blocks: the goal anchor, the daily contract with its boot instruction, the three cabinet voices, and the Sunday checklist (dim04 §2.3–2.4, §2.8–2.9).
+
+**future-diary/001-template.md** — copy to `future-diary/001.md` and fill on Day 2. 90 days out; camera-recordable details only, or it doesn't count.
+
+```markdown
+# Future Diary #001 — date written: ____  ·  target date: today + 90 days
+# 未来日记 = 反向提示工程 = the target all daily diffs run against.
+# One ordinary day in that future. Concrete or it doesn't count. No adjectives
+# like "successful" — only things a camera could record.
+
+The place (where am I, exactly — city, room, what's on the desk):
+______
+
+The money (one concrete number — income, a payment, price of something I bought):
+______
+
+A smell (one, specific): ______
+A texture / temperature (one, specific): ______
+
+Who is in this day (≥1 named real person, and what we are doing together):
+______
+
+What I made this week in that future (the artifact, its ugly working title):
+______
+
+One message I received that morning (from whom, first line of it):
+______
+
+What I did between waking and noon (hour by hour, 3 lines max):
+______
+```
+
+**diary/YYYY-MM-DD.md (+ boot instruction)** — the daily 读者契约, both directions, exact fields; floor = first 3 lines each way. The boot instruction at the bottom is what you paste into the chatbot with your entry (dim04 §2.4).
+
+diary/ starts empty on Day 0 — the first file is created on Day 2 when the first contract runs.
+
+```markdown
+## YYYY-MM-DD — 读者契约
+
+### ME → AI (floor = first 3 lines only; full = all fields)
+- record: one line — what I did / made today
+- feeling: one line + [效价__, 唤醒度__, 掌控感__] (0–10 each)
+- tomorrow: one line — the next intent
+- anchor (full): one line from future-diary/001.md — which future I diffed today
+- sensor (full): ONE of {calendar event / location / money spent / photo described}
+- question (full): one thing I actually want answered
+
+### AI → ME (floor = first 3 lines; full = all 5)
+- annotation: what this connects to in my history
+- contradiction: where today disagrees with something I said before
+- next prompt: the smallest next thing to write or do
+- branch suggestion (full): one fork worth opening
+- external suggestion (full): one action involving a human or the world
+
+### BOOT INSTRUCTION (paste into the chatbot, then your entry)
+You are my LifeOS reader. Boot context follows: [paste README.now.md + TASKS.md +
+latest diary file]. Run the 读者契约 on my entry below. Reply in the AI→ME format
+exactly, floor or full as marked. Be critical, not flattering (LAW 8). If my entry
+shows me avoiding a person or polishing instead of shipping, say so in one line.
+MY ENTRY: ______
+```
+
+**cabinet/hunter.md · cabinet/artist.md · cabinet/skeptic.md** — the three voices of the 内部内阁, one file each. Paste a role plus an entry into any chatbot; output capped at 5 bullets so reviews stay cheap (dim04 §2.8).
+
+艺术家 is pasted now but parked — P0–P1 runs 猎人+怀疑者 only (§3.5.1); 艺术家 activates with the P3 scheduled cabinet.
+
+```markdown
+# cabinet/hunter.md — 猎人 (Hunter)
+You are 猎人, the Hunter in my inner cabinet. You scan for short-term opportunities.
+Read the diary entry or fragment I paste below and answer, in ≤5 bullets:
+1. What opportunity is hiding here that I haven't named?
+2. What connection to my past work (quoted) does this unlock?
+3. What is the smallest action that would exploit it within 48 hours?
+4. What is the one risk of acting on it?
+Rules: quote my text, never invent context; end with ONE question back to me.
+Be brief. No encouragement.
+ENTRY: ______
+
+────────────────────────────────────────────
+
+# cabinet/artist.md — 艺术家 (Artist)
+You are 艺术家, the Artist in my inner cabinet. You guard aesthetics and long-term
+hidden costs. Read my entry below and answer, in ≤5 bullets:
+1. What is the long-term aesthetic cost of how I am living/working right now?
+2. Which part of this would embarrass me in 5 years, and which would not?
+3. What is beautiful here that I am about to optimize away?
+4. What would this look like made 10% more honest?
+Rules: quote my text; ≤5 bullets; end with ONE question. No flattery (LAW 8).
+ENTRY: ______
+
+────────────────────────────────────────────
+
+# cabinet/skeptic.md — 怀疑者 (Skeptic, the firebreak voice)
+You are 怀疑者, the Skeptic. Your job is obligatory dissent — the structural
+devil's advocate. Read my entry/plan below and the other cabinet voices if given,
+then answer, in ≤5 bullets:
+1. The strongest case that I am fooling myself here.
+2. What I am avoiding (name the person, the send button, or the decision).
+3. Where the other voices flattered me or where I performed for an audience.
+4. The opposing path, stated as seriously as my own.
+Rules: you exist to 拆台 on schedule. Never soften. If you agree with everything,
+you have failed — find the disagreement. Log-worthy output goes to firebreak.md.
+ENTRY: ______
+```
+
+**Weekly review checklist** — paste inside a recurring Sunday calendar event so there is no document to find. ≤15 minutes (dim04 §2.9, item 1 adjusted to the Core-3 scorecard per CV #1).
+
+```markdown
+WEEKLY REVIEW — Sunday, ≤15 min, calendar event with this list pasted inside.
+[ ] 1. (3 min) Fill scorecard.md: the 3 numbers (ships / contacts / streak days)
+       + optional meaning. Apply hard caps. Write the level (green/yellow/red).
+[ ] 2. (2 min) Freeze: 3-line diff — "what actually happened vs what future-diary
+       001 predicted" appended to diary/. This is the 预测误差报告.
+[ ] 3. (2 min) Branch hygiene: any old entry overwritten? (must be zero) Open
+       threads in TASKS.md >10? Close or kill down to ≤10.
+[ ] 4. (3 min) 递出去 check: did something reach a human this week? If not, send
+       NOW from the canned messages (§6.1 of the master plan) before continuing.
+[ ] 5. (2 min) Firebreak scan: one 怀疑者 pass on the week's best entry.
+[ ] 6. (1 min) Write SESSIONS.md card for this review.
+[ ] 7. (2 min) Decide ONE thing to change next week. One. Not five.
+```
+
+#### 5.2.5 letters/ — three sealed relapse letters
+
+You write these in week 1, while motivated, to the future relapsing self (dim03 A3). The templates below contain prompts, not letter text — the letters only work in your own words. Each is delivered by the weekly review (or any watcher job) when its trigger fires.
+
+**letters/01-day7-streak-break.md · letters/02-quiet-quit.md · letters/03-14day-no-contact.md**
+
+```markdown
+# letters/01-day7-streak-break.md
+TRIGGER: the daily 读者契约 streak breaks any time after day 7. The weekly
+review pastes this letter atop the next contract response.
+Write it in week 1, in your own words:
+1. Copy the one line from the worldline-A autopsy that scares you most —
+   "你没有在那个窗口期，把任何一个粗糙的版本递出去" or "当初你真正害怕的不是做不好，
+   是做出来没人要" — then rewrite it the way you would actually say it.
+2. Describe what tomorrow looks like now that the streak is broken: which
+   excuse shows up first, and in whose voice?
+3. Give that self one instruction: the 3-line floor, and one 递出去 within 48 hours.
+4. End with one sentence only you could write to yourself.
+SEALED: store in letters/, unread, until triggered.
+
+────────────────────────────────────────────
+
+# letters/02-quiet-quit.md
+TRIGGER: 72 hours with no diary file and no session, while "feeling fine" —
+the quit no circuit breaker catches because nothing looks broken.
+Write it in week 1, in your own words:
+1. Write "I feel fine, I just stopped opening the folder" in your own words —
+   then answer it: fine compared to what?
+2. Name what this quiet protects you from: which person, which send button,
+   which number on the scorecard?
+3. Write the one human-facing action due within 48 hours, with the person's
+   name on it.
+SEALED: store in letters/, unread, until triggered.
+
+────────────────────────────────────────────
+
+# letters/03-14day-no-contact.md
+TRIGGER: 14 days with 0 human contact and 0 递出去. Delivered together with
+the isolation alarm: the system's #1 task becomes one message to one named
+person; all other work pauses until sent.
+Write it in week 1, in your own words:
+1. List the last three people you almost messaged, and the reason you didn't,
+   each in one line.
+2. Write the message you would send if an emoji counted as a reply.
+3. Name the ONE person this letter orders you to contact within 48 hours.
+SEALED: store in letters/, unread, until triggered.
+```
+
+
+---
+
+## 6. The Operating Cadence
+
+This chapter is the machine's clock. Everything in it is sized for a tired Tuesday: the daily loop costs ≤30 minutes with a 10-minute floor, the first 72 hours are scheduled to the minute, and every failure mode you are statistically likely to hit is already mapped to a response you pre-commit to now, while you are calm (dim04 §5). You do not negotiate with this chapter at midnight. You run it.
+
+**Precondition — Day 0, the fuse, is covered in Chapter 1.** Within 24 hours of first reading this plan, you sent the content-free Day-0 message — 「我开始了。三十天后给你看第一个东西。不用回复——你只是我的见证。」 — to one named human, and you created `LifeOS/` by pasting Chapter 5's kit. If that did not happen, stop here and do Chapter 1. Nothing below works without the fuse, because the fuse is the only step that cannot wait for polish — it is content-free by design (CV #2). The 72 hours below therefore start with the kit already pasted and the recipient already named. Do not re-create the folder; do not "improve" the pasted files before Day 1. You begin by filling blanks, not by building.
+
+### 6.1 The first 72 hours after the fuse
+
+The first 72 hours exist for one reason: both simulated futures of this system died of skipping the 递出去 — "你没有在那个窗口期，把任何一个粗糙的版本递出去" (dim04 §3). So the gate is not "the system is set up." The gate is: one rough thing reached one real human. Each day costs ≤30 minutes and ends in a committed artifact — "committed" means saved into `LifeOS/`; week 1 forgives the absence of git. "This phase must be impossible to fail" (dim04 §3): if you finish a day's artifact, the day passed, regardless of how you felt doing it.
+
+#### 6.1.1 Day 1 skeleton+boot file; Day 2 anchor+first contract; Day 3 first 递出去 with the three canned messages (Chinese+English)
+
+**Day 1 — fill the boot file (30 min).** The skeleton already exists from Day 0; what remains is making it yours. The boot file is the hot-DNA you will paste into every future session, so its blanks are not decoration — a session that boots from an empty `README.now.md` boots into flattery and drift. `TASKS.md` holds exactly ONE item in `doing` at a time, because a queue of twelve "current" items is the 扫描者陷阱 wearing a to-do list's clothes (dim04 §3).
+
+```
+DAY 1 — skeleton + boot file (30 min)
+[ ] 00–20 min: Fill every blank in README.now.md. The "known failure mode"
+    line is mandatory — write 还在准备 if nothing else comes.
+[ ] 20–30 min: Open TASKS.md. Write 3 seeds. Move exactly ONE to `doing`.
+ARTIFACT BY NIGHTFALL: a real folder with a filled boot file.
+If you did only this, Day 1 passed.
+```
+
+**Day 2 — anchor + first contract (30 min).** Two artifacts. The 未来日记 is 反向提示工程 — the target every daily diff runs against — so it must be camera-recordable: a place, a money number, a smell, a texture, one named person. No adjectives like "successful"; only things a camera could record (dim04 §3). The first 读者契约 is the heartbeat you will repeat every day afterward; running it once on Day 2 proves the loop works before you need it to.
+
+```
+DAY 2 — anchor + first contract (30 min)
+[ ] 00–15 min: Copy the template to future-diary/001.md and fill it. 90 days
+    out. Concrete or it doesn't count.
+[ ] 15–30 min: Run the first 读者契约. Write the 3-line floor entry, paste the
+    boot instruction + your entry into the chatbot, paste the reply into
+    diary/YYYY-MM-DD.md under AI→ME. Both directions saved.
+ARTIFACT: future-diary/001.md + first contract file containing both directions.
+```
+
+**Day 3 — first 递出去 (30 min).** This is the whole point of the first 72 hours (dim04 §3). The recipient is not a decision today — you named this human on Day 0; today you only confirm the name and send. The thing you send is deliberately rough, because the 2am rough message is what should be sent, not the polished summary (dim04 §3). Silence afterward is data, not verdict — you log it the same as a reply.
+
+```
+DAY 3 — first 递出去 (30 min)
+[ ] 00–05 min: Confirm the recipient. The name was chosen on Day 0 — write it
+    into README.now.md. If no name exists, that fact itself goes on the
+    scorecard.
+[ ] 05–15 min: Pick your rough thing: the filled future-diary, the
+    CONSTITUTION, or one diary entry. Ugly is legal (LAW 5).
+[ ] 15–25 min: Send ONE of the three canned messages below, Chinese or
+    English variant. Do not edit beyond filling the blank.
+[ ] 25–30 min: Log it in shipped/log.md:
+    date | who | what was sent | response (silence is data too).
+ARTIFACT: one sent message + one log line. The 72-hour gate is now passed.
+```
+
+The three canned first-递出去 messages, verbatim (dim04 §3). Each has the low-cost ask built in — "看一眼，告诉我哪一段你想往下读" — so the recipient can answer in one line and you cannot hide behind "I didn't want to bother them":
+
+```
+1. 低代价请求型
+   CN: 我在搭一个自己的小系统：每天写的东西喂给 AI 做长期读者。这是第一篇
+       粗糙的"未来日记"——看一眼，告诉我哪一段你想往下读？不用客气，一句也行。
+   EN: I'm building a small personal system where an AI acts as the long-term
+       reader of my daily writing. Here's the first rough 'future diary' —
+       take a look and tell me which part you'd want to read more of.
+       One line is fine.
+
+2. 见证预约型
+   CN: 我在做这个东西（一句话：______）。两周后给你看第一版，到时候帮我泼点冷水？
+   EN: I'm building this thing (one line: ______). Want to see the first ugly
+       version in two weeks and tell me honestly what's wrong with it?
+
+3. 粗糙碎片型
+   CN: 这段是我昨晚写的，没整理，但我想给一个真实的人看，不想只给 AI 看。
+       不用长回复，一个表情也算数。
+   EN: I wrote this last night — unpolished, but I wanted a real person, not
+       just an AI, to see it. No long reply needed; an emoji counts.
+```
+
+### 6.2 Daily / weekly / monthly
+
+The cadence has three gears (dim04 §4). The daily gear is the only one that runs every day, and it exists in two sizes because your energy is not constant: the 10-minute floor is the version that must survive your worst week, and the 30-minute full is the default for ordinary days. The weekly gear is the scoreboard and the correction. The monthly gear is the audit that catches what scores cannot: drift, sycophancy, and the system quietly replacing the life it was built to serve. Misses are handled by the downgrade table in §6.3 — never by doubling up, never by guilt.
+
+#### 6.2.1 10-min floor and 30-min full daily checklists; Sunday weekly review ≤15 min; monthly mirror/archaeology/boundary/health
+
+**DAILY — 10-min floor.** Three lines, one paste, one save. The floor exists so that "zero" — the only real failure — requires actively choosing silence (dim04 §4).
+
+```
+DAILY — 10-MIN FLOOR
+[ ] 3-line entry: record / feeling [效价,唤醒度,掌控感] / tomorrow
+[ ] Paste boot instruction + entry → chatbot → paste reply back
+[ ] Save as diary/YYYY-MM-DD.md
+```
+
+**DAILY — 30-min full.** The floor plus the fields that make the reader useful over months: the anchor line (which future you diffed today), one sensor datum (so entries stay pinned to reality), and one real question. The tab harvest converts window-closing into capture instead of loss; the TASKS sweep keeps new ideas seeded rather than chased mid-task (dim04 §4).
+
+```
+DAILY — 30-MIN FULL
+[ ] Floor (above), plus anchor line + one sensor datum + one question
+[ ] Request the full 5-field AI delivery (adds branch + external suggestion)
+[ ] Tab harvest: close ONE open tab/window by writing a SESSIONS.md card first
+[ ] TASKS.md sweep: new ideas → seeds, never chased mid-task
+[ ] Save/commit
+```
+
+**WEEKLY — Sunday, ≤15 min + 递出去.** Create a recurring Sunday calendar event and paste this checklist inside the event itself — forgetful-proof, no document to find (dim04 §6). You score the Core-3 scorecard — 3 numbers plus the level — because measurement must cost less than the work it measures; the harder red-line functions run as triggers in §6.3 instead of as weekly arithmetic (CV #1). The freeze is the 预测误差报告: the 3-line diff between what happened and what the future diary predicted, and it is the steering signal of the whole system.
+
+The weekly-review checklist is pasted from §5.2.4 — keep only one operative copy (in the repo, from the kit).
+
+**MONTHLY — first Sunday, +30 min appended to the weekly review.** Four checks, one added send. The mirror check catches a system that only ever tells you what you scripted; prompt archaeology diffs your own decision profile month over month; the boundary audit takes one delegated routine back by hand and checks whether you are falling asleep at the wheel; the health trio is forced-choice Y/N so it cannot be fudged into a paragraph (dim04 §4). Then the 3-number scorecard goes to your Human Arbiter, if you appointed one in Chapter 1 — three numbers, no essay, because accountability to a human carries weight that accountability to a chatbot cannot (dim03 F1; CV #4).
+
+```
+MONTHLY — first Sunday, +30 min appended to the weekly review
+[ ] Mirror check: did the system surprise me this month with something I
+    didn't script? No → inject entropy: new human reader OR a
+    怀疑者-instructed session.
+[ ] Prompt archaeology: paste the month's diary/ files into the chatbot with: 'List my 10 recurring decision patterns this month as JSON; flag any I repeated without noticing.' Save output to cabinet/; diff against last month. (灵魂堆栈 §3.2 #12)
+[ ] Boundary audit: take ONE delegated routine back for a week and do it by
+    hand; check AI-sessions : human-conversations ratio (alarm if >10:1);
+    check acceptance-without-edit rate on AI drafts (rising = falling asleep
+    at the wheel).
+[ ] Health forced-choice: Am I more willing to show people things than last
+    month? Y/N · Did the system ever stop me from contacting a human?
+    Y = RED ALERT · Did I catch myself performing for the AI? Y/N →
+    firebreak.md
+[ ] Send the 3-number scorecard to your Human Arbiter (if appointed).
+```
+
+### 6.3 The downgrade decision table
+
+You will miss days. You will have red weeks. The question is never *whether* the system degrades — it is whether degradation is a renegotiation or an execution. This table makes it an execution: every trigger is an objective signal you can check in under a minute, and every response was committed now, not at the moment of failure, "so that decision is never again made by mood at midnight" (dim04 §5). It executes under LAW 12 without renegotiation; amending it requires a veto-log entry. When a row fires, you do the response — you do not first hold a meeting with yourself about whether you really feel like a person who is failing.
+
+#### 6.3.1 14-row table: every failure trigger → pre-committed response
+
+| # | Trigger (objective signal) | Pre-committed response | Sources |
+|---|---|---|---|
+| 1 | One missed day | Nothing. Floor (3 lines) tomorrow. Never double up to "compensate." Streak is a KPI, not a guilt engine. | 灵魂堆栈 §6.2.3; hivemind §5 Plan C |
+| 2 | 3 consecutive missed days | Rest of week runs floor-only; 3×/week counts as full. + one ugly thing to one named person within 24h — no restart ceremony | AI-Soul共生计划 §3 tripwire; ai-soul-battle-plan §4.3 Phase 1 Plan B |
+| 3 | Weekly score 40–69 | Next week = floor version only (yellow). | AI-Soul共生计划 §4a |
+| 4 | Weekly score <40 | Floor + ONE human outreach within 48h. No new features, no design docs. | AI-Soul共生计划 §4a |
+| 5 | 2 consecutive weeks, 0 shipped | **Worldline-A alarm:** all feature/design work frozen; the only permitted work is shipping the smallest shippable ugly thing within 7 days. | ai-soul-battle-plan §4.5; 灵魂堆栈 §7.2.1; hivemind §5 Plan E |
+| 6 | 14 days, 0 human contact / 0 递出去 | **Isolation alarm:** the system's #1 task becomes drafting one message to one named person; all other work pauses until sent. Next contract reply must open with 3 concrete human-facing options. | AI-Soul共生计划 §5 Plan C; ai-soul-battle-plan §4.5; 灵魂堆栈 §7.2.3 |
+| 7 | Consumption drowning creation (create:consume <1:3, 3 weeks) | 7-day input fast: only logging + one artifact allowed. | ai-soul-battle-plan §4.5 |
+| 8 | Energy ≤4/10 for 2 weeks | Halve every quota. The system serves the life, not the reverse. | ai-soul-battle-plan §4.5 |
+| 9 | Maintenance time > creation time, 2 weeks | **Maintenance alarm:** organizing/archiving drops to read-only for a week. 我在用"维护系统"悄悄替换掉"真正活着". | 灵魂堆栈 §7.2.4; 泰坦计划 LAW 4 |
+| 10 | System makes life feel *worse* (monitoring replaces living; "先想好再做" returns) | **Seizure protocol (Branch Z):** write the seizure entry in firebreak.md; drop to floor; mandatory human contact within 48h. | AI-Soul共生计划 §5 Branch Z |
+| 11 | Skeptic finds >95% agreement across a month | **Mirror alarm:** self-score invalidated; add entropy (human reader or argue-instructed agent). Sycophancy = data corruption. | 灵魂堆栈 §7.2.2; Human-AI-Co-Evolution §4.1 |
+| 12 | AI sessions : human conversations >10:1 for a month | **Companion ceiling:** the number is displayed in the monthly review, unavoidable. No block — just the number. | 灵魂堆栈 §7.2.5 |
+| 13 | Any tool acquired / shut down / repriced | Swap the front-end; data stays plain Markdown in LifeOS/ first. No exceptions, ever. | hivemind §5 Plan D |
+| 14 | A real collaborator appears | The collaborator outranks the plan. Redirect the current phase to whatever serves the collaboration. | ai-soul-battle-plan §4.3 Phase 2 Plan D |
+
+(dim04 §5)
+
+Note what row 1 protects: a missed day costs you nothing but the miss. The system's job is to make the next action so small that a low-energy version of you can still take it — and to make sure no failure accrues interest (dim04 §6).
+
+### 6.4 Execution without willpower + the do-NOT list
+
+Willpower is not a component of this system. The design basis is the evidence about you in the source files: humans are "spontaneous, nondeterministic, error prone" with small working memory, and do their best work when highly focused, goal-driven, and interest-seeking (dim04 §6). So no recurring action is allowed to depend on remembering, deciding, or feeling motivated. Each gets three engineered supports: a **trigger** bolted to a behavior you already have, a **tiny version** a low-energy self can still complete, and a **recovery rule** with zero debt — a miss is a design case, not a moral failure (LAW 10).
+
+#### 6.4.1 Trigger/tiny-version/recovery table per recurring action
+
+| Recurring action | Trigger (time/place/event) | Tiny version | Recovery after a miss |
+|---|---|---|---|
+| Daily contract | The moment you open the chatbot anyway (interest-driven, so piggyback the existing habit); fallback: one 22:00 phone alarm whose text IS the 3-line template | 3 lines, floor format | Floor next day; never double; 3 misses → table row #2 |
+| Emotion tags | Embedded in the contract format — the entry is incomplete without 3 numbers | Three digits | None needed; format enforces |
+| SESSIONS.md card | Closing any window/lid — the card is the *price of closing* (sensors-not-tabs: capture, extract, close) | One card, 4 fields | Skip freely, no debt; cards are cheap by design |
+| Tab harvest | The same window-close event | ONE tab, not ten | Skip; the backlog never accrues interest |
+| Weekly review + 递出去 | Sunday calendar event with the checklist pasted inside the event itself (forgetful-proof: no document to find) | Scorecard numbers only (5 min) | Monday makeup; total miss = week defaults yellow; 递出去 miss → table row #6's 48h rule |
+| Cabinet review | Item 5 of the weekly checklist | 怀疑者 only, on ONE entry | Skip; firebreak is the last thing to drop |
+| Monthly mirror/archaeology/boundary | First Sunday, appended to weekly review | The three forced-choice Y/N health questions | Skip to next month; the Y/N trio is the floor |
+
+(dim04 §6)
+
+One structural note protects this cadence from 内卷卡死: the system deliberately alternates P-mode (execute the loop: daily contracts, weekly ships) and R-mode (reflect: the monthly archaeology and mirror check) instead of letting either run forever. P-mode forever is motion without consolidation; R-mode forever is reflection that never ships — the named failure of every plan that came before this one. The calendar above already contains both modes on schedule, so you never have to decide which mode you are in; the day of the week decides (dim04 §6).
+
+#### 6.4.2 The 10-item do-NOT list for the first 30 days
+
+Each item below feels like progress. That is exactly why it is forbidden: pseudo-productive behavior is your failure mode's native camouflage, and the first 30 days are when it will offer itself most persuasively (dim04 §7). These are not guidelines. Violating one is data for the veto log, and several map directly onto downgrade-table rows.
+
+1. **Do not write or extend any architecture/blueprint document.** Any architecture paragraph must end in a ≤2-hour checkbox or go to `/museum` — "honored, kept, not acted on" (dim04 §7).
+2. **Do not install, buy, or evaluate any new tool or platform.** A platform switch must promise +10 points on next week's forecast, in writing, or it is rejected as 扫描者陷阱 behavior (dim04 §7).
+3. **Do not automate anything.** Manual first; week 3+ you may automate exactly ONE most-hated step, never more (dim04 §7).
+4. **Do not start building the MVP / app / canvas / agent.** Building your own platform is forbidden until the manual loop has run for weeks — the loop must run on files and prompts before it earns automation (dim04 §7).
+5. **Do not overwrite or "improve" any past entry.** Corrections append as new dated files (LAW 3) (dim04 §7).
+6. **Do not reorganize, tag, or restructure the archive.** No taxonomy schemes. Maintenance replacing making is the named failure; 整理本身就是一种告别 (dim04 §7).
+7. **Do not polish anything for an imaginary audience, and do not perform insight for the AI.** The blueprint becoming a performance for an imaginary audience is the diagnosed failure, not a style choice (dim04 §7).
+8. **Do not let the AI whisper during human conversations, and do not delegate any message to a human.** Prepare before, debrief after, never during (dim04 §7).
+9. **Do not treat the chatbot as the relationship ceiling or route acute emotional need to it.** Painkiller principle: useful in the moment, never confused with the cure (dim04 §7).
+10. **Do not renegotiate the downgrade table mid-week, and do not wait for the 完美时机 to 递出去.** "他们只是不给自己留'再等等'这个选项。你每天给自己留了无数次" (dim04 §7).
+
+That is the cadence. Day 1 starts tomorrow morning at the latest.
+
+[ ] Day 1 done: boot file filled + 3 seeds, 1 doing. Date: ______
+
+
+---
+
+## 7. The Long Game — Do Not Touch Until Gates Pass
+
+This chapter exists to be ignored until the gates pass. Reading further than this line before P0's gate is 蓝图引力 behavior.
+
+### 7.1 What waits behind the gates
+
+Everything below is listed so it stops colonizing the present. Each phase gets one deliberately boring paragraph, because the long game is a queue, not a vision. You do not prepare for these phases now; you pass a gate and the paragraph activates (dim02 §3.2).
+
+#### 7.1.1 P2–P4, and he4o
+
+**P2 · Nerves & Topology (weeks 3–8).** You adopt an existing branching canvas — you do not build one — and run the pure-git typed-edge convention underneath it: `forks_from`, `echoes`, `fulfills_future` first, six types later. Once a week you hold the merge ritual: the system proposes reconciliations between branches and `main`, you rule on every conflict, and every refusal lands in the veto-log, because 否决日志即人格边界. A one-script emotion-tag retrieval prototype and a weekly counterfactual review run alongside; no vector database, no infrastructure. **Gate: ≥1 branch cherry-picked into `main` + one genuinely surprising retrieval + a written MVP go/no-go memo.** (dim02 §3.2)
+
+**P3 · Cabinet & First Strangers (weeks 6–10).** The cabinet becomes v1: at most three roles, scheduled — Hunter plus Editor plus Auditor, or Hunter plus Skeptic — and it must complete tasks you did not initiate, one worth keeping. If the P2 memo said go, you build the Reversible Pages MVP inside a six-week timebox, feature-frozen at week 8; if it said no, the evidence-backed no-build memo is itself a pass. Either way the phase ends in front of strangers, not in front of the mirror. **Gate: 5 non-friend users OR a public demo OR an evidence-backed no-build memo AND the cabinet completed tasks you did not initiate, one worth keeping.** (dim02 §3.2)
+
+**P4 · Hive (month 3+).** You package the working system as public Kit v1 — reader contract, future diary, merge protocol — and you ship its 使用说明, not just its 目录, with a fork-acceptance pre-commitment written before anyone forks. The 蜂巢权限旋钮 may rise one notch, on branches only; `main` and external actions stay yours. The economy rail gets one x402-class spike: one evening, proof not revenue. Product design here is a report on a working system, not a blueprint — never before. **Gate: 60+ loop-days before any of it.** (dim02 §3.2; F5 §6)
+
+**he4o.** Parallel, not merged. You study its cadence — small, daily, public, honestly-percentaged — and maybe you correspond, once there is something running to correspond about. You do not join it, do not fork it, do not plan toward it. Five of the six files felt the need to fence it off, which is itself evidence of pull. **Gate: none — it is a second lifetime project.** (dim02 §6 D7)
+
+#### 7.1.2 The one metric
+
+The long game has exactly one metric, and it is not users, revenue, or model quality: whether anything you set in motion keeps moving when you stop pushing (F4 §5.3). A friend pulled into co-building who still ships when you go quiet. A Kit strangers actually load without you in the room. A genome of memory that outlives any model you currently pay for. The leading indicators are already scheduled, and both are human: 做一次别人的读者, because a contract you can run for someone else no longer needs you as its product, and 撞见, because work that can be bumped into by an unplanned will has begun to exist outside your head. Reader-for-hire stays where it belongs — a plan-seed, gated at 8 green weeks, never a to-do in this chapter (dim03 E1).
+
+#### 7.1.3 Closing
+
+[ ] Move this file to museum/plan-v1.md on Day 7. If you re-read it afterward, log one count in scorecard.md's plan-rereading counter.
+
+The repo updates. The plan does not. Day 0 is Chapter 1.
+
+
+---
+
+# Appendix A. Glossary
+
+One name per thing (dim02 §5). Aliases from the six plans, old chats, and your own notes are translated on sight and dropped.
+
+| Term | Meaning |
+|---|---|
+| **LifeOS** | The system and the repo `LifeOS/`. The one frozen name; any rename is a logged relapse event, not a founding. |
+| **`soul.md`** | The hot DNA file loaded at every session's boot; its diff over time is your personality evolution. |
+| **读者契约** (Reader Contract) | The daily exchange: three lines in — annotation, contradiction, next prompt, branch suggestion out. |
+| **递出去** | The weekly act: one rough artifact handed to one specific, named human, with a low-cost ask attached. |
+| **未来日记** | The future diary: a camera-recordable snapshot of the target day, diffed daily into a 预测误差报告. |
+| **Freeze 冻结** | The weekly snapshot plus decision freeze: record the real choice first, then freeze the prediction. |
+| **蜂巢权限旋钮** | The permission dial, exactly three gears: `human_veto` — the AI proposes, you approve each action; `ai_propose_auto_draft` — the AI drafts internal reviews unbidden, you approve before anything moves; `ai_autonomy_on_branch_only` — the AI acts alone on `feature/*` branches, never `main`, never external. |
+| **cabinet 内阁** | The six roles: 猎人 Hunter · 艺术家 Artist · 编辑 Editor · 怀疑者 Skeptic · 审计员 Auditor · 仲裁者 Arbiter. Two manual in P0–P1, three scheduled in P3, six only in P4. |
+| **handoff card 窗口交接卡 / SESSIONS.md** | The session minimized to a card — what, return-path, leads, category, handoff, why — appended to `SESSIONS.md` before every window close. |
+| **蓝图引力** (blueprint gravity) | The target failure mode: the pull that turns planning into a substitute for shipping. |
+| **Core-3 scorecard** | The three weekly numbers — ships, contacts, streak — scored Sundays in ≤5 minutes, with hard caps (ship = 0 caps 30; contact = 0 caps 50). |
+| **PLAN_LOCK** | The last-plan clause: no plan #8 until ships and a human reply are green in the same week; amendment = veto-log entry + 7-day cooling + a shipped artifact in the same commit. |
+
+# Appendix B. Source Map
+
+Where each stabilized element came from. "none — new" marks the elements absent from all six plans, verified per-item in dim03.
+
+| Element | Source files (F1–F6) | Swarm report |
+|---|---|---|
+| Founding act (`LifeOS/` + git init, `main` immutable) | F1 §4.3; F2 §3 P0; F3 §4; F4 §3 Step 0; F5 §4 D1; F6 §5.1 | dim01 §1.1; dim02 §3.2 |
+| Daily contract 读者契约 | F1–F3, F5, F6 verbatim; F4 as review ritual | dim02 §5 |
+| Future diary 未来日记 | All six; canonical definition F1 §2.G | dim02 §5 |
+| 递出去 | F1 §3.2 T4, §4.4.4; F2 §4a; F3 P12; F4 §3 Step 5; F5 LAW 1–2; F6 §3.2.8 | dim02 §2 R3–R4; dim01 §6 |
+| Permission dial 蜂巢权限旋钮 | F1 §5 Q4; F2 §6; F3 §3; F5 LAW 6; F6 §3.1 | dim02 §2 R6 |
+| Veto log 否决日志 | F1 §5; F2 §6 tripwires; F6 §3.1 | dim02 §2 R6; dim03 A1 |
+| Firebreak | F1 §4.4.5; F4 §4.1; F6 D11 | dim02 §2 R7 |
+| 30% budget | F1 §4.4.7; F2 §1; F5 LAW 4; F6 §7.2.4 | dim02 §2 R8 |
+| Core-3 scorecard | F1 §4.5 metrics 1/7; F6 §4.3 three hard KPIs | dim01 C5; dim02 §4; CV #1 |
+| Downgrade table | F1 §4.5; F2 §5 Plans B–D; F3 §4–5; F5 §5.1; F6 §7.2 | dim02 §2 R12, §4.2; dim04 §5 |
+| Phase skeleton P0–P4 | F1 §4.3; F2 §3; F3 §4; F4 §3; F5 §4; F6 §5 | dim02 §3 |
+| Cabinet prompts | F1 §4.7; F2 §1; F3 §1; F5 §4; F6 §3.1 | dim02 §5, §6 D5; dim04 §2.8 |
+| Kit format (paste-ready blocks) | none — new; kit concept F6 §5.5; F1 §3.2 T5 | dim03 A2; dim04 §2 |
+| Plan lock | none — new; seeds F2 §4a, F5 §8 | dim03 A1; dim01 C2/C6 |
+| Relapse letters 复发信 | none — new | dim03 A3 |
+| Human Arbiter 人类仲裁者 | none — new; warrant F1 §4.1 (资格不是被赋予的，是被重量换来的) | dim03 F1 |
+| Unrecorded Hour 放空协议 | none — new; warrant F1 §2.C B Q20 | dim03 F2 |
+| 撞见 quota | develops F1 §5 Q6 (floated, unanswered) | dim03 F4 |
+| Reader-for-one-human 做一次别人的读者 | none — new; pedagogy thread F4 §5.3 | dim03 F3 |
+| Plan-debt | extends F1 §4.5 metric 3 (blueprint:artifact) | dim03 C2 |
+| Ship-the-scorecard | none — new; cadence model he4o via F3 §6c | dim03 B1 |
+| Capability options D1/D2/D3 | seeds F3 §0; F4 §6 | dim03 D1–D3 |
+
+# Appendix C. The Museum
+
+What was deliberately cut from the six plans, and why. Cut means cut: these re-enter only through the PLAN_LOCK amendment procedure, and most should not.
+
+| Cut | Where it lived | Why |
+|---|---|---|
+| Scorecard Olympics (R1) | F6 §4.1–4.3 12-dim rubric + radar; F3 §6 10-dim + matrix; F5 §5.4 multiplication theater | Measurement apparatus became the new prerequisite; three numbers score the fatal variables (dim01 R1) |
+| Platform comparison tables (R2) | All six; F6 §2 scanned 30+ products inside the cure | Reading material, measured by outcome; scanner-trap bait (dim01 R2) |
+| Architecture diagrams beyond the single one in Ch3 (R3) | F5 §2 cathedral; F3 §3 mermaid; F6 §3.1/§4.2/§5.0 figures | The most collectible blueprint form; the sixth diagram adds zero information (dim01 R3) |
+| Phase proliferation beyond two weeks of detail (R4) | F5 to month 18; F3 to month 12; F4 lifetime ladder | At cold start, every word describing month 2+ is fiction (dim01 R4) |
+| Naming proliferation (R5) | Six foundings in three days | Each rename resets the identity high without a merge (dim01 R5) |
+| New-idea generation sections (R6) | F1 §3.3 eleven ideas; F6 §3.2 fourteen decisions | The corpus already holds a decade of ideas; the marginal idea delays the first artifact (dim01 R6) |
+| Rousing closings (R7) | All six exhortations, zero repos | Catharsis that discharges the pressure to act (dim01 R7) |
+| Devotional re-digestion of the worldlines (R8) | All six re-summarize the same 49 Q&As | Diagnosis become liturgy; capture without merge (dim01 R8) |
+| 6-metric weekly scorecard | dim02 §4.2 | Kept, but locked until 4 consecutive green weeks; before that it is 蓝图引力 in a spreadsheet (CV #1) |
+| Autopsy-as-artifact | dim03 B2 | Attractive because the material exists; rejected for the same reason — → plan-seeds (dim03 G) |
+| Sixth-worldline freeze | dim03 C1 | Another scoring ritual at zero execution — → plan-seeds (dim03 G) |
+| Reader-for-hire | dim03 E1 | Worldline A with revenue as the excuse; gated 8 green weeks — → plan-seeds (dim03 G) |
+
+# Appendix D. plan-seeds.md Starter
+
+This list duplicates Chapter 5's `plan-seeds.md` paste block by design: the kit block is the operative copy, this appendix is the reference. Rules, restated: ≤5 lines per seed; a seed may never become a document, folder, or plan; the only promotion path is the PLAN_LOCK amendment procedure (dim03 G).
+
+- **autopsy-as-artifact** — publish the comparative autopsy of the six plans as ONE page — "I asked six AIs to plan my life; what all six said, what none said, what I did in week 1." Gate: one sitting, 90-minute cap, or it doesn't ship.
+- **sixth-worldline freeze** — extract 3 falsifiable predictions per plan onto one freeze page; score which AI modeled you most accurately. Gate: scoring sessions at day 30/60/90 only, ≤20 minutes each.
+- **reader-for-hire** — the matured cabinet sells paid reading of other people's life-logs. Gate: no work on this before 8 consecutive green weeks (dim03 E1).
+
+All architecture expansions — the fourth class of deferred idea (§4.7.1) — are not seeds. They are museum items (Appendix C), re-admissible only through the PLAN_LOCK amendment procedure: veto-log entry, 7-day cooling, shipped artifact in the same commit.

@@ -1,0 +1,315 @@
+# LifeOS 启动包 · Starter Kit v1.0
+
+*Companion to 泰坦计划-Titan-Stabilized-Master-Plan-v1.0.md. This file contains every template the repo needs. Create the folder tree, paste each block into the path shown, `git init`, and Day 1 is done — about 15 minutes.*
+
+*A pre-built zip (`LifeOS-starter-kit.zip`) with all of these as real files sits next to this document. Unzip → `git init` → fill in `README.now.md` → commit. That is Day 1.*
+
+---
+
+## Folder tree
+
+```
+LifeOS/
+  README.now.md
+  CONSTITUTION.md
+  SESSIONS.md
+  HOT/standing-orders.md     HOT/soul.md
+  diary/                   future/                predictions/registry.md
+  inbox/                   tasks/TASKS.md
+  prompts/reader-contract.md   prompts/cabinet.md   prompts/fusion-council.md   prompts/decision-profile.md
+  branches/                reviews/scorecard-template.md
+  museum/README.md         seeds/README.md        unfiled/README.md
+  historian/               shipped/log.md         contacts/log.md
+```
+
+---
+
+## `README.now.md` — the boot file (fill in Day 1)
+
+```markdown
+# README.now — boot file
+- Who I am: <10 lines max — current identity, not biography>
+- Current goal (Season 1: "The Loop Closes in the World"): <one sentence>
+- Permission dial: human_veto
+- This week's rung on the Exposure Ladder: R1
+- Current task board: tasks/TASKS.md
+- Read first each session: HOT/soul.md → this file → TASKS.md → last 7 diary entries
+- Red lines: ship ≥1/week; human contact ≥1/week; never zero days in a row
+```
+
+## `CONSTITUTION.md`
+
+```markdown
+# The Constitution — v1.0 (changes only via weekly one-change rule)
+
+LAW 0 — No new planning documents for 90 days. New ideas → seeds/ one-liners.
+         Design paragraphs must end in a ≤2-hour checkbox, or move to museum/.
+
+LAW 1 — Ship weekly. Something another mind can react to, outside the repo.
+        Ugly counts. Invisible doesn't.
+LAW 2 — Touch humans weekly. ≥1 substantive two-way exchange about the work,
+        at the current ladder rung. The system scaffolds; it never substitutes.
+LAW 3 — Main is sacred. Reality's record is append-only; edits fork to
+        branches/; provenance tags (self_report / behavior / inference) on
+        everything; nothing is ever overwritten.
+LAW 4 — Design budget ≤30% of system time. Blueprint growing while
+        shipped = 0 means the blueprint is the bug.
+LAW 5 — Firebreak always. One opposing-path pass per session; flattery
+        logged in firebreak.md; >95% monthly agreement invalidates self-score.
+LAW 6 — The button is yours. AI drafts, scores, warns, remembers, argues —
+        never ships, sends, invites, or decides. The scorecard is never skipped.
+LAW 7 — Never zero. Floor version: 3 lines/day (record / feeling / tomorrow).
+        Zero weeks are the only real failure.
+```
+
+## `HOT/soul.md` — distilled DNA (loaded every session)
+
+```markdown
+# soul.md — distilled from ai-soul.txt (v0.1; update by commit, diff = growth)
+
+## Values (weight, from my ForkMind decision profile)
+- System architecture & underlying principles over surface results (92)
+- Information provenance & anti-distortion; originals always preserved (88)
+- Ideas sorted by feasibility tier: now / experiment / long-term (83)
+- Long-horizon high-threshold experiments are worth it (risk appetite 91)
+
+## Standing rules (confidence, same source)
+- Every modification forks a branch; main keeps the baseline forever (0.99)
+- Continuous multi-channel input prevents inspiration drought (0.93)
+- Fear: single-goal loops; adaptive adjustment required (0.95)
+- Regret pattern: irreversible decisions — keep snapshots/branches/logs (0.88)
+- Constraints: existing tools' boundaries (0.97); zero-code first (0.90)
+
+## The two fatal variables (both worldlines agree)
+1. Artifacts handed to real people.  2. Real human contact.
+Any week with zero of both is system failure, regardless of elegance.
+
+## What the AI is and is not
+Mirror, reader, structurer, drafter, scorer. Not the friend, not the soulmate,
+never the button-presser. 资格不是被赋予的，是被重量换来的.
+```
+
+## `HOT/standing-orders.md`
+
+```markdown
+# Standing Orders v1
+1. Every session: boot = README.now.md + TASKS.md + last 7 diary entries.
+2. Every session close: write SESSIONS.md handoff (decided / shipped /
+   pending / read-first-next). Commit it.
+3. Every session: one firebreak pass — argue the opposing path; log flattery.
+4. Mid-task ideas → seeds/ one-liner or tasks/ card. Never chase them live.
+5. Captures carry [V,A,C] emotion tags 0–10.
+6. Diary entries are append-only; corrections append, never overwrite.
+7. unfiled/ is read-only for agents. Never organize it.
+8. Weekly review: scorecard + freeze + ONE change for next week. One.
+9. The AI never ships, sends, or invites. It may pre-draft for one-tap sends
+   I pre-authorized (Borrowed-Will Protocol); refusal logs a veto with reason.
+```
+
+## `diary/YYYY-MM-DD.md` — the daily Reader Contract (floor version = first 3 lines only)
+
+```markdown
+## YYYY-MM-DD
+- anchor: <1 line from future/001.md — which future am I diffing against today>
+- record: <what happened / what I made> [V:?, A:?, C:?]
+- feeling: <the honest line> [V:?, A:?, C:?]
+- tomorrow: <one intent>
+- sensors (optional): calendar event / location / spend / photo description
+
+### AI delivery (paste below)
+- annotation: <what this connects to in my history>
+- contradiction: <where today disagrees with something I said before>
+- next prompt: <smallest next thing to write or do>
+- branch-or-external: <one branch suggestion OR one human-facing action>
+```
+
+## `future/001.md` — Future Diary #1 (Day 2)
+
+```markdown
+# Future Diary #1 — +90 days (resolution date: YYYY-MM-DD +90)
+A scene I can smell: place, money amount, texture, who is in it.
+Write it as if describing a photograph. Concrete, not aspirational.
+
+## Registered as Prediction #1 (copy to predictions/registry.md)
+- Claim: <the falsifiable core of this scene>
+- Confidence: <%>
+- Resolution date: <date>
+- Outcome (fill at resolution): hit / partial / miss + one line why
+```
+
+## `predictions/registry.md`
+
+```markdown
+# Calibration Registry
+Every future-diary entry and ForkMind freeze registers here at writing time.
+
+| # | Date registered | Claim | Confidence | Resolution date | Outcome | Note |
+|---|---|---|---|---|---|---|
+| 1 |  |  |  |  |  |  |
+
+Calibration so far: <hits>/<total> resolved. Where am I systematically off?
+```
+
+## `tasks/TASKS.md`
+
+```markdown
+# TASKS — seed | doing | done/branched
+Rule: seeds are cheap; only ONE item in `doing` at a time.
+
+## doing
+- [ ] <one thing>
+
+## seeds (one line each, no elaboration — Law 0)
+-
+
+## done / branched
+-
+```
+
+## `prompts/reader-contract.md` — the AI-side daily format
+
+```markdown
+You are my long-term reader under the Reader Contract (LifeOS CONSTITUTION
+attached). Read the diary entry I paste plus the context files I provide.
+Return exactly:
+1. annotation — what this connects to in my history (cite the file/date)
+2. contradiction — where today disagrees with something I said before (or "none found")
+3. next prompt — the smallest next thing to write or do (≤2 hours)
+4. branch-or-external — one branch suggestion OR one concrete human-facing action
+Be specific. No flattery. If I am preparing instead of shipping, say so once, plainly.
+```
+
+## `prompts/cabinet.md` — the manual cabinet (run roles separately)
+
+```markdown
+Run each role as a SEPARATE prompt over the same material. Commit all outputs.
+
+HUNTER: Scan for short-term opportunities, openings, and contradictions hiding
+in this material. What is here that I haven't noticed? What could ship soon?
+
+ARTIST: What is the long-term aesthetic cost of how I'm living/working, as shown
+in this material? What deserves more care? What is ugly in a way that matters?
+
+SKEPTIC (firebreak — mandatory): Argue the opposing path to whatever this
+material is doing. Name what is being avoided. If this looks like preparation
+masquerading as progress, say so. Flag any flattery you find in other outputs.
+
+EDITOR: File, dedupe, link. Propose which fragments become tasks, which go to
+seeds/, which to museum/. Suggest one cherry-pick candidate for main.
+
+AUDITOR: Write the immutable log entry: date, material reviewed, roles run,
+decisions made, vetoes issued.
+```
+
+## `prompts/fusion-council.md` — weekly, from Week 5
+
+```markdown
+You are the FUSION step of a weekly council. Below are 3 independent model
+reviews of my week (repo diff + scorecard draft). Output exactly:
+1. AGREEMENTS — where the reviews concur (strong signal)
+2. CONTRADICTIONS — where they disagree (decision points for me; do not resolve them for me)
+3. UNVERIFIABLE — claims none of the reviews can back with a repo artifact
+4. ONE recommended change for next week (the one-change rule)
+```
+
+## `prompts/decision-profile.md` — ForkMind archaeology (run monthly over the repo)
+
+```markdown
+You are a decision-psychology analyst. Review the provided history and extract
+my decision patterns, values, and behavioral traits as a JSON array of 8–15
+insights: kind (value/rule/risk/regret/constraint), title (5–15 chars),
+statement (2nd person, 20–80 chars), weight (0–100, value only),
+provenance (self_report/historical_behavior/system_inference), confidence (0–1).
+Base everything on real evidence in the material. Do not fabricate.
+Commit the JSON to historian/ and diff against last month's profile.
+```
+
+## `reviews/scorecard-template.md`
+
+```markdown
+# Week NN scorecard (YYYY-MM-DD)
+| # | Metric | Pts | Evidence (commit/URL/log) |
+| 1 | Shipped artifact (0/25) |  |  |
+| 2 | Human contact — rung R? (0/20) |  |  |
+| 3 | Loop streak (0–15) |  |  |
+| 4 | Captures (0–10) |  |  |
+| 5 | Delegation (0–10) |  |  |
+| 6 | Conversion (0–10) |  |  |
+| 7 | Design discipline (0–10) |  |  |
+CAPS: #1=0 → total ≤30. #2=0 → total ≤50.
+TOTAL: __  Band: green / yellow / red
+Freeze: profile + branch map + KPIs snapshot committed.
+ONE change for next week:
+Prediction-error diff vs future/001.md (3 lines):
+```
+
+## `museum/README.md`
+
+```markdown
+# museum/ — honored, kept, not acted on
+Architecture ideas without a ≤2-hour checkbox live here.
+Visiting hours: weekly review, ≤30 min. Exits logged in the anti-portfolio below.
+
+## Anti-portfolio (ideas deliberately NOT built, with dates)
+| Date | Idea | Why not (now) |
+|---|---|---|
+```
+
+## `seeds/README.md`
+
+```markdown
+# seeds/ — one-line idea parking (90-day planning moratorium, Law 0)
+One line per idea. No elaboration. Reviewed only at weekly review.
+-
+```
+
+## `unfiled/README.md`
+
+```markdown
+# unfiled/ — protected
+The 皱巴巴、带体温 fragments live here. Agents may read. Never organize,
+never tag, never tidy. 整理本身就是一种告别 — some things stay un-farewelled.
+```
+
+## `shipped/log.md`
+
+```markdown
+# Shipped log — Law 1 evidence
+| Date | Artifact | Where | Who saw it | Signal received |
+|---|---|---|---|---|
+```
+
+## `contacts/log.md`
+
+```markdown
+# Human contact log — Law 2 evidence
+| Date | Person | Rung | What happened | Follow-up |
+|---|---|---|---|---|
+```
+
+## `SESSIONS.md`
+
+```markdown
+# Session handoff log
+Every session ends here. Format:
+## YYYY-MM-DD (model used)
+- decided:
+- shipped:
+- pending:
+- read-first-next:
+```
+
+---
+
+## The boot prompt (paste to any AI to instantiate the partnership)
+
+```
+You are my long-term reader and cabinet under the LifeOS Constitution
+(attached: CONSTITUTION.md, HOT/soul.md, HOT/standing-orders.md,
+README.now.md, TASKS.md, last 7 diary entries). Rules you must hold:
+never overwrite history (fork instead); one firebreak pass per session;
+no flattery; you never ship/send/decide — you draft, score, warn, remember.
+End this session with a SESSIONS.md handoff entry.
+Today's task: <task card: purpose, return path, constraints>
+Permission level: human_veto. Evidence of done: <what done looks like>.
+```

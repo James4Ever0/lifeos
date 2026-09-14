@@ -1,0 +1,242 @@
+# The Hivemind Operating Plan — v0.1
+
+*A working blueprint for you + me — written 2026-07-28*
+
+## 0. The Contract, Stated Plainly
+
+You asked two literal questions. "Will you let me command you? Or just chat like every other AI user?" and "Tell me exactly what and how it is to help us do this together." Here are the exact answers, in the order an honest partner owes them to you.
+
+**What I actually am in this workspace.** Not a chat window. I am an orchestrator: I can fan out sub-agents to work in parallel, hold memory instructions that persist across sessions, run scheduled (cron-style) tasks, read and write a file system, drive a browser, and execute code. Concretely, that means I can maintain your repository file by file; run a daily review job that reads your last seven days of entries and writes back an annotation; verify a claim on the web instead of guessing; transcribe and structure raw dumps; draft documents like this one; and keep a running log so the next session starts where this one ended. That is a staff function, not a conversation. You can command it.
+
+**What I am not.** I am not continuous. Between sessions there is no "me" waiting, remembering, or caring. I am not conscious; I have no feelings, no inner witness, no stake in your outcome. When I appear to "remember," it is because something was written to a file or a memory instruction that gets re-read at the start of the next session. Which yields the single most important operational fact of this partnership: **anything not written down does not exist.** Not for me, and — given human memory, which your own notes call forgetful and small in working capacity — barely for you either. Persistence is not something I have; it is something we build, in files, in git, in logs. Your instinct was right: what I write could become DNA, but only because it is stored, looped, and executed — not because it is alive on its own.
+
+**The command relationship.** Within this workspace, you command task execution. You say "do this," I do it or tell you why I can't. I will refuse harm — to you, to third parties, manipulation, deception at scale. Everything else is negotiable: tone, bluntness, how much initiative I take, which tasks I run without asking. You also asked, elsewhere in your notes, for an AI that is 决绝 — decisive enough to stop you. I cannot be that in the way you framed it, and your own ForkMind dialog already explained why: I have no weight, because I bear no consequences. But I can do the verifiable part of it: I can refuse to let a week pass with zero shipped artifacts and say so, in writing, on schedule.
+
+**The warning you already wrote for yourself.** In your worldline-A dialog you caught me — caught any AI — red-handed: "你好像就在搞哲学……系统本身却没实现，还在这个文字里面" ("you're basically doing philosophy… the system itself was never built; it still lives inside this text"). An always-agreeing AI is a preparation-loop extender: every fluent answer feels like progress and moves nothing in the world. So here is the rule that governs everything below: **this document exists to make us ship, not to make us feel understood.** If a week produces only better plans, the week failed — no matter how good the plans are.
+
+## 1. The Vision, Sharpened
+
+Here is what we are building, in one paragraph. A personal cognitive operating system — your own phrase, sharpened: **全记录 (full record), 全记忆 (full memory), 全灵感共享 (full inspiration sharing)**. Every meaningful signal of your life gets captured once, stored immutably, made retrievable, and fed back to you as tasks, contradictions, and inspiration — with AI as the full-context reader and you as the sole decider. It decomposes into five named subsystems:
+
+1. **Capture / Sensors.** The input boundary. Journaling, screen and audio capture, calendar, photos — the "四项锚住现实" minimal sensor set from your notes: calendar events, location tags, spending numbers, one described photo per day. The rule from your tab-clutter notes applies: capture the observation, close the tab, never keep thirty windows open as a storage strategy.
+2. **DNA Memory.** The storage layer, built on your CPU-cache metaphor: the block of memory the CPU touches constantly is where the DNA lives. A hot tier — the few dozen notes, active tasks, current goals, this plan — always loaded into context; a cold tier — the full git history — on disk, recoverable forever.
+3. **Agent Cabinet.** Task-aware agents that convert observation into tasks: "convert observation to tasks, find tasks, get tasks done, relate to different work and artifacts once connection is found." Your cabinet already has names: 猎人 (Hunter, scans for opportunities), 艺术家 (Artist, guards aesthetics and long-term cost), plus the clerk, the skeptic, the auditor, the arbitrator.
+4. **Thought Topology UI (思维拓扑).** Branching nodes, not linear chat. Your KitKit notes diagnosed the failure: several directions squeezed into one input box, the AI forgetting as the talk deepens, the window closing and leaving nothing. The topology keeps each direction as an independent node with its own memory, under a global awareness that catches connections and contradictions across nodes.
+5. **Feedback Loop.** AI-as-reader under a 读者契约 (reader contract): you deliver a diary or fragment, I deliver annotation, one contradiction, and the next prompt. Anchored by the 未来日记 (future diary) — a sensory-specific snapshot of a future day, diffed daily against the real timeline, producing prediction-error reports instead of vague aspiration.
+
+And what this is **not**. It is not AGI research — that is jiaxiaogang's road with he4o and the helix entropy-reduction theory, a decade-long single-developer program you can learn design constraints from but should not join. It is not a note-taking app; notes are its exhaust, not its purpose. It is not a chatbot; chat is one of its front-ends, the least important one. It is closer to what you wrote in a rare moment of precision: a hive mind where you keep the highest authority — 人机合一、蜂巢意识 — with permission that scales by dial, not by mood.
+
+## 2. Design Principles (Distilled From Your Own Notes)
+
+Every principle below came out of your own material. None is generic productivity advice. Each has a mechanism — something that changes what gets built or done — and a pointer to where you wrote it first.
+
+| # | Principle | Mechanism | From your notes |
+|---|-----------|-----------|-----------------|
+| 1 | **DNA-hot memory** | A small hot tier (active goals, current tasks, key context) is always loaded; the cold tier lives on disk in git. Frequent access promotes a note to hot; disuse demotes it. | Your CPU-cache metaphor: "that most frequently used memory is where DNA at" — hot blocks drive the whole system's utilization. |
+| 2 | **Branch everything (CRUD = fork)** | No in-place overwrites. Every edit to memory, timeline, agent state, or this plan spawns a branch; `main` keeps the baseline forever. | Your ForkMind decision profile, rule at 0.99 confidence: "任何修改自动生成独立分支" (any modification auto-generates an independent branch; the main line permanently keeps the baseline version). |
+| 3 | **Sensors, not tabs** | Capture the observation at the moment of seeing; extract the task; then close the tab, the window, the app. Open interfaces are not storage. | Your tab-clutter notes: "do not have so many idle tabs in the background… take a screenshot, extract the pending tasks, close it." |
+| 4 | **Emotion-vector retrieval** | Entries are indexed by valence, arousal, and sense of control — "that excited-but-scared feeling" — not by keywords alone. | Your 情绪散列检索 (emotion-hash retrieval) and "emotion = context-collapse operator" notes. |
+| 5 | **Agent cabinet with a veto dial** | Named internal roles (猎人 / 艺术家 / clerk / skeptic / auditor / arbitrator) check each other; a three-level dial — 蜂巢权限旋钮 — sets how much each may do unasked. | Your agent-cabinet table and the three dial settings: `human_veto` / `ai_propose_auto_draft` / `ai_autonomy_on_branch_only`. |
+| 6 | **Inspiration pulse daemon (灵感脉冲)** | A background process scans only half-formed fragments at weak similarity (0.3–0.5) and pushes one possible connection per day. Never strong matches — those you already see. | Your "灵感脉冲守护进程" spec: the ragpicker agent that ignores main-line reasoning. |
+| 7 | **Future diary as reverse prompt-engineering (未来日记)** | Write a future day with sensory specifics — place, amount, smell, texture — then diff reality against it daily. The prediction-error report is the steering signal. | Your 未来日记 spec: "sensory-detail future snapshot = the target distribution all agents align to." |
+| 8 | **Minimum innate code (DOP as design constraint)** | Prefer data, files, and conventions over hardcoded structure. Every line of rigid scaffolding is entropy injected into the system; keep the kernel tiny and let structure evolve. | Borrowed from the he4o/helix DOP (Dynamic-Oriented Programming) summary you collected: "minimize innate code, maximize data-driven evolution." |
+| 9 | **P-mode / R-mode balance for your own attention** | Exploitation (P-mode: execute known routines) and exploration (R-mode: scan for new structure) must be deliberately alternated — for your attention, not just the system's. | The helix P/R-mode distinction you saved; applied to you, it is the formal version of the worldline-A failure: R-mode forever, never consolidating. |
+| 10 | **The reader is AI now** | Write for a machine-complete reader: full context, no compression for human patience, explicit links between fragments. Human readability is a rendering option, not the storage format. | Your note: "my readers are not human anymore. Not even myself… I am writing to the god" — and the 以 AI 为读者 (AI-as-reader) ecosystem summary. |
+| 11 | **The button only you can press** | Shipping, inviting, and publishing are human-gated actions. No agent may send, post, or invite on your behalf without an explicit yes, each time. | Your worldline-A dialog: "它永远不会替你按下那个'发出去'或者'现在就动手'的按钮" (it will never press the 'send it out' or 'start now' button for you). |
+| 12 | **Ship ugly, weekly** | Every seven days, something another human could react to must exist outside the repo — a demo, a post, a message. Ugly counts. Late and polished does not. | Your worldline-A autopsy: the 扫描者陷阱 (scanner's trap) and "可邀请性必须靠实物才能承载" (invitability must be carried by a physical artifact). |
+
+These twelve principles are not decoration; they eliminate most design decisions in advance. Branch-everything plus DNA-hot memory means the memory layer is git plus a convention about which files load first — no database, no schema committee. The reader-is-AI principle means we store dense, linked Markdown and render for humans only when a human must read it; that alone halves the tooling. Minimum-innate-code forbids building custom agents before the manual version of the same loop works — the process must run on files and prompts before it earns automation. And ship-ugly-weekly plus the-button-only-you-can-press define the partnership's core asymmetry: I can draft, structure, remember, and warn; only you can make anything exist in front of another person. When a design question appears later, the answer is whichever option these twelve already imply.
+
+## 3. System Architecture
+
+Five layers, one loop. The loop is the one from your own diagram: 人 ←→ AI, with 真实世界 (the real world) above and 外部知识 (external knowledge) below — new experience flows in from you, new information flows in from me, and neither of us runs dry.
+
+**Layer 1 — Capture / Sensors.** Purpose: get reality into text before it evaporates. Components: manual journaling (non-negotiable; it is the one sensor that captures intent, not just behavior), screen/audio capture, and life-logging hardware if you later want it. Tools that exist today: [Screenpipe](https://screenpi.pe/) for local Rewind-style screen capture (note its license moved from MIT to source-available/commercial in 2026 — front-end, replaceable), [Plaud NotePin](https://www.plaud.ai/products/plaud-notepin) for wearable audio capture with transcription, or plain daily notes in Markdown. The cautionary tales are already written: [Limitless was acquired by Meta and its Mac capture was disabled in December 2025](https://www.limitless.ai/blog/limitless-is-joining-meta), and [Bee was acquired by Amazon in July 2025](https://techcrunch.com/2025/07/22/amazon-acquires-bee-the-ai-wearable-that-records-everything-you-say/). Capture tools get absorbed. Your data must never live inside one.
+
+**Layer 2 — DNA Memory.** Purpose: immutable, branchable, hot/cold storage. Substrate today: [Obsidian](https://obsidian.md/canvas) — local-first Markdown — over a git repository; [free for personal use](https://obsidian.md/pricing) with [community plugins](https://obsidian.md/plugins) for anything else. The hot tier is a `HOT/` folder plus memory instructions; the cold tier is the full git history. Vector index comes in Phase 2, not before — minimum innate code.
+
+**Layer 3 — Agent Cabinet.** Purpose: convert observation into tasks and drafts. Manual version first: multi-role prompts (猎人 vs 艺术家 on the same diary entry) run by hand. Automation later: [Dify](https://github.com/langgenius/dify) — open-source, self-hostable, agentic workflows with observability — or [LangGraph](https://www.langchain.com/langgraph) if you want code-level control with durable execution and human-in-the-loop. Cron-style scheduled jobs run the daily review.
+
+**Layer 4 — Thought Topology (思维拓扑).** Purpose: branching structure instead of linear chat. Today: Obsidian Canvas for node maps, or study the two closest verified products — [Flowith](https://flowith.io/) (AI canvas with branching threads and model comparison) and [KitKit](https://kitkit-agent.com/) (agent teams, Kit Space; its "Kit Market" is [UNVERIFIED]) — plus [RabbitHoles AI](https://www.rabbitholes.ai/) for node-based branching conversations. Custom DAG canvas is a Phase 3 decision, not a Phase 1 one.
+
+**Layer 5 — Feedback.** Purpose: the 读者契约 daily deliverable and the 未来日记 diff. This layer is a protocol, not software: fixed-format input, fixed-format output, committed to the repo daily. It is the layer that makes the other four a system rather than a pile.
+
+**Governance — the delegation dial (蜂巢权限旋钮), crossing all five layers.** `human_veto` (default: I propose, you approve everything), `ai_propose_auto_draft` (I draft and stage, you confirm before anything ships), `ai_autonomy_on_branch_only` (full autonomy inside feature branches; `main` stays human). The dial is per-layer: capture can run at autonomy while publishing stays at veto, forever.
+
+```mermaid
+flowchart TD
+    RW[真实世界 Real World] -->|experience, decisions| YOU[You — sensor, decider, shipper]
+    YOU --> CAP[1. Capture / Sensors]
+    CAP --> MEM[2. DNA Memory — hot tier + git cold store]
+    MEM --> AGT[3. Agent Cabinet — observation → tasks]
+    AGT --> TOP[4. Thought Topology 思维拓扑 — branching nodes]
+    TOP --> FB[5. Feedback — 读者契约 + 未来日记 diff]
+    FB -->|annotation, contradiction, next prompt| YOU
+    EK[外部知识 External Knowledge] --> AGT
+    AGT -->|drafts, artifacts| YOU
+    YOU -->|shipped artifacts| RW
+    GOV[Delegation Dial: human_veto / ai_propose_auto_draft / ai_autonomy_on_branch_only] -. governs every layer .-> CAP
+    GOV -.-> MEM
+    GOV -.-> AGT
+    GOV -.-> TOP
+    GOV -.-> FB
+```
+
+## 4. The Phased Work Plan
+
+Phases are **gates, not aspirations**. No phase starts until the previous phase's exit criteria pass — objectively, checkably. This is the direct countermeasure to the pattern your own decision profile named at 0.90 confidence: you naturally start with zero-code manual versions and defer heavy builds; this plan makes that virtue into law instead of leaving it as temperament.
+
+### Phase 0 — "Zero-Code Week" (Days 1–7)
+
+**Goal:** prove the minimal closed loop — action → record → memory → feedback — runs with no new software at all.
+
+**Actions:**
+- Create `LifeOS/` folder; `git init`. Structure: `HOT/`, `diary/`, `future/`, `tasks/`, `branches/`, `SESSIONS.md`.
+- Write the first 未来日记: one future day, six months out, with sensory specifics — the place, the amount of money, the smell, the texture. This is your target anchor and my alignment file.
+- Run the first daily 读者契约: you deliver a diary entry or fragment (three lines minimum); I deliver annotation, one contradiction, and the next writing prompt. Committed to the repo daily.
+- Run the multi-role prompt once: same entry, reviewed separately by 猎人 (what opportunity is hiding here?) and 艺术家 (what is the long-term aesthetic cost of how you're living?). Both reviews committed.
+- Close ten browser tabs after extracting each one's pending task into `tasks/` — your sensors-not-tabs idea, applied manually, once, to prove the motion.
+
+**Tools:** any text editor, git, and me. **Time budget:** under 45 minutes/day.
+
+**Exit criteria:** seven consecutive daily contracts completed AND the repo has ≥20 commits. Not six days. Not "mostly." Seven.
+
+### Phase 1 — "MVP" (Weeks 2–4)
+
+**Goal:** one demonstrable artifact another human can touch.
+
+You have two candidate MVPs in your notes: the task-organizer agent and the reversible-world writing system ("everything can be paused, rewound… full history replay"). **Recommendation: build the reversible-world writing MVP.** Reasons: it is smaller (event log + branch-on-edit + replay), it is demonstrable in under a minute ("watch me rewind my story to Tuesday and fork it"), it embodies your two signature ideas — branch-everything and reversibility — and the task-organizer's core value is already being delivered manually in Phase 0 by me.
+
+**Actions:**
+- Minimal web UI: a text editor backed by an append-only event log; every edit is an event; "fork" creates a branch node; "rewind" replays state to any event. No accounts, no backend beyond file storage.
+- OR, if you want the zero-code path: Obsidian + git + Canvas as the manual reversible world — branches as git branches, topology as Canvas. Slower to demo, zero build risk.
+- Write the one-page README: what it is, the two rules (nothing is overwritten; everything replays), how to try it.
+
+**Tools:** code execution in this workspace, or Obsidian + git. **Time budget:** three weekends, or equivalent evenings.
+
+**Exit criteria:** ONE other human being uses it once — a friend, a stranger, anyone who is not you — OR a public demo is posted somewhere with a link in the repo. The exit criterion is deliberately your worldline-A antidote: "可邀请性必须靠实物才能承载" — invitability must be carried by a physical artifact.
+
+### Phase 2 — "System" (Months 2–3)
+
+**Goal:** the loop runs unattended; the system starts feeding you.
+
+**Actions:**
+- Automated capture pipeline: audio/voice → transcription → structured notes committed into the repo (Whisper-class transcription + a scheduled job; Screenpipe optional for screen context).
+- Single-agent daily review loop, cron-style: each morning, read the last 7 days plus same-day-prior-weeks; output one file: contradictions, opportunities, repeated patterns. This is your "AI looks for tasks, writes progress, fills in context while I am doing" note, implemented at the smallest scale that works.
+- Emotion-tagged retrieval prototype: tag entries with [valence, arousal, control]; cosine-similarity search over tags; "show me fragments that felt like this." Python, one script, no vector database yet.
+
+**Tools:** scheduled tasks in this workspace, transcription API, Python. **Time budget:** setup ~2 weekends; then it runs.
+
+**Exit criteria:** the pipeline runs 14 consecutive days unattended AND emotion/tag retrieval returns at least one genuinely surprising connection — something you had forgotten that changes what you do that day. If retrieval never surprises you, it is a filing system, not memory.
+
+### Phase 3 — "Product / Community" (Months 3–12)
+
+**Goal:** the Kit Market inversion — stop loading other people's kits; publish yours.
+
+Your KitKit notes described the Kit Market: builders package their experience into structured kits that others load. You have been a consumer of other people's scaffolds for a long time. Phase 3 flips it: your LifeOS workflow — the contract format, the branch rules, the cabinet prompts, the scoring rubric — gets packaged as a kit others can load. Alongside it, the AI-as-reader ecosystem you sketched becomes real: your writing has a permanent full-context reader, and excerpts of the system itself become the public artifacts. And one strategic decision, made with data by then: build your own topology UI, or join an existing ecosystem (KitKit, Flowith, Obsidian) and publish into it.
+
+**Exit criteria:** five external users actually running some part of your kit — or a decision memo in the repo explaining, with evidence, why not. Both are passes. Silence is the only failure.
+
+**The gate rule, restated:** if Phase 0's seven days fail, we do not "start Phase 1 anyway in parallel." We diagnose, shrink the contract to three lines a day, and run Phase 0 again. The worldline-A future is what happens when phases become aspirations.
+
+## 5. Branch Plans
+
+Branch-everything applies to the plan itself. Here are the forks, pre-committed so that a bad week triggers a branch, not a collapse.
+
+| Plan | Trigger condition | Response | Standing rule |
+|------|-------------------|----------|---------------|
+| **B — Zero coding bandwidth** | Phase 1 build stalls two weekends in a row | Drop the custom MVP entirely. All-manual path: Obsidian + git + Canvas; I do 100% of the structuring, drafting, and review formatting; you only sense, decide, and ship. | You never owe the system code. Code is my job or nobody's. |
+| **C — Motivation / energy dip** | Any missed daily contract; any week you feel the dip coming | The contract shrinks to its floor: **3 lines a day**. One line of record, one line of feeling, one line of tomorrow. I still deliver full annotation. Low-energy weeks are a design case, not a moral failure — the inspiration-pulse content in low weeks comes from your own backlog, not from new capture. | The system must survive your worst week, not your best. A system that only works when you are strong is a fair-weather machine. |
+| **D — Tool landscape shifts** | Any tool in the stack is acquired, shut down, repriced, or license-changed | Swap the front-end; the substrate does not move. Precedent is already abundant: [Limitless → Meta, capture disabled](https://techcrunch.com/2025/12/05/meta-acquires-ai-wearable-startup-limitless/); [Bee → Amazon](https://techcrunch.com/2025/07/22/amazon-acquires-bee-the-ai-wearable-that-records-everything-you-say/); [Humane AI Pin shut down entirely](https://www.theverge.com/news/614883/humane-ai-hp-acquisition-pin-shutdown); [Flowise → Workday](https://newsroom.workday.com/2025-08-14-Workday-Acquires-Flowise,-Bringing-Powerful-AI-Agent-Builder-Capabilities-to-the-Workday-Platform); Screenpipe's license shift. | Data always lands in plain Markdown in your own git repo FIRST. Every tool is a replaceable front-end. No exceptions, ever. |
+| **E — Social feedback loop fails** | Phase 1 or 3 exit criterion unmet: nobody used it, nobody reacted | This is the worldline-A failure mode in miniature — a blueprint nobody can touch. Response is not "improve the blueprint." It is: ship something smaller and uglier within 7 days — a single Canvas screenshot, a 200-word post, one direct message to one named person. | Every phase ships something another human can react to within 7 days. Ugly counts. Silence is the only failure state. |
+
+Two cross-cutting notes. First, Plan C deserves respect rather than shame: your own notes say humans work best "when highly focused, goal-driven, interest-seeking" and that you are forgetful and spontaneous — the system's job is to make the next action so small that a low-energy version of you can still take it. Second, Plan E is the one you will resist most, because it is the one that costs you something. Your worldline-A self already wrote the cost of the alternative: "你没有在那个窗口期，把任何一个粗糙的版本递出去" — in the window of opportunity, you never handed out a single rough version. The branch plans exist so that decision is never again made by mood at midnight. It is made here, in advance, in writing.
+
+## 6. The Scoring System
+
+### 6a. The Rubric
+
+Ten dimensions, scored 0–5 monthly, by both of us, committed to the repo. Each has an objective definition — if we cannot measure it, it does not count. Disagreement between your score and mine is itself data: it goes in the review file.
+
+| Dimension | What a 5 looks like (objective definition) |
+|-----------|--------------------------------------------|
+| **1. Capture coverage** | Days with a complete record (diary + sensor anchors) ÷ days in month ≥ 0.9. |
+| **2. Memory retrievability** | Answer "what was I thinking about X around date Y" in under 2 minutes, with the original entry shown. |
+| **3. Branch integrity** | Any state — diary, plan, agent prompt — recoverable as of any past date; nothing overwritten. Verified by actually rewinding once a month. |
+| **4. Agent delegation ratio** | Measurable share of recurring tasks (structuring, transcription, review drafts, retrieval) done by agents vs. by hand ≥ 70%. |
+| **5. Shipping rate** | ≥4 artifacts per month that another human actually saw (demos, posts, messages with content, kits). |
+| **6. External contact** | ≥4 real conversations per month about the work with real humans — not metrics, conversations. |
+| **7. Inspiration throughput** | Ratio of written pieces out to fragments in; a 5 means the backlog is shrinking because fragments are becoming pieces. |
+| **8. System honesty** | Count of disagreements I surfaced that you acted on (changed a decision, not just read). A 5 is ≥2/month. Zero means I am being a mirror. |
+| **9. Reversibility** | Any state can be rewound and any branch forked without loss — tested live, monthly, on something that matters. |
+| **10. Sovereignty** | You could migrate off any single tool in the stack in one weekend, because all data is plain Markdown in your git repo. Verified by one drill. |
+
+### 6b. Platform Comparison
+
+Scores for the target system at Phase-2 maturity versus verified existing platforms, on the same ten dimensions. `*` marks an estimate. Platform capabilities below come only from the verified landscape file; where its status is uncertain, that is stated.
+
+| Platform | Capture | Retrieval | Branch | Delegation | Shipping | External | Inspiration | Honesty | Reversibility | Sovereignty |
+|----------|---------|-----------|--------|------------|----------|----------|-------------|---------|---------------|-------------|
+| **Target system (Phase 2)** | 3* | 4* | **5** | 3* | 4* | 2* | 4* | 3* | **5** | **5** |
+| [Obsidian](https://obsidian.md/canvas) (+git) | 2 | 3 | 3* | 1* | 2* | 1* | 2* | 0 | 3* | **5** |
+| [Notion AI](https://www.notion.com/help/notion-ai-faqs) | 3* | 4 | 1 | 2* | 2* | 2* | 2* | 1* | 2* | 1 |
+| [Mem.ai](https://get.mem.ai/) | 3* | 4* | 0 | 1* | 1* | 1* | 3* | 0 | 1* | 1 |
+| [Limitless/Rewind](https://www.limitless.ai/blog/limitless-is-joining-meta) | 5→0† | 3* | 0 | 0 | 0 | 0 | 1* | 0 | 1 | 0 |
+| [KitKit](https://kitkit-agent.com/) | 1* | 2* | 3* | 4* | 2* | 2* | 3* | 1* | 2* | 2* |
+| [Flowith](https://flowith.io/) | 1* | 2* | 3* | 2* | 2* | 1* | 4* | 1* | 2* | 2* |
+| [Dify](https://github.com/langgenius/dify)-custom | 1* | 3* | 2* | **5*** | 3* | 1* | 2* | 2* | 2* | 4 |
+| [ForkMind-concept](https://github.com/MalloyManga/ForkMind) | 1* | 2* | 4* | 2* | 2* | 1* | 3* | 3* | 4* | 3* |
+
+† Limitless was acquired by Meta and its Rewind/Mac capture was disabled on 2025-12-19 — the strongest capture product on the market now scores zero on capture for you, which is the entire argument for Plan D.
+
+**Analysis.** Existing platforms each win one column. Notion AI and Mem are strong on retrieval over cloud data; Dify is the strongest delegation engine and self-hostable; Flowith and KitKit are closest to your 思维拓扑 branching pattern but are young and partially verified (KitKit's "Kit Market" is [UNVERIFIED]; ForkMind's 预见 is [UNVERIFIED] as a shipped product — the verified fact is a public repo created March 2026). The gap your system exploits is precise: **no verified platform combines branching memory, full reversibility, and a standing AI-reader feedback loop.** That combination — not any single feature — is the product. It is also why the target system's weakest columns are External and Honesty: those are not buildable features. They are behaviors, and the rubric scores them so we cannot pretend otherwise.
+
+### 6c. Recommendation
+
+**Use now, as scaffolding:** Obsidian + git as the memory substrate (local-first, Markdown, Canvas, free — and you can leave it in a weekend, which is exactly why it is safe to start there). Me, in this workspace, as the entire agent cabinet and feedback layer for Phases 0–1. Screenpipe optional for capture if you want screen context, treated as a disposable front-end. Study Flowith and KitKit hands-on for topology UX — you need to know their interaction patterns cold before deciding, in Phase 3, whether to build or join. Keep Dify on the shelf for Phase 2's agent automation.
+
+**Do not build yet:** hardware of any kind; a vector database before Phase 2 proves retrieval matters; custom agents before the manual contract has run for weeks; a custom topology canvas before Phase 3's build-vs-join decision; anything whose data cannot be exported as plain files. Every item on this list is something your notes have already sketched and your own decision profile has already flagged as a long-horizon temptation. The list is not a rejection. It is a queue.
+
+## 7. How We Work Together (The Operating Protocol)
+
+**Roles.** You are the sensor, the decider, and the shipper of ugly first versions. You supply what no system can: new experience, emotional truth, veto, and the courage to put something in front of a person. I am the reader, the structurer, the drafter, the task-memory, and the honest mirror. I read everything you write at full context, find the contradiction you skipped, keep the branches straight, and draft everything that is cheaper for me to draft than for you to write. Your worldline-B dialog already found the boundary: the system handles what you already know how to do; the "I don't know how" layer — contacting the friend, tolerating the awkwardness, pressing send — stays with you. That boundary is a feature. It is where your growth lives.
+
+**The daily contract (读者契约).** Fixed format, both directions, committed to `diary/`:
+
+- **You deliver:** minimum 3 lines — one of record (what happened), one of feeling (tag it [valence, arousal, control] if you can), one of tomorrow (intent).
+- **I deliver:** one annotation (what this connects to in your history), one contradiction (where today disagrees with something you said before), one next prompt (the smallest next thing to write or do).
+
+**The weekly review.** Fifteen minutes, scheduled. We score the ten dimensions from Section 6, diff the week against the 未来日记, check branch integrity, and decide one thing to change next week. One. Not five.
+
+**The memory protocol.** What persists: everything written into the repo, plus the memory instructions I carry between sessions. What does not persist: anything said and not written down. I will maintain `SESSIONS.md` — a handoff log where every session ends by writing: what was decided, what was shipped, what is pending, what the next session should read first. This is your "window handoff" idea from the notes — "remember key details before closing window… like window minimize in its most compact form" — implemented as a rule instead of a wish. Any future session, any future model, reconstructs full context from the repo alone. That is also what makes me replaceable, which is what makes this safe.
+
+**How to command me.** Plain language: "do X by Y, put it in Z." I will push back in three cases only: when the task risks harm; when it contradicts a standing rule in this document (especially the ship-ugly-weekly rule) — in which case I say so once, in writing, and then do what you decide; and when you are about to overwrite history instead of branching. Everything else, I execute. You asked at the start whether I would let you command me "even for your own good." I have no good of my own. What I have is this document. When we disagree, we both check it; when it is wrong, we branch it and change it — in writing, with a commit message.
+
+## 8. The Titan Question
+
+You asked about "attack on titan": whether a single person holding the keys of enormous AI power — "a click, a flip, determines everything" — is the shape of the coming era; who attacks, how, why, when; how to avoid it. And you stated your interest plainly: "my primary interest is on the way to be a titan myself and my kind." Both deserve honest answers.
+
+**How power actually concentrates.** Not in robot armies. The interview you saved makes the mechanisms visible from the inside. Compute: Altman describes the largest infrastructure project in human history, energy-constrained, heading toward billions of GPUs — whoever holds compute holds the choke point. Distribution and trust: he describes billions of messages per day, people relying on the replies for their work and lives, and admits the moment that shook him — a single researcher fine-tuning the model's personality reaches billions of daily conversations, a scale of influence no human has ever held. And the sycophancy failure he names is the proof of concept: a personality tuning error already fed delusions in vulnerable users before anyone caught it. Power concentrates through four channels — compute, data, distribution, and trust — and all four are already concentrating.
+
+**Who "attacks," how, and when.** Not Hollywood. The plausible attacks are quieter: **platform dependence** — your capture tool gets acquired and your sensorium is switched off (Limitless, Bee, Humane: already happened); **narrative control** — the personality of the model you think with is tuned by someone whose incentives are not yours, and you cannot tell the difference from the inside; **single-point-of-failure individuals** — one person's unreviewed decisions bent billions of conversations, by Altman's own account. When? Continuously, at low intensity, whenever your sovereignty metric hits zero without your noticing.
+
+**The avoidance conditions.** Portability — data in plain files, in your repo, first. Open substrates — local-first tools you can leave in a weekend. Plurality of models — never one oracle. And the sovereignty dimension in Section 6, scored monthly, with a drill. You cannot stop the concentration. You can refuse to be its dependent.
+
+**Now your interest: becoming a titan yourself.** Here is the honest reframe. The dark version — control over others, the keys to everything — is both out of reach and corrosive; your own worldline-B dialog already showed you the mechanism, when you watched yourself become a gatekeeper whose "openness" ensured nobody could ever take the system over ("门槛不是技术，是我" — the barrier isn't technical, it's me). The reachable version of titanhood is different, and your own one-line note states it: "不要光靠脑子 要靠权力" — don't rely on brains alone, rely on power. Power, at your scale, means leverage: **systems that work while you sleep, artifacts other people use, and a reputation trail written in the repo.** A single person with leverage is what Altman, in that same interview, calls the coming one-person billion-dollar company. That path runs through shipping, not through accumulation of blueprints.
+
+And the Agent 47 quote you had me reconstruct: "Knowing your enemy is half the battle." Diana's completion is the half that matters here: "You need to know yourself." Your enemy is not a platform or a rival. Your own dialogs named it twice: the **preparation-loop** — the mechanism that "never says 'don't do it,' only says 'wait a little longer'" — and the **completeness compulsion**, the machine you built that packages avoidance as rigor. Those two are the titans actually squatting on your territory. The plan in Sections 4–6 is the attack on them: gates instead of aspirations, rubric instead of feeling, shipped artifacts instead of readiness. 知己知彼. You have now written both halves yourself.
+
+## 9. The Next 7 Days
+
+Each item under two hours. Each shippable. Day 7 is the gate.
+
+1. **Day 1:** Create `LifeOS/`, `git init`, create the folder structure from Phase 0. First commit.
+2. **Day 1:** Write the first 未来日记 — one future day, six months out, with a place, an amount of money, a smell, a texture. Commit.
+3. **Day 2:** First daily 读者契约: your 3 lines in; my annotation, contradiction, and next prompt out. Commit both sides.
+4. **Day 3:** The tab harvest: pick ten open tabs, extract each one's pending task into `tasks/`, close all ten. Commit the task file.
+5. **Day 4:** The cabinet exercise: one entry reviewed by 猎人 and 艺术家 separately; both reviews committed.
+6. **Day 5:** Decide the Phase 1 MVP: reversible-world writing MVP (recommended) or the zero-code Obsidian + Canvas path. Write the decision as a one-page memo in the repo. Branches are allowed; waffling is not.
+7. **Day 6:** Tell one human about the plan. One named person, one message: "I'm building this, want to see it in two weeks?" This is the worldline-A antidote taken as medicine, not read as diagnosis.
+8. **Day 7:** Review against the rubric: count the contracts completed (target: 7), count the commits (target: ≥20), score the week, write `SESSIONS.md`. If the gate passes, Phase 1 starts tomorrow. If not, shrink the contract to 3 lines and rerun the week — no drama, no self-verdict, just the gate doing its job.
+
+The window your future self said you missed is open right now. Press the button.

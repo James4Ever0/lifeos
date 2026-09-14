@@ -1,0 +1,220 @@
+# LifeOS 实现计划 · The Realization Plan
+
+*From four planning documents to one working prototype. Written 2026-07-29.*
+*The previous documents answered "what LifeOS is" and "why." This one answers only "how it gets built" — in the simplest way that can actually run.*
+
+---
+
+## 0. Read this first
+
+Everything before this page designed the **operating system for the person**: the constitution, the laws, the scorecards, the gates. Those stay. This plan designs the **machine**: the context capture engine, the shared task pool, and the AI that works beside you in it — the system where "AI is not just an observer: it suggests, remembers, relates, reacts, plans, explores — a different me on a different path."
+
+Two inherited rules govern everything below:
+
+1. **A running rough loop beats a beautiful blueprint.** Every stage ends in something *working*, not something designed.
+2. **You only improve what a failing test tells you to improve.** The user said it: there will be chances to improve later, once there is a working prototype and lots of data that is accessible and reachable. This plan gets you to that point — and makes the data choose the improvements.
+
+---
+
+## 1. The whole system in one picture
+
+```
+        everywhere you go
+   phone · computer · chats · voice · exports
+                  │
+                  ▼
+   ① CAPTURE — everything becomes dated plain-text files
+                  │
+                  ▼
+   ② MEMORY — one folder. A small hot layer always loaded;
+      everything else reachable through search + digests
+                  │
+                  ▼
+   ③ AGENT — an AI on a schedule reads the folder,
+      works tasks from the shared pool, writes results back
+                  │
+                  ▼
+   ④ SHARED TASK POOL — one TASKS.md, two workers: you and the AI.
+      This is where "we evolve together" literally happens.
+```
+
+The vision, restated as engineering: **the AI is a second worker with perfect memory of everything ever captured, sharing one memory and one task pool with you.**
+
+- It **remembers** — the folder is the memory; nothing is overwritten.
+- It **relates** — every new capture gets linked to what it connects to.
+- It **suggests** — it writes proposals into the shared task pool.
+- It **reacts** — scheduled triggers fire without you asking.
+- It **plans** — it diffs reality against the future diary, weekly.
+- It **explores** — it works on *branches*: literally a different path. Merges are the moments the two paths meet — and only you merge.
+
+"A different me on a different path" is not a metaphor in this design. It is a git branch — and it is also the safety model: the AI never writes your main line.
+
+---
+
+## 2. The six verbs → six mechanisms
+
+| The vision | The mechanism | Prototype implementation |
+|---|---|---|
+| **remembers** 记忆 | append-only raw log + distilled memory files | `inbox/` + `diary/` as raw log; `soul.md` + weekly digests as distilled memory |
+| **relates** 关联 | every new capture is annotated with its connections | the reader contract's *annotation* step; later, semantic search over the folder |
+| **suggests** 建议 | proposals enter the same pool you work from | an `AI` lane in `TASKS.md`; one-line ideas in `seeds/` |
+| **reacts** 反应 | triggers, not willpower | scheduled jobs: daily contract, Sunday scorecard, streak-break alarm |
+| **plans** 规划 | a written target that reality is diffed against | `future-diary/` + the weekly freeze diff (预测误差报告) |
+| **explores** 探索 | branches — the different path | AI output lives in `branches/` or on `feature/*`; merge = your veto |
+
+Six verbs, six files-or-habits, zero new inventions. Every mechanism already exists in the starter kit — this plan only puts them in build order.
+
+---
+
+## 3. The context engine — "utilize massive context like a human"
+
+This is the heart of the request, so it gets its own chapter. The key observation: **a human does not search their whole memory.** A human holds a small working set of what's on their mind now, recalls the rest *by association* when the situation triggers it, and *compresses* experience during rest. The engine copies exactly those three moves — nothing more.
+
+### 3.1 Three tiers of memory
+
+| Tier | What it is | Size | How the AI reaches it |
+|---|---|---|---|
+| **1 · Working set** | `README.now.md` + `TASKS.md` + `soul.md` + last 7 days | a few pages | loaded whole, at the start of every session — always |
+| **2 · Reachable** | daily + weekly digests, the file index | tens of pages | AI asks "what do I have about X?" → gets pointers → opens the raw files |
+| **3 · Archive** | every raw dated capture, forever | unbounded | plain full-text search; never deleted, never reorganized |
+
+Sessions boot from Tier 1 only. Tiers 2 and 3 exist so that *massive* context is reachable without being loaded — exactly how you can answer "what was I thinking in March?" without replaying March.
+
+### 3.2 Two processes that keep it human-like
+
+- **Compression (like sleep).** One scheduled job writes a one-paragraph digest per day and one per week. Raw files stay untouched in the archive; digests are what future sessions actually load. This is what lets context grow for years without drowning the working set.
+- **Association (like memory).** Every write links to related entries — "this connects to diary/2026-07-31" — in plain text. Links turn a pile of files into a web, and the web is what makes the AI *relate* instead of merely store.
+
+### 3.3 The only scaling rule
+
+> **You may add machinery — embeddings, a database, a second agent — only when a test fails.**
+> The test: *"What was I thinking about X, around date Y?"* answered in under 2 minutes.
+> If search + digests pass, you need nothing else.
+
+The four predecessor documents verified the landscape: agent memory is a commodity, capture tools get acquired, frameworks are premature until a simpler loop breaks. So the prototype owns only the part that is irreplaceably yours — **the convention** (dated plain-text files in one folder, hot layer on top) — and rents everything else. Retrieval quality is the only thing worth building, and only when it fails.
+
+---
+
+## 4. The shared task pool — where co-evolution happens
+
+"By allowing it to share the same task pool and do different jobs, we can evolve together." One file makes this real:
+
+```markdown
+# TASKS.md — one pool, two workers
+
+## mine        (things only I can do: decide, send, meet, judge)
+## AI          (things the AI does: mine exports, draft reviews, run Skeptic, digests)
+## either      (whoever is free first — proposals the AI wrote for me to pick up)
+
+## doing — max ONE item per worker
+## done  — append-only, newest on top, tagged [me] or [AI]
+```
+
+Three rules:
+
+1. **Each worker has at most one `doing` item.** A queue of twelve "current" items is the scanner's trap wearing a to-do list.
+2. **The AI's results come back as proposals, never as edits to your record.** You keep or veto. Vetoes are logged — the veto log is the dataset that teaches the system your boundaries.
+3. **`done` is the co-evolution record.** Over weeks, the `[me]`/`[AI]` tags show the division of labor evolving — which jobs migrated to the AI, which came back, which neither of you should do. That file is the empirical answer to "are we evolving together?"
+
+---
+
+## 5. The prototype in four builds
+
+Each build ends with something running and a test. **Do not start the next build until the test passes — and do not "improve" a build whose test passes.**
+
+### Build v0 — The Loop (Day 1–2) · zero new software
+
+The loop working by hand, with tools you already have.
+
+- Create the `LifeOS/` folder from the starter kit (already written — paste, fill the blanks, done).
+- Fill `README.now.md`. Write future diary #1 — one scene 90 days out: a place, a money number, a smell, one named person.
+- Run the first 读者契约: paste boot prompt + your 3-line entry into any AI; save both directions into `diary/`.
+
+**Test:** two consecutive daily contracts completed. Capture → AI reads → responds → both saved. The loop exists.
+
+### Build v1 — The Second Worker (Week 1–2) · the shared pool comes alive
+
+The AI stops being an observer and starts pulling tasks from the pool.
+
+- Add the three lanes to `TASKS.md` (§4). File the first `AI`-lane task — a real one, e.g. *"mine my oldest chat export for 3 unmerged ideas."*
+- Give the AI a heartbeat — scheduled jobs (this workspace can run them today; any platform's scheduled tasks also work):
+  1. daily contract reminder,
+  2. Sunday scorecard,
+  3. **one weekly AI work session**: the AI picks an `AI`-lane task, does it, writes the output into the repo as a proposal.
+- You veto or keep its output. Vetoes go to the veto log.
+
+**Test:** by end of week 2, at least one pool task was done by the AI, not you — and its output was worth keeping. That is the first moment "we evolve together" is literally, measurably true.
+
+### Build v2 — The Senses (Week 3–6) · capture everywhere you go
+
+The "efficient personal context capture engine." Its principle: **capture is a sink, not an app.** Anything that can produce text can feed it; the engine is the *convention* (dated Markdown files into `inbox/`), not a product.
+
+Add channels **one at a time, easiest first:**
+
+| Channel | How it feeds the folder |
+|---|---|
+| phone | voice memo → transcription → drop into `inbox/` (a share shortcut is enough) |
+| computer | one "drop folder" for text, notes, exports; tab harvest at window close |
+| chats | periodic chat exports → the historian job mines them into `seeds/` |
+| always-on (optional, later) | screenpipe-class local capture as a *disposable front-end* — only if manual capture shows real, recurring gaps |
+
+Every capture carries the emotion tag `[效价, 唤醒度, 掌控感]` 0–10 — three digits that are what makes it *personal* context rather than a log.
+
+**Test:** ≥20 tagged captures **and** the 2-minute retrieval test passes. The gate is the habit, not the tooling — if it fails, drop to text-only capture and rerun the week.
+
+### Build v3 — The Always-On Partner (Month 2–3) · earned, not assumed
+
+Now — and only now — real data is flowing, so let the data pick **exactly one** upgrade at a time:
+
+| If this breaks… | …build this |
+|---|---|
+| retrieval fails the 2-minute test | semantic search: local embeddings over the folder (still your files, still plain text) |
+| the weekly AI session is the best hour of the week | more scheduled roles (Hunter / Skeptic / Historian), or an OpenClaw-class self-hosted agent pointed at the folder |
+| branches pile up unmerged | the weekly merge ritual: AI proposes reconciliations, conflicts flagged, you rule — vetoes logged |
+
+**The prototype is real when:** the loop has run 60+ days · the AI completes tasks you didn't initiate, and some are worth keeping · retrieval answers occasionally surprise you · maintenance stays under 30 min/day. At that point you have what this whole project was for: **a system with massive personal context that is both accessible and reachable** — and every improvement from then on is driven by that data, not by blueprints.
+
+---
+
+## 6. Build rules — short, inherited, non-negotiable
+
+1. **Own the substrate.** Everything lives first as plain Markdown in your folder. Every tool, model, and sensor is a replaceable front-end.
+2. **Main is sacred.** The AI never overwrites your record. It proposes on branches; you merge.
+3. **The button is yours.** The AI drafts, suggests, remembers, argues — it never sends, posts, or invites.
+4. **One automation at a time**, each earned by a failing test. Never two in the same phase.
+5. **Never zero.** The floor is 3 lines + one AI reply. The system must survive your worst week, not your best.
+6. **Ship weekly, talk to humans weekly** — the two numbers that prove the system serves the life and hasn't quietly replaced it.
+
+---
+
+## 7. Not yet — and what would unlock it
+
+| Not now | Unlock trigger |
+|---|---|
+| Vector database / memory SaaS | the 2-minute retrieval test fails with search + digests |
+| Agent framework (LangGraph-class) | the scheduled-prompt cabinet provably breaks |
+| Custom canvas / topology UI | branches have actually been merged into `main` by hand, repeatedly |
+| Always-on screen/audio capture | manual capture shows real, recurring gaps |
+| Public kit / economy rail | the loop has 60+ days AND an artifact has external users |
+
+Each row is parked, not deleted — the trigger is written down so "later" is a decision, not a mood.
+
+---
+
+## 8. The first week, exactly
+
+| Day | Do (≤30 min) | By nightfall |
+|---|---|---|
+| 1 | Create the folder from the starter kit; fill `README.now.md` | the loop's home exists |
+| 2 | Future diary #1 + first 读者契约, both directions saved | `future-diary/001.md` + `diary/` first entry |
+| 3 | Add lanes to `TASKS.md`; file the first `AI`-lane task | the pool is shared |
+| 4 | Set up the two scheduled jobs (daily reminder + Sunday scorecard) | the heartbeat runs without you |
+| 5 | First AI work session on the `AI`-lane task; keep or veto its output | first task done by the second worker |
+| 6 | 递出去 — one rough thing to one named human | one sent message, logged |
+| 7 | Scorecard #1 (ships / contacts / streak); change ONE thing | week 2 starts on data |
+
+Then the loop repeats — and the flywheel starts: **more captures → richer context → better AI work → more value → more captures.** That flywheel, not any component, is LifeOS. Build the smallest version of it that spins, and let the data tell you what to build next.
+
+---
+
+*This plan deliberately contains no new architecture. The four predecessor documents exhausted the design space; this one only orders the assembly. If a part of it tempts you to redesign before it has run, that temptation goes to `seeds/` as one line — and the build continues.*

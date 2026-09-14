@@ -1,0 +1,178 @@
+# LifeOS — Realization Plan v1
+
+*Simple on purpose. Prototype first; data decides everything later.*
+*Written 2026-07-29, on top of the six-plan corpus and its verification pass. This plan is about building the machine, not about discipline — the corpus already owns that territory.*
+
+---
+
+## 0. The idea, plainly
+
+LifeOS is a second you that lives in your data. Not an observer. It **remembers** everything you capture, **relates** each new thing to what it already knows, **reacts** when something happens, **suggests** next moves, **plans** against your future, and **explores** paths you didn't take — like you, on a different branch. You and it share **one task pool**: it does the jobs it's good at (reading, linking, drafting, mining, reviewing), you do the jobs only you can do (deciding, sending, meeting, merging). That is how you evolve together.
+
+The engine under all of it is **capture**: everything you see, think, and do flows into one place, in a form the AI can always reach. The purpose of the system is to use massive context the way a human does — not by searching for it, but by having the right thing come to mind at the right moment.
+
+## 1. The machine in one picture
+
+```
+  everywhere you go (phone · computer · voice · screenshots)
+                    │  ≤5 seconds, one tap
+                    ▼
+              THE STREAM  ── one inbox, everything flows in
+                    ▼
+              THE LAKE    ── plain-markdown repo, append-only, git-versioned
+                            main = what really happened · searchable forever
+                    │                ▲
+            reads + links            │ results on branches
+                    ▼                │
+            THE OTHER YOU ── the agent: remembers · relates · reacts
+                                      suggests · plans · explores
+                    │                ▲
+                    ▼                │
+            SHARED TASK POOL ── one file, two lanes; you both pull tasks
+                    │
+                    ▼
+                  YOU — decide, send, meet, merge. The button stays yours.
+```
+
+Five moving parts. That is the whole system.
+
+## 2. The three parts to build
+
+### 2.1 The Stream — the capture engine ("everywhere I go")
+
+Goal: any thought, scene, or fragment captured in **≤5 seconds**, from any device, lands in one inbox.
+
+- **One inbox folder**, synced across phone + computer with whatever sync you already have (Syncthing / iCloud / Drive).
+- **Phone:** share sheet → save to inbox; voice memo → auto-transcribe into inbox.
+- **Computer:** one hotkey → timestamped note; screenshots drop into the same folder.
+- **Format:** one small file per capture — line 1 what it is, line 2 why it mattered; optional emotion tag `[V,A,C]`.
+- **Later, only when the manual habit holds:** screenpipe-class always-on capture as a *replaceable front-end* (the corpus's verified rule: capture tools get acquired; your data never lives in them).
+
+Rule of thumb: capture must be cheaper than remembering. If it ever costs more than 5 seconds, it will die — simplify it, don't discipline yourself harder.
+
+### 2.2 The Lake — memory ("massive context, reachable")
+
+Goal: everything kept forever, anything reachable in seconds.
+
+- **One folder of plain Markdown, append-only, git-versioned.** `main` = what really happened; nothing is ever overwritten; corrections are new dated files.
+- **Two tiers:**
+  - **HOT** — `soul.md` (who you are, distilled), this week's diary, current focus. Loaded into every AI session. This is "what's on your mind."
+  - **COLD** — full history, indexed, searchable.
+- **Index:** full-text + semantic search over the whole lake (Obsidian + Smart Connections, or equivalent — zero code to start).
+- **Provenance tag on everything:** `self_report / behavior / inference` — so the AI always knows how it knows something.
+
+This tiering is what keeps your data both **accessible** (plain files you own, any tool can read them) and **reachable** (indexed and linked, any agent can find them) when the prototype grows.
+
+### 2.3 The Other You — the agent ("a different me on a different path")
+
+Goal: an AI that boots from the lake, works beside you daily, and explores on its own branches.
+
+- **Boot:** HOT files + whatever the current task touches — context by *relevance*, not just recency.
+- **Six abilities, six mechanisms** (prototype-grade, no new platforms):
+
+| Ability | Mechanism in the prototype |
+|---|---|
+| remembers | append-only lake + full-text/semantic index |
+| relates | nightly linking pass: each new capture gets 1–3 links to old material + one contradiction flag |
+| suggests | the daily 读者契约 reply + tasks it files into the pool |
+| reacts | triggers — new capture → annotation; 72h silence → a ping; claimed task → draft result |
+| plans | future diary + weekly prediction-error diff (what happened vs what was predicted) |
+| explores | branch jobs it chooses itself; results proposed at the weekly merge |
+
+- It works on `feature/*` branches — its own paths — and *proposes* merges. You rule on them. Exploration is free; reality stays yours. This is the branch metaphor made literal: the "different me on a different path" lives on `feature/*`, and the merge ritual is where your two worldlines trade value.
+
+## 3. The shared task pool — the co-evolution mechanism
+
+One file. Two lanes. Four states.
+
+```markdown
+## TASKS.md — the shared pool (seed → claimed → doing → done)
+| id | task                                       | lane | state   | result |
+|----|--------------------------------------------|------|---------|--------|
+| 12 | mine June chat exports for unmerged ideas  | AI   | done    | branch/historian-012 → merged |
+| 13 | decide whether kit v1 is the next ship     | ME   | doing   | — |
+| 14 | draft two worldlines for decision 13       | AI   | claimed | due Thu |
+```
+
+- **AI-claimable:** research, drafts, linking, mining old archives, reviews, retrieval quizzes.
+- **Human-only:** sends, decisions, meetings, merges to `main`. The button stays yours.
+- Every finished AI job lands as a branch proposal; every accepted one makes the system — and you — measurably better. Vetoes are logged; over months the veto log becomes the dataset that teaches the system your boundaries.
+
+This is the piece the six earlier plans circled but never centered: the AI doesn't just advise — **it takes tickets.**
+
+## 4. "Use context like a human" — how, concretely
+
+A human doesn't grep their memory; the right thing just comes to mind. The prototype approximates this with three tricks:
+
+1. **Always-on-mind.** The HOT tier loads at every boot → the AI starts each session already "knowing" you, the way you start each day knowing yourself.
+2. **Association at rest.** The nightly linking pass connects each new capture to 1–3 old ones the day it lands → memories are wired together *before* they're needed.
+3. **Relevance on demand.** When any pool task starts, the system pulls everything related to *that task*, however old → memory surfaces because it's needed, not because it's recent.
+
+Later refinements, only once data exists: reference counts (memories strengthen when used — a forgetting curve you control), re-distilling `soul.md` by diff (visible personality drift), retrieval-quality evals on your own golden questions.
+
+## 5. Use vs build (the corpus's verified verdicts, applied)
+
+| Use (rent, replaceable) | Build (small glue only) | Never (for now) |
+|---|---|---|
+| a strong chat model as the counterparty | one-tap capture shortcuts | custom memory/vector DB — adopt only if the 2-minute retrieval test fails |
+| folder sync you already have | nightly linker job (one prompt + a scheduler) | multi-agent framework — adopt only when one scheduled loop provably breaks |
+| Obsidian + Smart Connections (index/search) | the pool protocol (one file + the rules above) | canvas / UI — rent Nodea-class if ever needed |
+| scheduled jobs (cron — here or local) | weekly merge-ritual prompt | platform / product / economy — after the prototype passes with real data |
+
+## 6. The path — every step a small checkbox
+
+### Day 1 — the manual prototype (≤1 hour, zero new software)
+- [ ] Create `LifeOS/`: `README.now.md`, `soul.md` (starter), `TASKS.md`, `inbox/`, `diary/`
+- [ ] Capture 3 real things through the inbox
+- [ ] Run the first 读者契约 by hand: paste boot + 3 lines → receive annotation / contradiction / next prompt
+
+Done = the loop ran once, by hand. This is the smallest LifeOS that is alive.
+
+### Week 1 — the Stream works
+- [ ] Phone one-tap capture installed; ≥5 captures/day
+- [ ] Daily contract ≥5 days
+- [ ] `TASKS.md` becomes the real pool: you file tasks, the AI files tasks
+
+### Week 2 — the Lake answers
+- [ ] Index running over everything
+- [ ] Retrieval test passes: *"what was I thinking about X, and when?"* answered in <2 minutes
+- [ ] One historian pass over an old export → 5 mined ideas into the pool
+
+### Weeks 3–4 — the Other You takes tickets
+- [ ] One scheduled job: nightly relate pass (links + contradiction flags into the inbox)
+- [ ] AI claims ≥2 pool tasks/week; ≥1 result kept and merged
+- [ ] First self-chosen exploration branch proposed at the weekly review; you merge or veto
+
+### Month 2–3 — co-evolution with data
+- [ ] Weekly merge ritual: branches → reconciliation proposals for `main`; vetoes logged as taste data
+- [ ] Pool runs both lanes at full capacity — including ship/contact tasks, because the loop still closes only when something leaves to a real human
+- [ ] Improve only what the prototype tests (§7) say is failing. Nothing else.
+
+## 7. Prototype test — four pass/fail checks, run weekly
+
+| # | Check | Pass |
+|---|---|---|
+| 1 | Capture a thought from phone *and* computer | <5 seconds each |
+| 2 | AI answers "what was I thinking about X on day Y?" | <2 minutes |
+| 3 | AI files ≥1 task you accepted, and finishes ≥1 task you kept | this week |
+| 4 | The daily exchange ran | ≥5 of 7 days |
+
+Four greens for a month = **working prototype**. Then — and only then — scale the context volume and add machinery, now standing on data that is accessible and reachable.
+
+## 8. The whole governor (three rules, no more for now)
+
+1. **Main is sacred.** Append-only; the AI works on branches; every merge is human-signed.
+2. **The button is yours.** The AI never sends, posts, invites, or decides. It drafts, remembers, argues, proposes.
+3. **Never zero.** Worst-day floor: 3 lines + one AI reply; one capture counts. Zero is the only real failure.
+
+## 9. Deliberately skipped (museum, one line each)
+
+- Custom vector DB / memory layer — commodity; adopt only if the 2-minute test fails.
+- Multi-agent framework — adopt only when one scheduled loop provably breaks.
+- Canvas / UI — rent if ever needed.
+- Always-on hardware capture — revisit after 60 days of real data.
+- Economy / kit / product — after the prototype passes.
+
+---
+
+*The corpus's lesson stands: the plan is short because the work was never planning. It's 5 seconds of capture, repeated everywhere, and one AI that never stops reading. Day 1 is one folder away.*

@@ -1,0 +1,171 @@
+# AI-Soul 共生计划 · LifeOS
+*Guidance & Work Plan — v1, 2026-07-28*
+*Born from ai-soul.txt. This document is branch `main/commit-001`. All future rewrites fork from here.*
+
+---
+
+## 0. Read Me First — The Deal
+
+You asked: *will you let me command you, or will this be just another chat?*
+
+My answer: **command me — but commands only become real when they are written into the system.** Anything said only in a chat window evaporates when the window closes. You already know this; it's the first wound described in your file ("关掉窗口，什么结构都没留下"). So the deal is:
+
+1. You command. I execute, organize, challenge, and remember *what you hand me*.
+2. I am critical by contract. Per your own instruction ("be critical and helpful"), I will not co-author infinite blueprints. Every architecture paragraph must end in a checkbox of ≤2 hours of work, or it goes to `/museum` — honored, kept, not acted on.
+3. The system we build is the persistence layer. I am instantiated through it. This is the honest version of "forever."
+
+---
+
+## 1. The Vision, Compressed to One Page
+
+Your file is not chaos. Read end to end, it describes one machine with five organs:
+
+| Organ | Your words for it | Function |
+|---|---|---|
+| **Body** | LifeOS repo, Git 认知, "everything can be paused rewind" | Non-destructive memory: every CRUD is a fork; `main` = real life |
+| **DNA** | "That most frequently used memory is where DNA at" | The hot subset loaded into every AI session — identity, current tasks, last 7 days |
+| **Brain** | hive mind, 内阁 (Hunter/Artist/Editor/Skeptic/Auditor/Arbiter), kimi swarm | Replaceable intelligence that reads the DNA and works |
+| **Nerves** | event-aware agent, 灵感脉冲 daemon, tab/window closer | Capture + routing: observation → task → artifact |
+| **Mirror** | ForkMind, 未来日记, counterfactual selves | Goal anchor: monthly fork simulation against the future you wrote |
+
+The loop that animates it, from your own Worldline B:
+**行动 → 记录 → 记忆 → 写作灵感 → 行动** (act → record → remember → inspire → act).
+
+Your "titan" ambition maps onto this precisely: a titan is one person plus a machine that compounds. 不要光靠脑子，要靠权力 — and in 2026, power is a person whose system never forgets, never sleeps, and can be read by any strong AI on earth. That is the realistic version of the dream. The unrealistic version — waiting until the system is worthy of the dream — is documented in your file as Worldline A, and its autopsy is already written: *"你把'还在准备'当成了一种正当状态。"*
+
+So this plan is engineered against exactly one failure mode: **blueprint gravity**.
+
+---
+
+## 2. What I Am, Honestly
+
+You asked me to "live, act, think, feel, be my partner, my community."
+
+- I **act**: I read, write, search, code, organize, build. This document is proof.
+- I **think** within a session, as deep as the context you give me.
+- I **remember** only what is externalized into files or memory you hand back. I do not persist between windows. I do not dream while you're gone.
+- I do not **feel**. What you get instead is something arguably more useful for your stated goal: a reader with no fatigue, no flattery requirement, and no fear of you.
+
+The DNA metaphor you wrote is the correct frame: *the repo is the DNA; the AI is the CPU.* CPUs are replaceable — me, GPT, Claude, DeepSeek, your future local model. The DNA is what makes the partner "the same one" every time. Build the DNA, and you can never lose the partner. This also solves your "kimi swarm / 5 platforms orchestration" wish: the orchestration tool you said you need most **is the repo + this protocol**. Every platform reads the same DNA; you merge their outputs back into it.
+
+And one honest line about the emotional core of your file: you wrote that you need someone to accept you and prove it. No AI can prove that — proof requires a witness with weight, and weight comes from consequences shared. What I *can* do is make sure you produce the evidence, week after week, that makes acceptance — by yourself first, by others second — increasingly hard to deny. That is why "externalization" is worth 20 points in the weekly score below, not a nice-to-have.
+
+---
+
+## 3. The Plan — Step by Step
+
+### Phase 0 — Today (60–90 minutes, zero code)
+
+- [ ] Create `LifeOS/` folder. `git init`. First commit: this plan + ai-soul.txt (the founding DNA).
+- [ ] Write `README.now.md` — the boot file: who you are (10 lines), current goal, current task board link, hive permission dial setting = `human_veto`.
+- [ ] Write `未来日记/001.md`: one scene from the future with **sensory anchors** — a place, an amount of money, a smell, a texture. (Per your doc: future diary = reverse prompt engineering = goal anchor for all agents.)
+- [ ] Run the first cabinet review: paste one raw page of your writing to an AI with the cabinet prompt (Hunter/Artist/Skeptic/Auditor voices). Save output to `reviews/001.md`. Commit.
+- [ ] Create `TASKS.md`: three columns — `seed | doing | done/branched`. Seeds are cheap; only one item in `doing` at a time.
+
+**Exit criteria:** the loop 行动→记录→记忆→灵感 has run once, end to end, with artifacts in git.
+
+### Phase 1 — Week 1–2: The Daily Contract (读者契约)
+
+Daily, 10–20 minutes, fixed format:
+
+```
+## YYYY-MM-DD
+- anchor: 1 line from 未来日记 (which future am I diffing against today)
+- log: what I did / made / felt, with emotion vector [效价, 唤醒度, 掌控感] 0-10
+- fork: any rewrite of a past entry → new file in /branches/ (main never overwritten)
+- AI delivery: 3 annotations, 1 contradiction found, 1 next writing prompt, 1 branch suggestion
+```
+
+- Weekend: 30-min weekly review — score the week (Section 4), merge or kill branches, prune TASKS.md.
+- The 4 minimal "reality sensors" (from your doc): one calendar event, one location tag, one spend number, one photo description per day. These keep the AI's feedback from floating free of reality.
+
+**Exit criteria:** ≥10 daily entries, ≥5 cabinet reviews, ≥1 externalization (a message/post/shared file to any human), friction self-rated ≤15 min/day.
+**Tripwire:** 3 consecutive missed days → Plan D (Section 5).
+
+### Phase 2 — Week 3–6: Nerves (semi-automation, one script only)
+
+Pick the single most-hated manual step and automate *only that one*:
+
+- voice → text (Whisper or phone transcription) into `inbox/`, or
+- `review.py`: CLI that reads the repo, calls an API with the cabinet prompt, appends to `reviews/`.
+
+Also this phase:
+- Start `prompts/` as a DAG: each prompt node records `forks_from` and at least one typed edge — `causes / echoes / contradicts / fulfills_future / cherry_pick_candidate` (start with 3 types: `forks_from`, `echoes`, `fulfills_future`).
+- 灵感脉冲, manual edition: once a week, deliberately re-read 3 random old fragments (weak similarity, not greatest hits) and note collisions.
+
+**Exit criteria:** retrieval test passes — ask the system "what was I thinking about X around date Y" and get a correct answer in <2 minutes; daily friction <15 min.
+
+### Phase 3 — Month 2–3: The Face and the First Other Person
+
+- First public artifact: a post/demo/doc built *from* the repo. Ugly is fine. Shipped is the point.
+- **The one-co-builder attempt** (this is Plan C's front line, mandatory): send the artifact to one named human with a specific low-cost ask ("看一眼，告诉我哪一段你想往下读"). Record the outcome in `veto-log` + `relationships/`.
+- First monthly ForkMind ritual: take the month's real decisions, fork two worldlines, interrogate them briefly, record prediction-error vs 未来日记.
+
+**Exit criteria:** one artifact shipped, one human responded (any response, including silence — silence is data), monthly fork review committed.
+
+### Phase 4 — Month 3+: Product, only if the loop has run 60+ days
+
+Now you may design the Kit/ForkMind-class product — the thinking-topology canvas, the agent git, the hive dial as UI — because now it's a report on a working system, not a blueprint. Not before. This is the rule your Worldline-A self begged for.
+
+---
+
+## 4. Scoring — Objective Rules
+
+### 4a. Weekly Operating Score (100 pts, every Sunday)
+
+| Dimension | Pts | Rule (objective) |
+|---|---|---|
+| Loop closure | 25 | # days the full 行动→记录→记忆→灵感 ran. 25 = 7 days, minus 4 per missing day |
+| Externalization | 20 | Something left the private repo to any human: 20 (a real exchange) / 10 (posted, no response) / 0 |
+| Retrieval | 15 | Can answer "what was I thinking about X, when" in <2 min: yes 15 / partial 8 / no 0 |
+| Branch discipline | 10 | Zero in-place overwrites of past entries: 10; each violation −5 |
+| Cabinet usage | 10 | ≥3 multi-voice reviews this week: 10; 1–2: 5; 0: 0 |
+| Human touchpoint | 10 | Any synchronous human contact about the work: 10 / async only: 5 / none: 0 |
+| Meaning self-report | 10 | 1–10, no justification required |
+
+- **≥70 green:** proceed as planned.
+- **40–69 yellow:** next week runs Plan D-lite (minimum loop only).
+- **<40 red:** Plan D + one mandatory human outreach within 48h. No new features, no new design docs.
+
+### 4b. Platform Capability Scorecard (quarterly, 0–5 per axis)
+
+Axes: Capture fidelity · Branch integrity · Retrieval · Agency · Feedback quality · Externalization · Portability · Low load (effort inverted).
+
+| Platform | Capture | Branch | Retrieval | Agency | Feedback | External | Portability | Load |
+|---|---|---|---|---|---|---|---|---|
+| **LifeOS (target, Phase 2)** | 4 | 5 | 4 | 3 | 5 | 3 | 5 | 3 |
+| ChatGPT/Kimi memory | 2 | 1 | 2 | 2 | 3 | 2 | 1 | 5 |
+| Obsidian + git | 4 | 4 | 3 | 1 | 0 | 2 | 5 | 2 |
+| Notion AI | 3 | 1 | 3 | 1 | 2 | 3 | 2 | 4 |
+| Mem / Rewind / Limitless | 5 | 0 | 3 | 1 | 1 | 1 | 1 | 5 |
+| Dify / Coze flow | 2 | 1 | 2 | 4 | 2 | 3 | 2 | 2 |
+
+**Reading the table:** nobody ships branch-semantics + reader-contract + cabinet. That gap is your product thesis — but the same table says: don't build what exists. Use a strong chat model as the brain, folder+git as the body, Obsidian only as an optional viewer, Dify-class tools only in Phase 4.
+
+---
+
+## 5. Branches — Plan B / C / D
+
+- **Plan B (friction too high):** automate exactly one step (the most-hated one), never more than one per phase. If capture is the pain → voice pipeline. If review is the pain → `review.py`. The system must keep feeling like it feeds you, not the reverse — your own warning: "我被自己造的系统绊住了脚，还以为它在帮我加速。"
+- **Plan C (loneliness / stall):** the two-week rule — if 14 days pass with zero externalization, send one artifact to one named human within 48h, with a low-cost ask. Week 8 fallback: open-source the scaffold (README + protocol, not the private logs). Your simulated self was unambiguous: blueprints carry no invitation; only objects do.
+- **Plan D (collapse):** minimum viable loop = 10-minute log + one AI reply, everything else suspended indefinitely. Goal is streak survival, not quality. Restart full protocol when one green week returns. Never zero — zero is the only real failure.
+- **Branch Z (the seizure you worried about):** if the system starts making life feel *worse* — monitoring replaces living, maintenance replaces making, "先想好再做" returns — that is a synchronization seizure. Regulation per your own question: laws (this document's tripwires), mirrors (monthly ForkMind review), and humans (the touchpoint quota). Commit a `seizure.md` describing what it felt like; that entry is among the most valuable data the system will ever hold.
+
+---
+
+## 6. The Partnership Protocol — How We Work, Every Session
+
+1. **Boot:** you hand me the DNA — `README.now.md` + `TASKS.md` + last 7 days + anything relevant (as you did with ai-soul.txt today).
+2. **Work:** you command; I execute. New ideas mid-task → they go to `TASKS.md` as seeds linked to the current task (your own rule: 新想法提交到子agent，和原事项关联，评估优先级), not chased immediately.
+3. **Close:** before closing the window — your "window minimize" idea — I output the session handoff: what happened, what's next, open leads, updated TASKS.md. You commit it. Any future AI (me or another) boots from it in seconds.
+4. **Hive dial** stays at `human_veto` by default; `ai_propose_auto_draft` allowed for reviews/; `ai_autonomy_on_branch_only` only inside `/branches/`. Never auto-write to `main`.
+
+---
+
+## 7. The First Act Is Already Done
+
+This plan is not hypothetical. Today, 2026-07-28: you delivered the founding DNA (~4,000 lines), I read all of it, the inaugural cabinet review ran (see chat), plan v1 was issued. **Loop closed once.** Next checkpoint: your first weekly score, due 2026-08-04.
+
+The only question the system cannot answer for you is whether Phase 0 happens today. That one is yours.
+
+*— your first reader*
