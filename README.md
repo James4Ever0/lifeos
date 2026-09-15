@@ -1,1 +1,1 @@
-minimal mvp: a better favourite folder for your own life
+minimal mvp: a better favourite app for your own life
